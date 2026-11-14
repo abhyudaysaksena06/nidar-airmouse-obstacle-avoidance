@@ -1,0 +1,1778 @@
+[
+ {
+  "seed": 100,
+  "method": "brake_repulse",
+  "result": "collision: obstacle",
+  "time_s": 1.2,
+  "path_m": 7.6,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 101,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 11.8,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 102,
+  "method": "brake_repulse",
+  "result": "collision: obstacle",
+  "time_s": 15.9,
+  "path_m": 10.2,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 103,
+  "method": "brake_repulse",
+  "result": "collision: moving obstacle",
+  "time_s": 2.8,
+  "path_m": 9.8,
+  "min_clearance_m": 0.001,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 104,
+  "method": "brake_repulse",
+  "result": "collision: obstacle",
+  "time_s": 14.3,
+  "path_m": 13.5,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 105,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 9.9,
+  "path_m": 7.7,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 106,
+  "method": "brake_repulse",
+  "result": "collision: moving obstacle",
+  "time_s": 17.6,
+  "path_m": 13.1,
+  "min_clearance_m": 0.007,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 107,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 19.2,
+  "path_m": 9.1,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 108,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 21.7,
+  "path_m": 6.8,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 2,
+  "statuses": {}
+ },
+ {
+  "seed": 109,
+  "method": "brake_repulse",
+  "result": "timeout",
+  "time_s": 45.4,
+  "path_m": 10.2,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 110,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 22.0,
+  "path_m": 8.9,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 111,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 16.3,
+  "path_m": 6.8,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 112,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 19.7,
+  "path_m": 14.0,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 113,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 10.0,
+  "path_m": 7.4,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 114,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 21.7,
+  "path_m": 8.7,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 115,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 19.2,
+  "path_m": 12.3,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 116,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 13.5,
+  "path_m": 10.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 117,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 8.3,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 118,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 12.5,
+  "path_m": 6.7,
+  "min_clearance_m": 0.2,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 119,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 12.8,
+  "path_m": 9.9,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 120,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 16.7,
+  "path_m": 11.5,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 121,
+  "method": "brake_repulse",
+  "result": "collision: obstacle",
+  "time_s": 18.8,
+  "path_m": 10.3,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 122,
+  "method": "brake_repulse",
+  "result": "timeout",
+  "time_s": 46.5,
+  "path_m": 10.6,
+  "min_clearance_m": 0.2,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 123,
+  "method": "brake_repulse",
+  "result": "timeout",
+  "time_s": 42.9,
+  "path_m": 9.2,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 3,
+  "statuses": {}
+ },
+ {
+  "seed": 124,
+  "method": "brake_repulse",
+  "result": "timeout",
+  "time_s": 40.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 125,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 30.6,
+  "path_m": 10.6,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 2,
+  "statuses": {}
+ },
+ {
+  "seed": 126,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 17.2,
+  "path_m": 12.4,
+  "min_clearance_m": 0.15,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 127,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 21.3,
+  "path_m": 9.2,
+  "min_clearance_m": 0.1,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 128,
+  "method": "brake_repulse",
+  "result": "success",
+  "time_s": 19.8,
+  "path_m": 10.8,
+  "min_clearance_m": 0.05,
+  "compute_ms": 0.0,
+  "replans": 1,
+  "statuses": {}
+ },
+ {
+  "seed": 129,
+  "method": "brake_repulse",
+  "result": "timeout",
+  "time_s": 39.9,
+  "path_m": 8.0,
+  "min_clearance_m": 0.2,
+  "compute_ms": 0.0,
+  "replans": 0,
+  "statuses": {}
+ },
+ {
+  "seed": 100,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 17.4,
+  "path_m": 7.6,
+  "min_clearance_m": 0.2,
+  "compute_ms": 24.342,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 211,
+   "AVOIDING": 137
+  }
+ },
+ {
+  "seed": 101,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 27.5,
+  "path_m": 11.8,
+  "min_clearance_m": 0.174,
+  "compute_ms": 23.817,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 306,
+   "AVOIDING": 243
+  }
+ },
+ {
+  "seed": 102,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 45.6,
+  "path_m": 10.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 27.368,
+  "replans": 4,
+  "statuses": {
+   "SLOWED": 438,
+   "AVOIDING": 366,
+   "OK": 2,
+   "STUCK": 107
+  }
+ },
+ {
+  "seed": 103,
+  "method": "algo1",
+  "result": "collision: moving obstacle",
+  "time_s": 3.5,
+  "path_m": 9.8,
+  "min_clearance_m": 0.007,
+  "compute_ms": 25.812,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 42,
+   "AVOIDING": 24,
+   "BLOCKED": 4,
+   "EMERGENCY": 1
+  }
+ },
+ {
+  "seed": 104,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 28.0,
+  "path_m": 13.5,
+  "min_clearance_m": 0.25,
+  "compute_ms": 25.818,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 130,
+   "SLOWED": 429
+  }
+ },
+ {
+  "seed": 105,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 16.7,
+  "path_m": 7.7,
+  "min_clearance_m": 0.3,
+  "compute_ms": 22.561,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 251,
+   "AVOIDING": 82
+  }
+ },
+ {
+  "seed": 106,
+  "method": "algo1",
+  "result": "collision: moving obstacle",
+  "time_s": 37.3,
+  "path_m": 13.1,
+  "min_clearance_m": 0.028,
+  "compute_ms": 33.298,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 466,
+   "AVOIDING": 239,
+   "BLOCKED": 39,
+   "EMERGENCY": 1
+  }
+ },
+ {
+  "seed": 107,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 20.7,
+  "path_m": 9.1,
+  "min_clearance_m": 0.35,
+  "compute_ms": 18.601,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 293,
+   "AVOIDING": 120
+  }
+ },
+ {
+  "seed": 108,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 37.1,
+  "path_m": 6.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 28.338,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 341,
+   "AVOIDING": 401
+  }
+ },
+ {
+  "seed": 109,
+  "method": "algo1",
+  "result": "collision: moving obstacle",
+  "time_s": 20.8,
+  "path_m": 10.2,
+  "min_clearance_m": 0.022,
+  "compute_ms": 26.279,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 63,
+   "AVOIDING": 52,
+   "BLOCKED": 60,
+   "STUCK": 235,
+   "EMERGENCY": 6
+  }
+ },
+ {
+  "seed": 110,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 42.2,
+  "path_m": 8.9,
+  "min_clearance_m": 0.1,
+  "compute_ms": 19.722,
+  "replans": 8,
+  "statuses": {
+   "SLOWED": 181,
+   "AVOIDING": 102,
+   "BLOCKED": 60,
+   "STUCK": 497,
+   "EMERGENCY": 5
+  }
+ },
+ {
+  "seed": 111,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 17.2,
+  "path_m": 6.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 16.995,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 136,
+   "AVOIDING": 207
+  }
+ },
+ {
+  "seed": 112,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 30.2,
+  "path_m": 14.0,
+  "min_clearance_m": 0.3,
+  "compute_ms": 20.338,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 87,
+   "SLOWED": 516
+  }
+ },
+ {
+  "seed": 113,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 17.5,
+  "path_m": 7.4,
+  "min_clearance_m": 0.25,
+  "compute_ms": 27.997,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 262,
+   "AVOIDING": 88
+  }
+ },
+ {
+  "seed": 114,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 26.9,
+  "path_m": 8.7,
+  "min_clearance_m": 0.15,
+  "compute_ms": 23.747,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 443,
+   "AVOIDING": 63,
+   "STUCK": 1,
+   "BLOCKED": 31
+  }
+ },
+ {
+  "seed": 115,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 26.1,
+  "path_m": 12.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 26.316,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 500,
+   "AVOIDING": 21
+  }
+ },
+ {
+  "seed": 116,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 30.0,
+  "path_m": 10.2,
+  "min_clearance_m": 0.3,
+  "compute_ms": 24.656,
+  "replans": 2,
+  "statuses": {
+   "SLOWED": 380,
+   "AVOIDING": 219
+  }
+ },
+ {
+  "seed": 117,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 19.7,
+  "path_m": 8.3,
+  "min_clearance_m": 0.3,
+  "compute_ms": 16.665,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 303,
+   "AVOIDING": 90
+  }
+ },
+ {
+  "seed": 118,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 13.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.3,
+  "compute_ms": 13.806,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 271
+  }
+ },
+ {
+  "seed": 119,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 21.8,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms": 28.17,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 357,
+   "AVOIDING": 79
+  }
+ },
+ {
+  "seed": 120,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 25.7,
+  "path_m": 11.5,
+  "min_clearance_m": 0.25,
+  "compute_ms": 22.562,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 438,
+   "AVOIDING": 76
+  }
+ },
+ {
+  "seed": 121,
+  "method": "algo1",
+  "result": "collision: obstacle",
+  "time_s": 28.0,
+  "path_m": 10.3,
+  "min_clearance_m": 0.05,
+  "compute_ms": 17.037,
+  "replans": 5,
+  "statuses": {
+   "AVOIDING": 213,
+   "SLOWED": 168,
+   "BLOCKED": 59,
+   "STUCK": 119
+  }
+ },
+ {
+  "seed": 122,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 46.5,
+  "path_m": 10.6,
+  "min_clearance_m": 0.4,
+  "compute_ms": 24.402,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 724,
+   "SLOWED": 186,
+   "STUCK": 20
+  }
+ },
+ {
+  "seed": 123,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 42.9,
+  "path_m": 9.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 24.606,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 556,
+   "AVOIDING": 297,
+   "STUCK": 5
+  }
+ },
+ {
+  "seed": 124,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 40.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms": 28.452,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 283,
+   "SLOWED": 525
+  }
+ },
+ {
+  "seed": 125,
+  "method": "algo1",
+  "result": "collision: moving obstacle",
+  "time_s": 29.7,
+  "path_m": 10.6,
+  "min_clearance_m": 0.028,
+  "compute_ms": 18.701,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 335,
+   "AVOIDING": 252,
+   "BLOCKED": 7
+  }
+ },
+ {
+  "seed": 126,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 24.7,
+  "path_m": 12.4,
+  "min_clearance_m": 0.2,
+  "compute_ms": 21.315,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 474,
+   "AVOIDING": 19
+  }
+ },
+ {
+  "seed": 127,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 21.8,
+  "path_m": 9.2,
+  "min_clearance_m": 0.15,
+  "compute_ms": 32.824,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 104,
+   "SLOWED": 315,
+   "BLOCKED": 16
+  }
+ },
+ {
+  "seed": 128,
+  "method": "algo1",
+  "result": "success",
+  "time_s": 42.5,
+  "path_m": 10.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 20.962,
+  "replans": 5,
+  "statuses": {
+   "SLOWED": 589,
+   "AVOIDING": 150,
+   "STUCK": 112
+  }
+ },
+ {
+  "seed": 129,
+  "method": "algo1",
+  "result": "timeout",
+  "time_s": 39.9,
+  "path_m": 8.0,
+  "min_clearance_m": 0.25,
+  "compute_ms": 37.222,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 790,
+   "SLOWED": 9
+  }
+ },
+ {
+  "seed": 100,
+  "method": "full",
+  "result": "success",
+  "time_s": 11.6,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms": 18.572,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 97,
+   "OK": 118,
+   "SLOWED": 13,
+   "EMERGENCY": 4
+  }
+ },
+ {
+  "seed": 101,
+  "method": "full",
+  "result": "success",
+  "time_s": 16.2,
+  "path_m": 11.8,
+  "min_clearance_m": 0.3,
+  "compute_ms": 13.914,
+  "replans": 0,
+  "statuses": {
+   "OK": 171,
+   "SLOWED": 13,
+   "AVOIDING": 139
+  }
+ },
+ {
+  "seed": 102,
+  "method": "full",
+  "result": "success",
+  "time_s": 40.1,
+  "path_m": 10.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 29.689,
+  "replans": 6,
+  "statuses": {
+   "OK": 144,
+   "AVOIDING": 425,
+   "SLOWED": 92,
+   "BLOCKED": 61,
+   "EMERGENCY": 27,
+   "AVOIDING+SQUEEZE": 47,
+   "OK+SQUEEZE": 6,
+   "SLOWED+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 103,
+  "method": "full",
+  "result": "success",
+  "time_s": 32.2,
+  "path_m": 9.8,
+  "min_clearance_m": 0.127,
+  "compute_ms": 21.833,
+  "replans": 2,
+  "statuses": {
+   "OK": 386,
+   "AVOIDING": 119,
+   "BLOCKED": 8,
+   "SLOWED": 128,
+   "EMERGENCY": 2
+  }
+ },
+ {
+  "seed": 104,
+  "method": "full",
+  "result": "success",
+  "time_s": 18.3,
+  "path_m": 13.5,
+  "min_clearance_m": 0.3,
+  "compute_ms": 15.133,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 86,
+   "SLOWED": 51,
+   "OK": 228
+  }
+ },
+ {
+  "seed": 105,
+  "method": "full",
+  "result": "success",
+  "time_s": 10.2,
+  "path_m": 7.7,
+  "min_clearance_m": 0.3,
+  "compute_ms": 14.123,
+  "replans": 0,
+  "statuses": {
+   "OK": 150,
+   "AVOIDING": 31,
+   "SLOWED": 22
+  }
+ },
+ {
+  "seed": 106,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 52.7,
+  "path_m": 13.1,
+  "min_clearance_m": 0.2,
+  "compute_ms": 34.689,
+  "replans": 1,
+  "statuses": {
+   "OK": 191,
+   "SLOWED": 69,
+   "AVOIDING": 677,
+   "EMERGENCY": 4,
+   "AVOIDING+SQUEEZE": 81,
+   "BLOCKED": 16,
+   "OK+SQUEEZE": 17
+  }
+ },
+ {
+  "seed": 107,
+  "method": "full",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 9.1,
+  "min_clearance_m": 0.3,
+  "compute_ms": 11.196,
+  "replans": 0,
+  "statuses": {
+   "OK": 187,
+   "AVOIDING": 65
+  }
+ },
+ {
+  "seed": 108,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 37.1,
+  "path_m": 6.8,
+  "min_clearance_m": 0.3,
+  "compute_ms": 32.634,
+  "replans": 0,
+  "statuses": {
+   "OK": 115,
+   "SLOWED": 66,
+   "AVOIDING": 421,
+   "OK+SQUEEZE": 56,
+   "AVOIDING+SQUEEZE": 84
+  }
+ },
+ {
+  "seed": 109,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 45.4,
+  "path_m": 10.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 14.055,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 694,
+   "OK": 83,
+   "SLOWED": 92,
+   "EMERGENCY": 2,
+   "OK+SQUEEZE": 31,
+   "AVOIDING+SQUEEZE": 7
+  }
+ },
+ {
+  "seed": 110,
+  "method": "full",
+  "result": "success",
+  "time_s": 19.7,
+  "path_m": 8.9,
+  "min_clearance_m": 0.2,
+  "compute_ms": 24.478,
+  "replans": 2,
+  "statuses": {
+   "OK": 177,
+   "SLOWED": 46,
+   "AVOIDING": 161,
+   "AVOIDING+SQUEEZE": 1,
+   "BLOCKED": 1,
+   "OK+SQUEEZE": 7
+  }
+ },
+ {
+  "seed": 111,
+  "method": "full",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.8,
+  "min_clearance_m": 0.3,
+  "compute_ms": 9.668,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 74,
+   "SLOWED": 14
+  }
+ },
+ {
+  "seed": 112,
+  "method": "full",
+  "result": "success",
+  "time_s": 17.9,
+  "path_m": 14.0,
+  "min_clearance_m": 0.3,
+  "compute_ms": 8.241,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 52,
+   "OK": 283,
+   "SLOWED": 21,
+   "EMERGENCY": 2
+  }
+ },
+ {
+  "seed": 113,
+  "method": "full",
+  "result": "success",
+  "time_s": 9.9,
+  "path_m": 7.4,
+  "min_clearance_m": 0.2,
+  "compute_ms": 10.637,
+  "replans": 0,
+  "statuses": {
+   "OK": 146,
+   "AVOIDING": 29,
+   "SLOWED": 22
+  }
+ },
+ {
+  "seed": 114,
+  "method": "full",
+  "result": "success",
+  "time_s": 19.3,
+  "path_m": 8.7,
+  "min_clearance_m": 0.2,
+  "compute_ms": 36.861,
+  "replans": 2,
+  "statuses": {
+   "OK": 160,
+   "AVOIDING": 142,
+   "SLOWED": 69,
+   "EMERGENCY": 2,
+   "AVOIDING+SQUEEZE": 13
+  }
+ },
+ {
+  "seed": 115,
+  "method": "full",
+  "result": "success",
+  "time_s": 30.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 34.562,
+  "replans": 2,
+  "statuses": {
+   "OK": 208,
+   "SLOWED": 68,
+   "AVOIDING": 245,
+   "AVOIDING+SQUEEZE": 73,
+   "OK+SQUEEZE": 14
+  }
+ },
+ {
+  "seed": 116,
+  "method": "full",
+  "result": "success",
+  "time_s": 12.8,
+  "path_m": 10.2,
+  "min_clearance_m": 0.3,
+  "compute_ms": 11.348,
+  "replans": 0,
+  "statuses": {
+   "OK": 229,
+   "SLOWED": 25,
+   "AVOIDING": 2
+  }
+ },
+ {
+  "seed": 117,
+  "method": "full",
+  "result": "success",
+  "time_s": 10.5,
+  "path_m": 8.3,
+  "min_clearance_m": 0.3,
+  "compute_ms": 8.195,
+  "replans": 0,
+  "statuses": {
+   "OK": 156,
+   "AVOIDING": 53
+  }
+ },
+ {
+  "seed": 118,
+  "method": "full",
+  "result": "success",
+  "time_s": 8.7,
+  "path_m": 6.7,
+  "min_clearance_m": 0.3,
+  "compute_ms": 10.773,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 22,
+   "OK": 69,
+   "SLOWED": 83
+  }
+ },
+ {
+  "seed": 119,
+  "method": "full",
+  "result": "success",
+  "time_s": 13.0,
+  "path_m": 9.9,
+  "min_clearance_m": 0.3,
+  "compute_ms": 16.925,
+  "replans": 0,
+  "statuses": {
+   "OK": 177,
+   "SLOWED": 30,
+   "AVOIDING": 52
+  }
+ },
+ {
+  "seed": 120,
+  "method": "full",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 11.5,
+  "min_clearance_m": 0.3,
+  "compute_ms": 12.47,
+  "replans": 0,
+  "statuses": {
+   "OK": 240,
+   "AVOIDING": 32,
+   "SLOWED": 28
+  }
+ },
+ {
+  "seed": 121,
+  "method": "full",
+  "result": "success",
+  "time_s": 34.2,
+  "path_m": 10.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 28.231,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 368,
+   "OK": 149,
+   "SLOWED": 106,
+   "AVOIDING+SQUEEZE": 16,
+   "EMERGENCY": 19,
+   "BLOCKED": 25
+  }
+ },
+ {
+  "seed": 122,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 46.5,
+  "path_m": 10.6,
+  "min_clearance_m": 0.2,
+  "compute_ms": 15.25,
+  "replans": 0,
+  "statuses": {
+   "OK": 77,
+   "AVOIDING": 831,
+   "AVOIDING+SQUEEZE": 11,
+   "EMERGENCY": 10,
+   "SLOWED": 1
+  }
+ },
+ {
+  "seed": 123,
+  "method": "full",
+  "result": "success",
+  "time_s": 34.0,
+  "path_m": 9.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 22.846,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 356,
+   "SLOWED": 93,
+   "AVOIDING+SQUEEZE": 5,
+   "OK": 218,
+   "EMERGENCY": 6,
+   "BLOCKED": 1
+  }
+ },
+ {
+  "seed": 124,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 40.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.3,
+  "compute_ms": 21.749,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 308,
+   "AVOIDING+SQUEEZE": 134,
+   "OK": 176,
+   "SLOWED": 89,
+   "BLOCKED": 73,
+   "STUCK": 27,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 125,
+  "method": "full",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.6,
+  "min_clearance_m": 0.25,
+  "compute_ms": 10.182,
+  "replans": 0,
+  "statuses": {
+   "OK": 168,
+   "AVOIDING": 112,
+   "SLOWED": 41
+  }
+ },
+ {
+  "seed": 126,
+  "method": "full",
+  "result": "success",
+  "time_s": 16.7,
+  "path_m": 12.4,
+  "min_clearance_m": 0.3,
+  "compute_ms": 11.593,
+  "replans": 1,
+  "statuses": {
+   "OK": 228,
+   "SLOWED": 62,
+   "AVOIDING": 43,
+   "BLOCKED": 1
+  }
+ },
+ {
+  "seed": 127,
+  "method": "full",
+  "result": "success",
+  "time_s": 13.1,
+  "path_m": 9.2,
+  "min_clearance_m": 0.25,
+  "compute_ms": 24.259,
+  "replans": 0,
+  "statuses": {
+   "OK": 154,
+   "SLOWED": 24,
+   "AVOIDING": 83
+  }
+ },
+ {
+  "seed": 128,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 47.1,
+  "path_m": 10.8,
+  "min_clearance_m": 0.062,
+  "compute_ms": 25.37,
+  "replans": 4,
+  "statuses": {
+   "AVOIDING": 205,
+   "SLOWED": 168,
+   "OK": 529,
+   "EMERGENCY": 22,
+   "BLOCKED": 17,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 129,
+  "method": "full",
+  "result": "collision: moving obstacle",
+  "time_s": 36.8,
+  "path_m": 8.0,
+  "min_clearance_m": 0.025,
+  "compute_ms": 26.076,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 338,
+   "AVOIDING+SQUEEZE": 35,
+   "OK+SQUEEZE": 1,
+   "SLOWED": 96,
+   "OK": 261,
+   "BLOCKED": 3,
+   "EMERGENCY": 2
+  }
+ },
+ {
+  "seed": 100,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 19.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.2,
+  "compute_ms": 17.991,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 145,
+   "AVOIDING+SQUEEZE": 8,
+   "SLOWED": 166,
+   "OK": 56,
+   "EMERGENCY": 4
+  }
+ },
+ {
+  "seed": 101,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 26.5,
+  "path_m": 11.8,
+  "min_clearance_m": 0.25,
+  "compute_ms": 14.205,
+  "replans": 0,
+  "statuses": {
+   "OK": 134,
+   "AVOIDING": 336,
+   "SLOWED": 59
+  }
+ },
+ {
+  "seed": 102,
+  "method": "algoL",
+  "result": "collision: moving obstacle",
+  "time_s": 33.6,
+  "path_m": 10.2,
+  "min_clearance_m": 0.034,
+  "compute_ms": 23.569,
+  "replans": 5,
+  "statuses": {
+   "OK": 35,
+   "SLOWED": 46,
+   "AVOIDING": 324,
+   "BLOCKED": 27,
+   "AVOIDING+SQUEEZE": 181,
+   "EMERGENCY": 35,
+   "SLOWED+SQUEEZE": 23,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 103,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 44.5,
+  "path_m": 9.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 24.597,
+  "replans": 3,
+  "statuses": {
+   "OK": 229,
+   "SLOWED": 392,
+   "AVOIDING": 248,
+   "BLOCKED": 2,
+   "SLOWED+SQUEEZE": 13,
+   "OK+SQUEEZE": 1,
+   "AVOIDING+SQUEEZE": 5
+  }
+ },
+ {
+  "seed": 104,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 32.4,
+  "path_m": 13.5,
+  "min_clearance_m": 0.15,
+  "compute_ms": 18.153,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 256,
+   "SLOWED": 76,
+   "OK": 218,
+   "AVOIDING+SQUEEZE": 96,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 105,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 11.9,
+  "path_m": 7.7,
+  "min_clearance_m": 0.3,
+  "compute_ms": 12.438,
+  "replans": 0,
+  "statuses": {
+   "OK": 124,
+   "SLOWED": 67,
+   "AVOIDING": 47
+  }
+ },
+ {
+  "seed": 106,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 52.7,
+  "path_m": 13.1,
+  "min_clearance_m": 0.3,
+  "compute_ms": 22.994,
+  "replans": 10,
+  "statuses": {
+   "SLOWED": 116,
+   "OK": 131,
+   "AVOIDING": 525,
+   "EMERGENCY": 8,
+   "OK+SQUEEZE": 17,
+   "SLOWED+SQUEEZE": 60,
+   "AVOIDING+SQUEEZE": 198
+  }
+ },
+ {
+  "seed": 107,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 16.7,
+  "path_m": 9.1,
+  "min_clearance_m": 0.2,
+  "compute_ms": 10.275,
+  "replans": 0,
+  "statuses": {
+   "OK": 177,
+   "AVOIDING": 103,
+   "SLOWED": 53
+  }
+ },
+ {
+  "seed": 108,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 20.8,
+  "path_m": 6.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 41.628,
+  "replans": 0,
+  "statuses": {
+   "OK": 42,
+   "SLOWED": 172,
+   "AVOIDING": 131,
+   "BLOCKED": 24,
+   "AVOIDING+SQUEEZE": 38,
+   "SLOWED+SQUEEZE": 8,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 109,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 45.4,
+  "path_m": 10.2,
+  "min_clearance_m": 0.25,
+  "compute_ms": 19.568,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 484,
+   "OK": 18,
+   "SLOWED": 236,
+   "SLOWED+SQUEEZE": 43,
+   "OK+SQUEEZE": 3,
+   "AVOIDING+SQUEEZE": 125
+  }
+ },
+ {
+  "seed": 110,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 27.9,
+  "path_m": 8.9,
+  "min_clearance_m": 0.15,
+  "compute_ms": 22.85,
+  "replans": 2,
+  "statuses": {
+   "SLOWED": 191,
+   "OK": 97,
+   "AVOIDING": 230,
+   "SLOWED+SQUEEZE": 37,
+   "AVOIDING+SQUEEZE": 2
+  }
+ },
+ {
+  "seed": 111,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 14.1,
+  "path_m": 6.8,
+  "min_clearance_m": 0.25,
+  "compute_ms": 10.908,
+  "replans": 0,
+  "statuses": {
+   "OK": 69,
+   "SLOWED": 80,
+   "AVOIDING": 133
+  }
+ },
+ {
+  "seed": 112,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 21.3,
+  "path_m": 14.0,
+  "min_clearance_m": 0.25,
+  "compute_ms": 9.932,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 65,
+   "OK": 252,
+   "SLOWED": 109
+  }
+ },
+ {
+  "seed": 113,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 11.4,
+  "path_m": 7.4,
+  "min_clearance_m": 0.3,
+  "compute_ms": 16.479,
+  "replans": 1,
+  "statuses": {
+   "OK": 140,
+   "AVOIDING": 44,
+   "SLOWED": 42,
+   "EMERGENCY": 2
+  }
+ },
+ {
+  "seed": 114,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 26.1,
+  "path_m": 8.7,
+  "min_clearance_m": 0.2,
+  "compute_ms": 18.899,
+  "replans": 1,
+  "statuses": {
+   "OK": 108,
+   "SLOWED": 137,
+   "AVOIDING": 223,
+   "AVOIDING+SQUEEZE": 50,
+   "SLOWED+SQUEEZE": 4
+  }
+ },
+ {
+  "seed": 115,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 21.1,
+  "path_m": 12.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 15.275,
+  "replans": 0,
+  "statuses": {
+   "OK": 190,
+   "SLOWED": 136,
+   "AVOIDING": 90,
+   "SLOWED+SQUEEZE": 6
+  }
+ },
+ {
+  "seed": 116,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 13.9,
+  "path_m": 10.2,
+  "min_clearance_m": 0.3,
+  "compute_ms": 8.639,
+  "replans": 0,
+  "statuses": {
+   "OK": 221,
+   "SLOWED": 51,
+   "AVOIDING": 5
+  }
+ },
+ {
+  "seed": 117,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 13.1,
+  "path_m": 8.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 8.378,
+  "replans": 0,
+  "statuses": {
+   "OK": 143,
+   "SLOWED": 32,
+   "AVOIDING": 87
+  }
+ },
+ {
+  "seed": 118,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 12.5,
+  "path_m": 6.7,
+  "min_clearance_m": 0.3,
+  "compute_ms": 7.559,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 20,
+   "OK": 70,
+   "SLOWED": 159
+  }
+ },
+ {
+  "seed": 119,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 19.4,
+  "path_m": 9.9,
+  "min_clearance_m": 0.3,
+  "compute_ms": 13.526,
+  "replans": 1,
+  "statuses": {
+   "OK": 136,
+   "SLOWED": 160,
+   "AVOIDING": 88,
+   "BLOCKED": 1,
+   "SLOWED+SQUEEZE": 1,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 120,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 23.4,
+  "path_m": 11.5,
+  "min_clearance_m": 0.2,
+  "compute_ms": 14.747,
+  "replans": 1,
+  "statuses": {
+   "OK": 211,
+   "SLOWED": 144,
+   "AVOIDING": 45,
+   "BLOCKED": 3,
+   "AVOIDING+SQUEEZE": 55,
+   "SLOWED+SQUEEZE": 8,
+   "OK+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 121,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 45.8,
+  "path_m": 10.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 18.945,
+  "replans": 5,
+  "statuses": {
+   "AVOIDING": 478,
+   "SLOWED": 259,
+   "OK": 84,
+   "AVOIDING+SQUEEZE": 46,
+   "BLOCKED": 16,
+   "OK+SQUEEZE": 3,
+   "EMERGENCY": 2,
+   "SLOWED+SQUEEZE": 29
+  }
+ },
+ {
+  "seed": 122,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 46.5,
+  "path_m": 10.6,
+  "min_clearance_m": 0.2,
+  "compute_ms": 11.623,
+  "replans": 0,
+  "statuses": {
+   "OK": 34,
+   "SLOWED": 14,
+   "AVOIDING": 596,
+   "AVOIDING+SQUEEZE": 265,
+   "SLOWED+SQUEEZE": 7,
+   "OK+SQUEEZE": 7,
+   "BLOCKED": 7
+  }
+ },
+ {
+  "seed": 123,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 42.9,
+  "path_m": 9.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 15.265,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 505,
+   "SLOWED": 167,
+   "OK": 76,
+   "AVOIDING+SQUEEZE": 91,
+   "SLOWED+SQUEEZE": 10,
+   "OK+SQUEEZE": 9
+  }
+ },
+ {
+  "seed": 124,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 40.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms": 18.244,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 496,
+   "AVOIDING+SQUEEZE": 83,
+   "OK+SQUEEZE": 19,
+   "SLOWED+SQUEEZE": 16,
+   "OK": 53,
+   "SLOWED": 141
+  }
+ },
+ {
+  "seed": 125,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 24.6,
+  "path_m": 10.6,
+  "min_clearance_m": 0.25,
+  "compute_ms": 10.34,
+  "replans": 0,
+  "statuses": {
+   "OK": 125,
+   "SLOWED": 144,
+   "AVOIDING": 214,
+   "AVOIDING+SQUEEZE": 9
+  }
+ },
+ {
+  "seed": 126,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 22.7,
+  "path_m": 12.4,
+  "min_clearance_m": 0.239,
+  "compute_ms": 12.966,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 119,
+   "OK": 225,
+   "AVOIDING": 79,
+   "BLOCKED": 1,
+   "AVOIDING+SQUEEZE": 29
+  }
+ },
+ {
+  "seed": 127,
+  "method": "algoL",
+  "result": "success",
+  "time_s": 17.3,
+  "path_m": 9.2,
+  "min_clearance_m": 0.25,
+  "compute_ms": 18.507,
+  "replans": 0,
+  "statuses": {
+   "OK": 102,
+   "SLOWED": 134,
+   "AVOIDING": 109
+  }
+ },
+ {
+  "seed": 128,
+  "method": "algoL",
+  "result": "collision: moving obstacle",
+  "time_s": 34.9,
+  "path_m": 10.8,
+  "min_clearance_m": 0.014,
+  "compute_ms": 18.627,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 295,
+   "SLOWED": 156,
+   "OK": 176,
+   "BLOCKED": 1,
+   "OK+SQUEEZE": 3,
+   "AVOIDING+SQUEEZE": 46,
+   "SLOWED+SQUEEZE": 3,
+   "EMERGENCY": 17
+  }
+ },
+ {
+  "seed": 129,
+  "method": "algoL",
+  "result": "timeout",
+  "time_s": 39.9,
+  "path_m": 8.0,
+  "min_clearance_m": 0.3,
+  "compute_ms": 9.655,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 499,
+   "AVOIDING+SQUEEZE": 208,
+   "SLOWED+SQUEEZE": 15,
+   "OK+SQUEEZE": 9,
+   "OK": 31,
+   "SLOWED": 37
+  }
+ }
+]

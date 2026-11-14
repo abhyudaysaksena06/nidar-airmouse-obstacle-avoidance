@@ -1,0 +1,24 @@
+scenario=guide_maze  trials/method=30  (184s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           50.0 |       (33, 67) |           50.0 |       (33, 67) |            0.0 |           0.48 |           0.05 |           0.64 |           4.13
+         stack |           90.0 |       (74, 97) |            0.0 |        (0, 11) |           10.0 |           0.54 |           0.25 |          11.61 |          47.97
+   stack_nomem |           80.0 |       (63, 90) |           20.0 |       (10, 37) |            0.0 |           0.57 |           0.25 |          11.44 |          45.84
+  stack_nowall |           93.3 |       (79, 98) |            0.0 |        (0, 11) |            6.7 |           0.55 |           0.25 |          12.78 |          49.32
+     stack_map |           90.0 |       (74, 97) |           10.0 |        (3, 26) |            0.0 |           0.63 |           0.25 |          12.53 |          52.71
+failures: {"guide": {"collision: low box": 2, "collision: wall": 13}, "stack": {"timeout": 3}, "stack_nomem": {"collision: low box": 4, "collision: pillar": 2}, "stack_nowall": {"timeout": 2}, "stack_map": {"collision: pillar": 1, "collision: low box": 2}}
+scenario=guide_people  trials/method=30  (229s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           43.3 |       (27, 61) |           56.7 |       (39, 73) |            0.0 |           0.48 |           0.05 |           0.85 |           6.56
+         stack |           73.3 |       (56, 86) |           13.3 |        (5, 30) |           13.3 |           0.53 |           0.25 |          13.76 |          109.2
+   stack_nomem |           76.7 |       (59, 88) |           20.0 |       (10, 37) |            3.3 |           0.53 |          0.225 |          12.75 |          76.65
+  stack_nowall |           83.3 |       (66, 93) |            6.7 |        (2, 21) |           10.0 |           0.53 |           0.25 |          13.09 |          81.17
+     stack_map |           83.3 |       (66, 93) |           13.3 |        (5, 30) |            3.3 |           0.59 |           0.25 |          12.32 |          44.11
+failures: {"guide": {"collision: low box": 2, "collision: wall": 11, "collision: person": 3, "collision: duct": 1}, "stack": {"collision: person": 4, "timeout": 4}, "stack_nomem": {"collision: low box": 3, "timeout": 1, "collision: pillar": 3}, "stack_nowall": {"timeout": 3, "collision: person": 2}, "stack_map": {"collision: low box": 2, "collision: pillar": 1, "collision: person": 1, "timeout": 1}}
+scenario=mixed_clutter  trials/method=30  (298s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           20.0 |       (10, 37) |           80.0 |       (63, 90) |            0.0 |           0.47 |           0.05 |           0.96 |           9.79
+         stack |           76.7 |       (59, 88) |            6.7 |        (2, 21) |           16.7 |           0.46 |            0.2 |          13.91 |          89.72
+   stack_nomem |           76.7 |       (59, 88) |           16.7 |        (7, 34) |            6.7 |           0.48 |            0.2 |          14.13 |          84.06
+  stack_nowall |           60.0 |       (42, 75) |            3.3 |        (1, 17) |           36.7 |           0.46 |            0.2 |          13.58 |          78.96
+     stack_map |           73.3 |       (56, 86) |           10.0 |        (3, 26) |           16.7 |           0.55 |            0.2 |          13.63 |         111.51
+failures: {"guide": {"collision: duct": 1, "collision: wall": 15, "collision: low box": 5, "collision: pillar": 2, "collision: person": 1}, "stack": {"timeout": 5, "collision: person": 2}, "stack_nomem": {"collision: pillar": 4, "collision: low box": 1, "timeout": 2}, "stack_nowall": {"timeout": 11, "collision: person": 1}, "stack_map": {"timeout": 5, "collision: pillar": 2, "collision: person": 1}}

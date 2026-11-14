@@ -1,0 +1,18 @@
+
+scenario=guide_maze  trials/method=30  (121s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         stack |           90.0 |       (74, 97) |            0.0 |        (0, 11) |           10.0 |           0.54 |           0.25 |          10.47 |          28.59
+  stack_noedge |           90.0 |       (74, 97) |            0.0 |        (0, 11) |           10.0 |           0.54 |           0.25 |           11.8 |          30.44
+failures: {"stack": {"timeout": 3}, "stack_noedge": {"timeout": 3}}
+
+scenario=guide_people  trials/method=30  (145s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         stack |           73.3 |       (56, 86) |           10.0 |        (3, 26) |           16.7 |           0.52 |           0.25 |          12.74 |          57.68
+  stack_noedge |           73.3 |       (56, 86) |           13.3 |        (5, 30) |           13.3 |           0.53 |           0.25 |          12.16 |          66.12
+failures: {"stack": {"collision: person": 3, "timeout": 5}, "stack_noedge": {"collision: person": 4, "timeout": 4}}
+
+scenario=mixed_clutter  trials/method=30  (186s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         stack |           63.3 |       (46, 78) |            6.7 |        (2, 21) |           30.0 |           0.43 |            0.2 |          13.28 |          60.77
+  stack_noedge |           76.7 |       (59, 88) |            6.7 |        (2, 21) |           16.7 |           0.46 |            0.2 |          13.52 |          63.92
+failures: {"stack": {"timeout": 9, "collision: person": 2}, "stack_noedge": {"timeout": 5, "collision: person": 2}}

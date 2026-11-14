@@ -1,0 +1,3573 @@
+[
+ {
+  "scenario": "guide_maze",
+  "seed": 200,
+  "method": "guide",
+  "result": "success",
+  "time_s": 16.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.487,
+  "compute_ms_p99": 1.486,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 201,
+  "method": "guide",
+  "result": "success",
+  "time_s": 11.3,
+  "path_m": 7.1,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 0.49,
+  "compute_ms_p99": 1.451,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 202,
+  "method": "guide",
+  "result": "success",
+  "time_s": 20.8,
+  "path_m": 12.3,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 0.621,
+  "compute_ms_p99": 3.577,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 203,
+  "method": "guide",
+  "result": "success",
+  "time_s": 23.2,
+  "path_m": 10.7,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.588,
+  "compute_ms_p99": 1.569,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 204,
+  "method": "guide",
+  "result": "collision: low box",
+  "time_s": 10.4,
+  "path_m": 8.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.597,
+  "compute_ms_p99": 2.108,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 205,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 10.9,
+  "path_m": 8.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.495,
+  "compute_ms_p99": 1.322,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 206,
+  "method": "guide",
+  "result": "success",
+  "time_s": 13.6,
+  "path_m": 5.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.72,
+  "compute_ms_p99": 2.23,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 207,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.7,
+  "path_m": 11.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.453,
+  "compute_ms_p99": 0.786,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 208,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.2,
+  "path_m": 8.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.498,
+  "compute_ms_p99": 1.539,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 209,
+  "method": "guide",
+  "result": "success",
+  "time_s": 19.6,
+  "path_m": 10.7,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 0.758,
+  "compute_ms_p99": 3.612,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 210,
+  "method": "guide",
+  "result": "success",
+  "time_s": 19.7,
+  "path_m": 8.4,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.919,
+  "compute_ms_p99": 2.483,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 211,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 6.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.918,
+  "compute_ms_p99": 2.621,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 212,
+  "method": "guide",
+  "result": "success",
+  "time_s": 18.9,
+  "path_m": 7.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.562,
+  "compute_ms_p99": 1.246,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 213,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 5.8,
+  "path_m": 13.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.633,
+  "compute_ms_p99": 1.562,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 214,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.0,
+  "path_m": 8.4,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.668,
+  "compute_ms_p99": 2.278,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 215,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.2,
+  "path_m": 12.8,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.563,
+  "compute_ms_p99": 4.414,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 216,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 9.8,
+  "path_m": 9.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.713,
+  "compute_ms_p99": 1.796,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 217,
+  "method": "guide",
+  "result": "success",
+  "time_s": 20.9,
+  "path_m": 10.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.856,
+  "compute_ms_p99": 4.074,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 218,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 1.5,
+  "path_m": 6.7,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.523,
+  "compute_ms_p99": 0.72,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 219,
+  "method": "guide",
+  "result": "collision: low box",
+  "time_s": 14.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 1.941,
+  "compute_ms_p99": 14.887,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 220,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 8.8,
+  "path_m": 9.3,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.117,
+  "compute_ms_p99": 5.863,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 221,
+  "method": "guide",
+  "result": "success",
+  "time_s": 19.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 1.541,
+  "compute_ms_p99": 7.618,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 222,
+  "method": "guide",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 7.8,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.025,
+  "compute_ms_p99": 3.641,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 223,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 10.1,
+  "path_m": 7.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.138,
+  "compute_ms_p99": 3.211,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 224,
+  "method": "guide",
+  "result": "success",
+  "time_s": 25.7,
+  "path_m": 10.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.895,
+  "compute_ms_p99": 3.527,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 225,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 10.8,
+  "path_m": 9.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.07,
+  "compute_ms_p99": 6.498,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 226,
+  "method": "guide",
+  "result": "success",
+  "time_s": 15.3,
+  "path_m": 7.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.997,
+  "compute_ms_p99": 2.288,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 227,
+  "method": "guide",
+  "result": "success",
+  "time_s": 30.8,
+  "path_m": 13.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.063,
+  "compute_ms_p99": 4.981,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 228,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.5,
+  "path_m": 9.8,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.76,
+  "compute_ms_p99": 2.103,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 229,
+  "method": "guide",
+  "result": "success",
+  "time_s": 23.0,
+  "path_m": 9.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.179,
+  "compute_ms_p99": 5.04,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 200,
+  "method": "stack",
+  "result": "success",
+  "time_s": 11.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.97,
+  "compute_ms_p99": 51.475,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 30,
+   "AVOIDING": 86,
+   "OK": 104
+  },
+  "vertical": {
+   "cruise": 220
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 201,
+  "method": "stack",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.607,
+  "compute_ms_p99": 130.17,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 202,
+  "method": "stack",
+  "result": "success",
+  "time_s": 18.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.651,
+  "compute_ms_p99": 63.142,
+  "replans": 0,
+  "statuses": {
+   "OK": 210,
+   "SLOWED": 113,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 278,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 203,
+  "method": "stack",
+  "result": "success",
+  "time_s": 16.6,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.761,
+  "compute_ms_p99": 42.251,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 89,
+   "SLOWED": 87,
+   "OK": 156
+  },
+  "vertical": {
+   "cruise": 287,
+   "climb": 45
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 204,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 8.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.423,
+  "compute_ms_p99": 44.606,
+  "replans": 0,
+  "statuses": {
+   "OK": 133,
+   "SLOWED": 83,
+   "AVOIDING": 83
+  },
+  "vertical": {
+   "cruise": 205,
+   "climb": 94
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 205,
+  "method": "stack",
+  "result": "success",
+  "time_s": 11.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.351,
+  "compute_ms_p99": 35.631,
+  "replans": 0,
+  "statuses": {
+   "OK": 95,
+   "SLOWED": 81,
+   "AVOIDING": 51
+  },
+  "vertical": {
+   "cruise": 227
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 206,
+  "method": "stack",
+  "result": "success",
+  "time_s": 9.7,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.479,
+  "compute_ms_p99": 44.629,
+  "replans": 0,
+  "statuses": {
+   "OK": 74,
+   "SLOWED": 56,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 106,
+   "climb": 87
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 207,
+  "method": "stack",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 14.36,
+  "compute_ms_p99": 37.008,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 190,
+   "SLOWED": 107,
+   "OK": 78
+  },
+  "vertical": {
+   "cruise": 286,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 208,
+  "method": "stack",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.509,
+  "compute_ms_p99": 31.165,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 209,
+  "method": "stack",
+  "result": "success",
+  "time_s": 16.4,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.518,
+  "compute_ms_p99": 33.302,
+  "replans": 0,
+  "statuses": {
+   "OK": 183,
+   "SLOWED": 87,
+   "AVOIDING": 57
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 93
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 210,
+  "method": "stack",
+  "result": "success",
+  "time_s": 14.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.95,
+  "compute_ms_p99": 29.469,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 135,
+   "SLOWED": 46
+  },
+  "vertical": {
+   "cruise": 118,
+   "climb": 166
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 211,
+  "method": "stack",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.632,
+  "compute_ms_p99": 30.498,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 114,
+   "AVOIDING": 172
+  },
+  "vertical": {
+   "cruise": 280,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 212,
+  "method": "stack",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.322,
+  "compute_ms_p99": 32.918,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 108,
+   "OK": 82
+  },
+  "vertical": {
+   "cruise": 209,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 213,
+  "method": "stack",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.441,
+  "compute_ms_p99": 33.923,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 214,
+  "method": "stack",
+  "result": "success",
+  "time_s": 13.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.988,
+  "compute_ms_p99": 32.414,
+  "replans": 0,
+  "statuses": {
+   "OK": 46,
+   "SLOWED": 98,
+   "AVOIDING": 118
+  },
+  "vertical": {
+   "cruise": 231,
+   "duck": 31
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 215,
+  "method": "stack",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.907,
+  "compute_ms_p99": 33.345,
+  "replans": 0,
+  "statuses": {
+   "OK": 149,
+   "SLOWED": 112,
+   "AVOIDING": 170
+  },
+  "vertical": {
+   "cruise": 325,
+   "climb": 106
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 216,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.914,
+  "compute_ms_p99": 36.318,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 91,
+   "OK": 37
+  },
+  "vertical": {
+   "cruise": 262,
+   "duck": 37
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 217,
+  "method": "stack",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.258,
+  "compute_ms_p99": 35.388,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 218,
+  "method": "stack",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 12.927,
+  "compute_ms_p99": 32.923,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 219,
+  "method": "stack",
+  "result": "collision: low box",
+  "time_s": 27.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.338,
+  "compute_ms_p99": 29.998,
+  "replans": 1,
+  "statuses": {
+   "OK": 154,
+   "SLOWED": 178,
+   "AVOIDING": 219,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 323,
+   "climb": 172,
+   "duck": 57
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 220,
+  "method": "stack",
+  "result": "success",
+  "time_s": 14.6,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 10.404,
+  "compute_ms_p99": 26.107,
+  "replans": 0,
+  "statuses": {
+   "OK": 101,
+   "SLOWED": 90,
+   "AVOIDING": 100
+  },
+  "vertical": {
+   "cruise": 253,
+   "climb": 38
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 221,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 13.228,
+  "compute_ms_p99": 26.334,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 116,
+   "SLOWED": 129,
+   "OK": 57
+  },
+  "vertical": {
+   "cruise": 219,
+   "climb": 83
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 222,
+  "method": "stack",
+  "result": "success",
+  "time_s": 13.2,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 14.2,
+  "compute_ms_p99": 28.593,
+  "replans": 0,
+  "statuses": {
+   "OK": 86,
+   "SLOWED": 144,
+   "AVOIDING": 34
+  },
+  "vertical": {
+   "climb": 99,
+   "cruise": 165
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 223,
+  "method": "stack",
+  "result": "success",
+  "time_s": 10.9,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.37,
+  "compute_ms_p99": 29.87,
+  "replans": 0,
+  "statuses": {
+   "OK": 72,
+   "SLOWED": 68,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "cruise": 144,
+   "climb": 73
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 224,
+  "method": "stack",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 10.782,
+  "compute_ms_p99": 31.49,
+  "replans": 0,
+  "statuses": {
+   "OK": 127,
+   "SLOWED": 75,
+   "AVOIDING": 119
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 225,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.065,
+  "compute_ms_p99": 39.776,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "AVOIDING": 146,
+   "SLOWED": 116
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 226,
+  "method": "stack",
+  "result": "success",
+  "time_s": 10.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.498,
+  "compute_ms_p99": 31.216,
+  "replans": 0,
+  "statuses": {
+   "OK": 54,
+   "SLOWED": 103,
+   "AVOIDING": 53
+  },
+  "vertical": {
+   "cruise": 210
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 227,
+  "method": "stack",
+  "result": "success",
+  "time_s": 22.0,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.186,
+  "compute_ms_p99": 42.16,
+  "replans": 0,
+  "statuses": {
+   "OK": 174,
+   "SLOWED": 134,
+   "AVOIDING": 131
+  },
+  "vertical": {
+   "cruise": 368,
+   "climb": 71
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 228,
+  "method": "stack",
+  "result": "collision: low box",
+  "time_s": 12.0,
+  "path_m": 9.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.639,
+  "compute_ms_p99": 55.167,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 72,
+   "AVOIDING": 100,
+   "OK": 68
+  },
+  "vertical": {
+   "cruise": 179,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 229,
+  "method": "stack",
+  "result": "success",
+  "time_s": 19.2,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.664,
+  "compute_ms_p99": 47.753,
+  "replans": 1,
+  "statuses": {
+   "OK": 130,
+   "SLOWED": 128,
+   "AVOIDING": 125
+  },
+  "vertical": {
+   "cruise": 214,
+   "duck": 169
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 200,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 11.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.579,
+  "compute_ms_p99": 53.73,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 30,
+   "AVOIDING": 86,
+   "OK": 104
+  },
+  "vertical": {
+   "cruise": 220
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 201,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.804,
+  "compute_ms_p99": 75.47,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 202,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.3,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.023,
+  "compute_ms_p99": 30.933,
+  "replans": 0,
+  "statuses": {
+   "OK": 217,
+   "SLOWED": 104,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 306,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 203,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 15.7,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.303,
+  "compute_ms_p99": 47.589,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 84,
+   "SLOWED": 92,
+   "OK": 138
+  },
+  "vertical": {
+   "cruise": 308,
+   "climb": 6
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 204,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 37.3,
+  "path_m": 8.9,
+  "min_clearance_m": -0.2,
+  "compute_ms_mean": 15.376,
+  "compute_ms_p99": 57.594,
+  "replans": 1,
+  "statuses": {
+   "OK": 220,
+   "SLOWED": 291,
+   "AVOIDING": 224,
+   "BLOCKED": 1,
+   "EMERGENCY": 10
+  },
+  "vertical": {
+   "cruise": 722,
+   "climb": 24
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 205,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 11.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.341,
+  "compute_ms_p99": 32.599,
+  "replans": 0,
+  "statuses": {
+   "OK": 95,
+   "SLOWED": 81,
+   "AVOIDING": 51
+  },
+  "vertical": {
+   "cruise": 227
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 206,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 9.8,
+  "path_m": 5.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 14.094,
+  "compute_ms_p99": 33.708,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 63,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "cruise": 143,
+   "climb": 52
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 207,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.457,
+  "compute_ms_p99": 64.272,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 180,
+   "SLOWED": 119,
+   "OK": 77
+  },
+  "vertical": {
+   "cruise": 316,
+   "climb": 60
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 208,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 11.076,
+  "compute_ms_p99": 23.272,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 209,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 16.5,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.623,
+  "compute_ms_p99": 74.142,
+  "replans": 0,
+  "statuses": {
+   "OK": 184,
+   "SLOWED": 90,
+   "AVOIDING": 56
+  },
+  "vertical": {
+   "cruise": 262,
+   "climb": 68
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 210,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 5.6,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.399,
+  "compute_ms_p99": 28.126,
+  "replans": 0,
+  "statuses": {
+   "OK": 27,
+   "AVOIDING": 61,
+   "SLOWED": 25
+  },
+  "vertical": {
+   "cruise": 48,
+   "climb": 65
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 211,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.7,
+  "path_m": 9.9,
+  "min_clearance_m": 0.0,
+  "compute_ms_mean": 22.953,
+  "compute_ms_p99": 190.055,
+  "replans": 0,
+  "statuses": {
+   "OK": 62,
+   "SLOWED": 113,
+   "AVOIDING": 144,
+   "EMERGENCY": 16,
+   "BLOCKED": 37,
+   "AVOIDING+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 338,
+   "duck": 35
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 212,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 12.7,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.33,
+  "compute_ms_p99": 67.2,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 107,
+   "OK": 68
+  },
+  "vertical": {
+   "cruise": 242,
+   "climb": 11
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 213,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 20.858,
+  "compute_ms_p99": 58.825,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 214,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 13.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.441,
+  "compute_ms_p99": 50.104,
+  "replans": 0,
+  "statuses": {
+   "OK": 46,
+   "SLOWED": 98,
+   "AVOIDING": 118
+  },
+  "vertical": {
+   "cruise": 259,
+   "duck": 3
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 215,
+  "method": "stack_nomem",
+  "result": "collision: low box",
+  "time_s": 5.2,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 8.807,
+  "compute_ms_p99": 24.657,
+  "replans": 0,
+  "statuses": {
+   "OK": 63,
+   "SLOWED": 1,
+   "AVOIDING": 40
+  },
+  "vertical": {
+   "cruise": 35,
+   "climb": 69
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 216,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 14.9,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 18.694,
+  "compute_ms_p99": 43.344,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 172,
+   "SLOWED": 87,
+   "OK": 38
+  },
+  "vertical": {
+   "cruise": 289,
+   "duck": 8
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 217,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.315,
+  "compute_ms_p99": 43.955,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 218,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 14.043,
+  "compute_ms_p99": 42.488,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 219,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.1,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.439,
+  "compute_ms_p99": 35.755,
+  "replans": 0,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 155,
+   "AVOIDING": 97
+  },
+  "vertical": {
+   "cruise": 301,
+   "climb": 61
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 220,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.215,
+  "compute_ms_p99": 33.184,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 92,
+   "AVOIDING": 95
+  },
+  "vertical": {
+   "cruise": 267
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 221,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 15.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 13.72,
+  "compute_ms_p99": 36.518,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 123,
+   "SLOWED": 134,
+   "OK": 47
+  },
+  "vertical": {
+   "cruise": 247,
+   "climb": 57
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 222,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 4.6,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.21,
+  "compute_ms_p99": 48.316,
+  "replans": 0,
+  "statuses": {
+   "OK": 43,
+   "SLOWED": 50
+  },
+  "vertical": {
+   "climb": 69,
+   "cruise": 24
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 223,
+  "method": "stack_nomem",
+  "result": "collision: low box",
+  "time_s": 11.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.252,
+  "compute_ms_p99": 40.958,
+  "replans": 0,
+  "statuses": {
+   "OK": 84,
+   "SLOWED": 68,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "cruise": 167,
+   "climb": 62
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 224,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.136,
+  "compute_ms_p99": 30.978,
+  "replans": 0,
+  "statuses": {
+   "OK": 127,
+   "SLOWED": 75,
+   "AVOIDING": 119
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 225,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 16.0,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 17.785,
+  "compute_ms_p99": 64.479,
+  "replans": 0,
+  "statuses": {
+   "OK": 71,
+   "AVOIDING": 148,
+   "SLOWED": 101
+  },
+  "vertical": {
+   "cruise": 258,
+   "climb": 62
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 226,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 10.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.314,
+  "compute_ms_p99": 32.97,
+  "replans": 0,
+  "statuses": {
+   "OK": 54,
+   "SLOWED": 103,
+   "AVOIDING": 53
+  },
+  "vertical": {
+   "cruise": 210
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 227,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 21.8,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.97,
+  "compute_ms_p99": 62.89,
+  "replans": 0,
+  "statuses": {
+   "OK": 187,
+   "SLOWED": 131,
+   "AVOIDING": 118
+  },
+  "vertical": {
+   "cruise": 393,
+   "climb": 43
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 228,
+  "method": "stack_nomem",
+  "result": "collision: low box",
+  "time_s": 14.4,
+  "path_m": 9.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.733,
+  "compute_ms_p99": 63.695,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 67,
+   "AVOIDING": 130,
+   "OK": 90
+  },
+  "vertical": {
+   "cruise": 218,
+   "duck": 27,
+   "climb": 42
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 229,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 14.4,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.801,
+  "compute_ms_p99": 68.493,
+  "replans": 0,
+  "statuses": {
+   "OK": 116,
+   "SLOWED": 108,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 242,
+   "duck": 45
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 200,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 13.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 13.747,
+  "compute_ms_p99": 69.092,
+  "replans": 0,
+  "statuses": {
+   "OK": 156,
+   "SLOWED": 26,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "climb": 160,
+   "cruise": 99
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 201,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 11.6,
+  "path_m": 7.1,
+  "min_clearance_m": 0.3,
+  "compute_ms_mean": 11.953,
+  "compute_ms_p99": 43.059,
+  "replans": 0,
+  "statuses": {
+   "OK": 126,
+   "AVOIDING": 32,
+   "SLOWED": 74
+  },
+  "vertical": {
+   "climb": 188,
+   "cruise": 44
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 202,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 22.7,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.686,
+  "compute_ms_p99": 44.436,
+  "replans": 0,
+  "statuses": {
+   "OK": 292,
+   "AVOIDING": 57,
+   "SLOWED": 104
+  },
+  "vertical": {
+   "climb": 364,
+   "cruise": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 203,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.1,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.125,
+  "compute_ms_p99": 59.634,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 88,
+   "SLOWED": 79,
+   "OK": 194
+  },
+  "vertical": {
+   "cruise": 132,
+   "climb": 137,
+   "conflict": 92
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 204,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.0,
+  "path_m": 8.9,
+  "min_clearance_m": 0.3,
+  "compute_ms_mean": 13.069,
+  "compute_ms_p99": 56.089,
+  "replans": 0,
+  "statuses": {
+   "OK": 203,
+   "SLOWED": 69,
+   "AVOIDING": 87
+  },
+  "vertical": {
+   "cruise": 100,
+   "climb": 259
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 205,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 11.5,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.914,
+  "compute_ms_p99": 73.083,
+  "replans": 0,
+  "statuses": {
+   "OK": 100,
+   "SLOWED": 78,
+   "AVOIDING": 52
+  },
+  "vertical": {
+   "cruise": 141,
+   "climb": 22,
+   "conflict": 67
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 206,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 10.1,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.19,
+  "compute_ms_p99": 66.099,
+  "replans": 0,
+  "statuses": {
+   "OK": 73,
+   "SLOWED": 58,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "conflict": 94,
+   "climb": 108
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 207,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 21.2,
+  "path_m": 11.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.184,
+  "compute_ms_p99": 60.419,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 183,
+   "SLOWED": 93,
+   "OK": 148
+  },
+  "vertical": {
+   "cruise": 90,
+   "climb": 204,
+   "conflict": 130
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 208,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 13.988,
+  "compute_ms_p99": 74.038,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 112,
+   "SLOWED": 86,
+   "OK": 102
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 132,
+   "conflict": 92
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 209,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.3,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.031,
+  "compute_ms_p99": 34.659,
+  "replans": 0,
+  "statuses": {
+   "OK": 229,
+   "SLOWED": 76,
+   "AVOIDING": 60
+  },
+  "vertical": {
+   "cruise": 63,
+   "climb": 245,
+   "conflict": 57
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 210,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.3,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.646,
+  "compute_ms_p99": 36.116,
+  "replans": 0,
+  "statuses": {
+   "OK": 138,
+   "SLOWED": 46,
+   "AVOIDING": 121
+  },
+  "vertical": {
+   "cruise": 20,
+   "climb": 176,
+   "conflict": 109
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 211,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.8,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.443,
+  "compute_ms_p99": 31.309,
+  "replans": 0,
+  "statuses": {
+   "OK": 59,
+   "SLOWED": 109,
+   "AVOIDING": 147
+  },
+  "vertical": {
+   "climb": 15,
+   "conflict": 246,
+   "cruise": 54
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 212,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 14.1,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.932,
+  "compute_ms_p99": 38.682,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 82,
+   "AVOIDING": 92,
+   "OK": 108
+  },
+  "vertical": {
+   "cruise": 46,
+   "climb": 236
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 213,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 23.2,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.737,
+  "compute_ms_p99": 52.309,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 224,
+   "SLOWED": 169,
+   "OK": 71
+  },
+  "vertical": {
+   "cruise": 46,
+   "climb": 157,
+   "conflict": 261
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 214,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.3,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.117,
+  "compute_ms_p99": 37.198,
+  "replans": 0,
+  "statuses": {
+   "OK": 93,
+   "SLOWED": 85,
+   "AVOIDING": 128
+  },
+  "vertical": {
+   "cruise": 51,
+   "duck": 3,
+   "climb": 160,
+   "conflict": 92
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 215,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 22.0,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.627,
+  "compute_ms_p99": 91.971,
+  "replans": 0,
+  "statuses": {
+   "OK": 150,
+   "SLOWED": 105,
+   "AVOIDING": 184
+  },
+  "vertical": {
+   "cruise": 9,
+   "climb": 357,
+   "conflict": 73
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 216,
+  "method": "stack_nowall",
+  "result": "timeout",
+  "time_s": 53.1,
+  "path_m": 9.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 21.93,
+  "compute_ms_p99": 102.432,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 356,
+   "SLOWED": 275,
+   "OK": 431,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 292,
+   "climb": 423,
+   "conflict": 289,
+   "duck": 59
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 217,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.006,
+  "compute_ms_p99": 73.96,
+  "replans": 0,
+  "statuses": {
+   "OK": 185,
+   "SLOWED": 98,
+   "AVOIDING": 86
+  },
+  "vertical": {
+   "cruise": 51,
+   "climb": 275,
+   "conflict": 43
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 218,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 11.3,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 13.8,
+  "compute_ms_p99": 44.127,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 46,
+   "SLOWED": 51,
+   "OK": 128
+  },
+  "vertical": {
+   "cruise": 127,
+   "climb": 98
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 219,
+  "method": "stack_nowall",
+  "result": "timeout",
+  "time_s": 59.5,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 22.447,
+  "compute_ms_p99": 97.014,
+  "replans": 2,
+  "statuses": {
+   "OK": 275,
+   "SLOWED": 367,
+   "AVOIDING": 548,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 22,
+   "climb": 431,
+   "conflict": 738
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 220,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 14.6,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.086,
+  "compute_ms_p99": 52.223,
+  "replans": 0,
+  "statuses": {
+   "OK": 100,
+   "SLOWED": 89,
+   "AVOIDING": 103
+  },
+  "vertical": {
+   "cruise": 66,
+   "conflict": 214,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 221,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.7,
+  "path_m": 8.4,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 31.389,
+  "compute_ms_p99": 125.544,
+  "replans": 0,
+  "statuses": {
+   "OK": 88,
+   "SLOWED": 122,
+   "AVOIDING": 104
+  },
+  "vertical": {
+   "climb": 186,
+   "conflict": 128
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 222,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 13.6,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 37.006,
+  "compute_ms_p99": 119.849,
+  "replans": 0,
+  "statuses": {
+   "OK": 93,
+   "SLOWED": 143,
+   "AVOIDING": 35
+  },
+  "vertical": {
+   "climb": 271
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 223,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 11.8,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 32.629,
+  "compute_ms_p99": 128.24,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 63,
+   "AVOIDING": 93
+  },
+  "vertical": {
+   "climb": 143,
+   "conflict": 92
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 224,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 19.8,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 18.921,
+  "compute_ms_p99": 84.472,
+  "replans": 0,
+  "statuses": {
+   "OK": 179,
+   "SLOWED": 87,
+   "AVOIDING": 129
+  },
+  "vertical": {
+   "cruise": 65,
+   "climb": 177,
+   "conflict": 153
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 225,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 17.0,
+  "path_m": 9.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 28.177,
+  "compute_ms_p99": 96.746,
+  "replans": 0,
+  "statuses": {
+   "OK": 107,
+   "SLOWED": 91,
+   "AVOIDING": 142
+  },
+  "vertical": {
+   "conflict": 155,
+   "climb": 185
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 226,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 12.1,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.13,
+  "compute_ms_p99": 51.075,
+  "replans": 0,
+  "statuses": {
+   "OK": 93,
+   "SLOWED": 92,
+   "AVOIDING": 56
+  },
+  "vertical": {
+   "cruise": 83,
+   "climb": 109,
+   "conflict": 49
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 227,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 24.0,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.676,
+  "compute_ms_p99": 52.09,
+  "replans": 0,
+  "statuses": {
+   "OK": 222,
+   "SLOWED": 134,
+   "AVOIDING": 123
+  },
+  "vertical": {
+   "cruise": 36,
+   "climb": 342,
+   "conflict": 101
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 228,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 40.4,
+  "path_m": 9.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.905,
+  "compute_ms_p99": 48.856,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 226,
+   "AVOIDING": 257,
+   "OK": 325,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 101,
+   "climb": 422,
+   "conflict": 286
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 229,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 37.3,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.862,
+  "compute_ms_p99": 54.658,
+  "replans": 1,
+  "statuses": {
+   "OK": 245,
+   "SLOWED": 200,
+   "AVOIDING": 299,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "climb": 373,
+   "conflict": 302,
+   "cruise": 70
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 200,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 11.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.073,
+  "compute_ms_p99": 51.746,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 30,
+   "AVOIDING": 86,
+   "OK": 104
+  },
+  "vertical": {
+   "cruise": 220
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 201,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.909,
+  "compute_ms_p99": 47.351,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 202,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 18.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.101,
+  "compute_ms_p99": 38.618,
+  "replans": 0,
+  "statuses": {
+   "OK": 210,
+   "SLOWED": 113,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 278,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 203,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 16.6,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.93,
+  "compute_ms_p99": 36.58,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 89,
+   "SLOWED": 87,
+   "OK": 156
+  },
+  "vertical": {
+   "cruise": 287,
+   "climb": 45
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 204,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 8.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.306,
+  "compute_ms_p99": 34.233,
+  "replans": 0,
+  "statuses": {
+   "OK": 133,
+   "SLOWED": 83,
+   "AVOIDING": 83
+  },
+  "vertical": {
+   "cruise": 205,
+   "climb": 94
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 205,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 11.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.745,
+  "compute_ms_p99": 47.064,
+  "replans": 0,
+  "statuses": {
+   "OK": 95,
+   "SLOWED": 81,
+   "AVOIDING": 51
+  },
+  "vertical": {
+   "cruise": 227
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 206,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 9.7,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.113,
+  "compute_ms_p99": 42.907,
+  "replans": 0,
+  "statuses": {
+   "OK": 74,
+   "SLOWED": 56,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 106,
+   "climb": 87
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 207,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.911,
+  "compute_ms_p99": 41.636,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 190,
+   "SLOWED": 107,
+   "OK": 78
+  },
+  "vertical": {
+   "cruise": 286,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 208,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.569,
+  "compute_ms_p99": 35.881,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 209,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 16.4,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.731,
+  "compute_ms_p99": 36.956,
+  "replans": 0,
+  "statuses": {
+   "OK": 183,
+   "SLOWED": 87,
+   "AVOIDING": 57
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 93
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 210,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 14.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.429,
+  "compute_ms_p99": 34.044,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 135,
+   "SLOWED": 46
+  },
+  "vertical": {
+   "cruise": 118,
+   "climb": 166
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 211,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 14.258,
+  "compute_ms_p99": 52.028,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 114,
+   "AVOIDING": 172
+  },
+  "vertical": {
+   "cruise": 280,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 212,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.597,
+  "compute_ms_p99": 32.259,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 108,
+   "OK": 82
+  },
+  "vertical": {
+   "cruise": 209,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 213,
+  "method": "stack_noinband",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 17.555,
+  "compute_ms_p99": 36.797,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 214,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 13.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.907,
+  "compute_ms_p99": 57.137,
+  "replans": 0,
+  "statuses": {
+   "OK": 46,
+   "SLOWED": 98,
+   "AVOIDING": 118
+  },
+  "vertical": {
+   "cruise": 231,
+   "duck": 31
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 215,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.771,
+  "compute_ms_p99": 61.507,
+  "replans": 0,
+  "statuses": {
+   "OK": 149,
+   "SLOWED": 112,
+   "AVOIDING": 170
+  },
+  "vertical": {
+   "cruise": 325,
+   "climb": 106
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 216,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 21.077,
+  "compute_ms_p99": 77.008,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 91,
+   "OK": 37
+  },
+  "vertical": {
+   "cruise": 262,
+   "duck": 37
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 217,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.216,
+  "compute_ms_p99": 54.687,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 218,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 15.11,
+  "compute_ms_p99": 57.49,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 219,
+  "method": "stack_noinband",
+  "result": "collision: low box",
+  "time_s": 27.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.678,
+  "compute_ms_p99": 61.753,
+  "replans": 1,
+  "statuses": {
+   "OK": 154,
+   "SLOWED": 178,
+   "AVOIDING": 219,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 323,
+   "climb": 172,
+   "duck": 57
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 220,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 14.6,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.895,
+  "compute_ms_p99": 62.729,
+  "replans": 0,
+  "statuses": {
+   "OK": 101,
+   "SLOWED": 90,
+   "AVOIDING": 100
+  },
+  "vertical": {
+   "cruise": 253,
+   "climb": 38
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 221,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 14.312,
+  "compute_ms_p99": 42.748,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 116,
+   "SLOWED": 129,
+   "OK": 57
+  },
+  "vertical": {
+   "cruise": 219,
+   "climb": 83
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 222,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 13.2,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.672,
+  "compute_ms_p99": 51.716,
+  "replans": 0,
+  "statuses": {
+   "OK": 86,
+   "SLOWED": 144,
+   "AVOIDING": 34
+  },
+  "vertical": {
+   "climb": 99,
+   "cruise": 165
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 223,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 10.9,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.997,
+  "compute_ms_p99": 32.663,
+  "replans": 0,
+  "statuses": {
+   "OK": 72,
+   "SLOWED": 68,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "cruise": 144,
+   "climb": 73
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 224,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.46,
+  "compute_ms_p99": 34.998,
+  "replans": 0,
+  "statuses": {
+   "OK": 127,
+   "SLOWED": 75,
+   "AVOIDING": 119
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 225,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 17.561,
+  "compute_ms_p99": 51.238,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "AVOIDING": 146,
+   "SLOWED": 116
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 226,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 10.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.243,
+  "compute_ms_p99": 39.291,
+  "replans": 0,
+  "statuses": {
+   "OK": 54,
+   "SLOWED": 103,
+   "AVOIDING": 53
+  },
+  "vertical": {
+   "cruise": 210
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 227,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 22.0,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.179,
+  "compute_ms_p99": 41.917,
+  "replans": 0,
+  "statuses": {
+   "OK": 174,
+   "SLOWED": 134,
+   "AVOIDING": 131
+  },
+  "vertical": {
+   "cruise": 368,
+   "climb": 71
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 228,
+  "method": "stack_noinband",
+  "result": "collision: low box",
+  "time_s": 12.0,
+  "path_m": 9.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.121,
+  "compute_ms_p99": 44.384,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 72,
+   "AVOIDING": 100,
+   "OK": 68
+  },
+  "vertical": {
+   "cruise": 179,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 229,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 19.2,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.471,
+  "compute_ms_p99": 43.987,
+  "replans": 1,
+  "statuses": {
+   "OK": 130,
+   "SLOWED": 128,
+   "AVOIDING": 125
+  },
+  "vertical": {
+   "cruise": 214,
+   "duck": 169
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 200,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 12.1,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.182,
+  "compute_ms_p99": 41.932,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 26,
+   "AVOIDING": 100,
+   "OK": 115
+  },
+  "vertical": {
+   "cruise": 157,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 201,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.719,
+  "compute_ms_p99": 37.122,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 202,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 18.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.202,
+  "compute_ms_p99": 33.177,
+  "replans": 0,
+  "statuses": {
+   "OK": 210,
+   "SLOWED": 113,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 278,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 203,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 16.6,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.49,
+  "compute_ms_p99": 35.704,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 89,
+   "SLOWED": 87,
+   "OK": 156
+  },
+  "vertical": {
+   "cruise": 287,
+   "climb": 45
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 204,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 14.9,
+  "path_m": 8.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.415,
+  "compute_ms_p99": 34.839,
+  "replans": 0,
+  "statuses": {
+   "OK": 131,
+   "SLOWED": 83,
+   "AVOIDING": 84
+  },
+  "vertical": {
+   "cruise": 204,
+   "climb": 94
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 205,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 11.4,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.816,
+  "compute_ms_p99": 40.65,
+  "replans": 0,
+  "statuses": {
+   "OK": 95,
+   "SLOWED": 81,
+   "AVOIDING": 51
+  },
+  "vertical": {
+   "cruise": 227
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 206,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 9.7,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.126,
+  "compute_ms_p99": 44.075,
+  "replans": 0,
+  "statuses": {
+   "OK": 74,
+   "SLOWED": 56,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 104,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 207,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 18.681,
+  "compute_ms_p99": 81.756,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 190,
+   "SLOWED": 107,
+   "OK": 78
+  },
+  "vertical": {
+   "cruise": 286,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 208,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 13.734,
+  "compute_ms_p99": 59.825,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 209,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 16.4,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.777,
+  "compute_ms_p99": 65.316,
+  "replans": 0,
+  "statuses": {
+   "OK": 183,
+   "SLOWED": 87,
+   "AVOIDING": 57
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 93
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 210,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 14.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 18.954,
+  "compute_ms_p99": 105.834,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 135,
+   "SLOWED": 46
+  },
+  "vertical": {
+   "cruise": 118,
+   "climb": 166
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 211,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.339,
+  "compute_ms_p99": 68.115,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 114,
+   "AVOIDING": 172
+  },
+  "vertical": {
+   "cruise": 219,
+   "duck": 61,
+   "climb": 61
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 212,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 21.248,
+  "compute_ms_p99": 126.054,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 108,
+   "OK": 82
+  },
+  "vertical": {
+   "cruise": 209,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 213,
+  "method": "stack_nomap",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 28.051,
+  "compute_ms_p99": 92.632,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 214,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.1,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.593,
+  "compute_ms_p99": 50.174,
+  "replans": 0,
+  "statuses": {
+   "OK": 46,
+   "SLOWED": 98,
+   "AVOIDING": 118
+  },
+  "vertical": {
+   "cruise": 231,
+   "duck": 31
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 215,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.521,
+  "compute_ms_p99": 72.398,
+  "replans": 0,
+  "statuses": {
+   "OK": 149,
+   "SLOWED": 112,
+   "AVOIDING": 170
+  },
+  "vertical": {
+   "cruise": 325,
+   "climb": 106
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 216,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 15.8,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.817,
+  "compute_ms_p99": 61.715,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 82,
+   "OK": 62
+  },
+  "vertical": {
+   "cruise": 214,
+   "duck": 101
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 217,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.986,
+  "compute_ms_p99": 66.628,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 218,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 15.181,
+  "compute_ms_p99": 47.278,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 219,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 54.7,
+  "path_m": 11.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 14.051,
+  "compute_ms_p99": 60.943,
+  "replans": 1,
+  "statuses": {
+   "OK": 352,
+   "SLOWED": 371,
+   "AVOIDING": 371,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 634,
+   "climb": 406,
+   "duck": 55
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 220,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 14.6,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.464,
+  "compute_ms_p99": 66.29,
+  "replans": 0,
+  "statuses": {
+   "OK": 101,
+   "SLOWED": 90,
+   "AVOIDING": 100
+  },
+  "vertical": {
+   "cruise": 253,
+   "climb": 38
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 221,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 15.4,
+  "path_m": 8.4,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.817,
+  "compute_ms_p99": 55.903,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 118,
+   "SLOWED": 131,
+   "OK": 58
+  },
+  "vertical": {
+   "cruise": 187,
+   "climb": 120
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 222,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.3,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 18.578,
+  "compute_ms_p99": 45.393,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 151,
+   "AVOIDING": 34
+  },
+  "vertical": {
+   "climb": 97,
+   "cruise": 168
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 223,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 10.9,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.436,
+  "compute_ms_p99": 44.616,
+  "replans": 0,
+  "statuses": {
+   "OK": 72,
+   "SLOWED": 68,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "cruise": 144,
+   "climb": 73
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 224,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.749,
+  "compute_ms_p99": 40.13,
+  "replans": 0,
+  "statuses": {
+   "OK": 127,
+   "SLOWED": 75,
+   "AVOIDING": 119
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 225,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 18.754,
+  "compute_ms_p99": 48.215,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "AVOIDING": 146,
+   "SLOWED": 116
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 226,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 10.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.047,
+  "compute_ms_p99": 44.114,
+  "replans": 0,
+  "statuses": {
+   "OK": 54,
+   "SLOWED": 103,
+   "AVOIDING": 53
+  },
+  "vertical": {
+   "cruise": 210
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 227,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 21.9,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.144,
+  "compute_ms_p99": 41.169,
+  "replans": 0,
+  "statuses": {
+   "OK": 175,
+   "SLOWED": 140,
+   "AVOIDING": 122
+  },
+  "vertical": {
+   "cruise": 355,
+   "climb": 82
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 228,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 16.7,
+  "path_m": 9.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 11.14,
+  "compute_ms_p99": 32.967,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 79,
+   "AVOIDING": 120,
+   "OK": 134
+  },
+  "vertical": {
+   "cruise": 187,
+   "duck": 61,
+   "climb": 85
+  }
+ },
+ {
+  "scenario": "guide_maze",
+  "seed": 229,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 19.2,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.79,
+  "compute_ms_p99": 37.03,
+  "replans": 1,
+  "statuses": {
+   "OK": 130,
+   "SLOWED": 128,
+   "AVOIDING": 125
+  },
+  "vertical": {
+   "cruise": 214,
+   "duck": 169
+  }
+ }
+]

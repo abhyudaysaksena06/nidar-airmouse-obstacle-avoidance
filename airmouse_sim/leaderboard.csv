@@ -1,0 +1,7 @@
+label,algo,profiles,runs,seeds,mean_score,std_score,survivors_pct,crash_pct,exit_pct,coverage_pct,mean_loc_err_m,date
+baseline,explorer.py,default,8,1-8,602.1,113.6,75.7,0.0,100.0,98.9,0.203,2026-10-15 02:00
+baseline,explorer.py,faults,8,1-8,584.8,86.1,75.7,0.0,100.0,98.4,0.184,2026-10-15 02:03
+baseline,explorer.py,hard,8,1-8,46.4,191.4,15.0,37.5,25.0,36.3,0.262,2026-10-15 02:05
+baseline+depthcam,explorer.py,depth_camera,8,1-8,528.4,274.2,81.1,25.0,75.0,96.9,0.096,2026-10-15 02:09
+baseline,explorer.py,low_battery,8,1-8,491.1,123.3,48.6,0.0,87.5,91.0,0.226,2026-10-15 02:10
+baseline,explorer.py,windy,8,1-8,371.8,279.1,62.2,37.5,62.5,84.6,0.194,2026-10-15 02:12

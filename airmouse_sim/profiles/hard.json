@@ -1,0 +1,7 @@
+{
+  "_note": "Hard maps: narrow corridors and doors, many dead ends, repeated identical doorways (perceptual aliasing), more and taller clutter, survivors tucked against obstacles, more dark rooms and featureless floor.",
+  "arena": {"cell_m": 2.0, "door_min_m": 0.9, "door_max_m": 0.9, "door_centered": true, "door_uniform": true,
+            "rooms": 2, "loop_prob": 0.05, "dark_cell_frac": 0.35, "textureless_zones": 4},
+  "obstacles": {"static_count": 12, "hanging_count": 5, "moving_count": 2},
+  "survivors": {"min": 4, "max": 6, "near_obstacle_prob": 0.7}
+}

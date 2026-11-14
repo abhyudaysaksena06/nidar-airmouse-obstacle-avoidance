@@ -1,0 +1,6 @@
+{
+  "_note": "Cheaper sensors: slower, shorter-range, noisier lidar; worse flow and gyro; weaker detector. Replace with YOUR datasheet values.",
+  "sensors": {"lidar_rate_hz": 5.5, "lidar_max_range_m": 6.0, "lidar_noise_m": 0.04, "lidar_beams": 270,
+              "lidar_dropout_prob": 0.05, "flow_vel_noise_frac": 0.08, "gyro_bias_rps": 0.003,
+              "camera_rate_hz": 5.0, "detector_recall_curve": [[0.5, 0.9], [2.0, 0.8], [3.5, 0.45], [5.0, 0.1]]}
+}

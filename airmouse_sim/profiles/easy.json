@@ -1,0 +1,7 @@
+{
+  "_note": "Debugging: no clutter, no faults, no wind, ideal sensors.",
+  "arena": {"dark_cell_frac": 0.0, "textureless_zones": 0},
+  "obstacles": {"static_count": 0, "hanging_count": 0, "moving_count": 0},
+  "wind": {"gust_std_mps": 0.0},
+  "sensors": {"lidar_dropout_prob": 0.0, "gyro_bias_rps": 0.0, "detector_false_positives_per_frame": 0.0}
+}

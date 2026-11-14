@@ -1,0 +1,3634 @@
+[
+ {
+  "scenario": "guide_people",
+  "seed": 200,
+  "method": "guide",
+  "result": "success",
+  "time_s": 16.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.694,
+  "compute_ms_p99": 1.879,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 201,
+  "method": "guide",
+  "result": "success",
+  "time_s": 11.3,
+  "path_m": 7.1,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 1.074,
+  "compute_ms_p99": 6.252,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 202,
+  "method": "guide",
+  "result": "success",
+  "time_s": 20.8,
+  "path_m": 12.3,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 1.377,
+  "compute_ms_p99": 16.497,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 203,
+  "method": "guide",
+  "result": "success",
+  "time_s": 23.3,
+  "path_m": 10.7,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.583,
+  "compute_ms_p99": 14.272,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 204,
+  "method": "guide",
+  "result": "collision: low box",
+  "time_s": 10.4,
+  "path_m": 8.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.416,
+  "compute_ms_p99": 16.209,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 205,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 10.9,
+  "path_m": 8.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.757,
+  "compute_ms_p99": 2.08,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 206,
+  "method": "guide",
+  "result": "success",
+  "time_s": 13.6,
+  "path_m": 5.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.814,
+  "compute_ms_p99": 16.824,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 207,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.7,
+  "path_m": 11.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.685,
+  "compute_ms_p99": 2.272,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 208,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.2,
+  "path_m": 8.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.762,
+  "compute_ms_p99": 3.342,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 209,
+  "method": "guide",
+  "result": "success",
+  "time_s": 19.6,
+  "path_m": 10.7,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 1.507,
+  "compute_ms_p99": 13.421,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 210,
+  "method": "guide",
+  "result": "success",
+  "time_s": 19.7,
+  "path_m": 8.4,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.106,
+  "compute_ms_p99": 3.853,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 211,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 6.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.189,
+  "compute_ms_p99": 4.267,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 212,
+  "method": "guide",
+  "result": "success",
+  "time_s": 18.9,
+  "path_m": 7.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.178,
+  "compute_ms_p99": 7.426,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 213,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 5.8,
+  "path_m": 13.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.734,
+  "compute_ms_p99": 1.701,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 214,
+  "method": "guide",
+  "result": "collision: person",
+  "time_s": 13.5,
+  "path_m": 9.3,
+  "min_clearance_m": 0.026,
+  "compute_ms_mean": 1.772,
+  "compute_ms_p99": 14.604,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 215,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.2,
+  "path_m": 12.8,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 2.277,
+  "compute_ms_p99": 19.399,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 216,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 9.8,
+  "path_m": 9.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.739,
+  "compute_ms_p99": 1.832,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 217,
+  "method": "guide",
+  "result": "success",
+  "time_s": 20.9,
+  "path_m": 10.0,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.707,
+  "compute_ms_p99": 1.84,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 218,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 1.5,
+  "path_m": 6.7,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.545,
+  "compute_ms_p99": 0.892,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 219,
+  "method": "guide",
+  "result": "collision: low box",
+  "time_s": 14.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.1,
+  "compute_ms_mean": 1.243,
+  "compute_ms_p99": 4.04,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 220,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 8.8,
+  "path_m": 9.3,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.934,
+  "compute_ms_p99": 3.305,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 221,
+  "method": "guide",
+  "result": "collision: duct",
+  "time_s": 14.4,
+  "path_m": 10.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.964,
+  "compute_ms_p99": 3.204,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 222,
+  "method": "guide",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 7.8,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.344,
+  "compute_ms_p99": 11.294,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 223,
+  "method": "guide",
+  "result": "collision: person",
+  "time_s": 5.0,
+  "path_m": 7.1,
+  "min_clearance_m": 0.034,
+  "compute_ms_mean": 2.299,
+  "compute_ms_p99": 11.198,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 224,
+  "method": "guide",
+  "result": "success",
+  "time_s": 25.7,
+  "path_m": 10.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.72,
+  "compute_ms_p99": 1.884,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 225,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 10.8,
+  "path_m": 9.6,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.79,
+  "compute_ms_p99": 2.101,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 226,
+  "method": "guide",
+  "result": "success",
+  "time_s": 15.3,
+  "path_m": 7.1,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 1.244,
+  "compute_ms_p99": 9.146,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 227,
+  "method": "guide",
+  "result": "collision: person",
+  "time_s": 29.6,
+  "path_m": 13.9,
+  "min_clearance_m": 0.003,
+  "compute_ms_mean": 1.148,
+  "compute_ms_p99": 6.504,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 228,
+  "method": "guide",
+  "result": "collision: wall",
+  "time_s": 4.5,
+  "path_m": 9.8,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.804,
+  "compute_ms_p99": 6.682,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 229,
+  "method": "guide",
+  "result": "success",
+  "time_s": 23.0,
+  "path_m": 9.9,
+  "min_clearance_m": 0.05,
+  "compute_ms_mean": 0.966,
+  "compute_ms_p99": 3.883,
+  "replans": 0,
+  "statuses": {},
+  "vertical": {}
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 200,
+  "method": "stack",
+  "result": "success",
+  "time_s": 11.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 22.374,
+  "compute_ms_p99": 131.072,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 30,
+   "AVOIDING": 86,
+   "OK": 104
+  },
+  "vertical": {
+   "cruise": 220
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 201,
+  "method": "stack",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 30.02,
+  "compute_ms_p99": 159.005,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 202,
+  "method": "stack",
+  "result": "success",
+  "time_s": 18.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.278,
+  "compute_ms_p99": 123.625,
+  "replans": 0,
+  "statuses": {
+   "OK": 210,
+   "SLOWED": 113,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 278,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 203,
+  "method": "stack",
+  "result": "success",
+  "time_s": 53.5,
+  "path_m": 10.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 26.55,
+  "compute_ms_p99": 115.026,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 447,
+   "SLOWED": 288,
+   "OK": 324,
+   "BLOCKED": 2,
+   "AVOIDING+SQUEEZE": 9,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 965,
+   "climb": 45,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 204,
+  "method": "stack",
+  "result": "collision: low box",
+  "time_s": 12.7,
+  "path_m": 8.9,
+  "min_clearance_m": 0.3,
+  "compute_ms_mean": 24.312,
+  "compute_ms_p99": 91.813,
+  "replans": 1,
+  "statuses": {
+   "OK": 64,
+   "SLOWED": 49,
+   "AVOIDING": 121,
+   "BLOCKED": 20
+  },
+  "vertical": {
+   "cruise": 155,
+   "climb": 99
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 205,
+  "method": "stack",
+  "result": "success",
+  "time_s": 12.3,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 23.574,
+  "compute_ms_p99": 96.39,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 76,
+   "AVOIDING": 89
+  },
+  "vertical": {
+   "cruise": 245
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 206,
+  "method": "stack",
+  "result": "success",
+  "time_s": 9.7,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 36.425,
+  "compute_ms_p99": 141.773,
+  "replans": 0,
+  "statuses": {
+   "OK": 74,
+   "SLOWED": 56,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 106,
+   "climb": 87
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 207,
+  "method": "stack",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 35.526,
+  "compute_ms_p99": 132.033,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 190,
+   "SLOWED": 107,
+   "OK": 78
+  },
+  "vertical": {
+   "cruise": 286,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 208,
+  "method": "stack",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 27.534,
+  "compute_ms_p99": 124.995,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 209,
+  "method": "stack",
+  "result": "success",
+  "time_s": 16.4,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.702,
+  "compute_ms_p99": 86.221,
+  "replans": 0,
+  "statuses": {
+   "OK": 183,
+   "SLOWED": 87,
+   "AVOIDING": 57
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 93
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 210,
+  "method": "stack",
+  "result": "success",
+  "time_s": 14.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 25.419,
+  "compute_ms_p99": 104.188,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 135,
+   "SLOWED": 46
+  },
+  "vertical": {
+   "cruise": 118,
+   "climb": 166
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 211,
+  "method": "stack",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 24.153,
+  "compute_ms_p99": 91.645,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 114,
+   "AVOIDING": 172
+  },
+  "vertical": {
+   "cruise": 280,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 212,
+  "method": "stack",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 28.018,
+  "compute_ms_p99": 100.322,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 108,
+   "OK": 82
+  },
+  "vertical": {
+   "cruise": 209,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 213,
+  "method": "stack",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 46.02,
+  "compute_ms_p99": 97.852,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 214,
+  "method": "stack",
+  "result": "success",
+  "time_s": 32.1,
+  "path_m": 9.3,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 22.825,
+  "compute_ms_p99": 83.362,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 242,
+   "AVOIDING": 212,
+   "OK": 187,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 419,
+   "duck": 165,
+   "climb": 58
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 215,
+  "method": "stack",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.204,
+  "compute_ms_p99": 77.42,
+  "replans": 0,
+  "statuses": {
+   "OK": 149,
+   "SLOWED": 112,
+   "AVOIDING": 170
+  },
+  "vertical": {
+   "cruise": 325,
+   "climb": 106
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 216,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 26.984,
+  "compute_ms_p99": 81.03,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 91,
+   "OK": 37
+  },
+  "vertical": {
+   "cruise": 262,
+   "duck": 37
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 217,
+  "method": "stack",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 21.559,
+  "compute_ms_p99": 79.179,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 218,
+  "method": "stack",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 18.107,
+  "compute_ms_p99": 79.193,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 219,
+  "method": "stack",
+  "result": "collision: low box",
+  "time_s": 27.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 21.222,
+  "compute_ms_p99": 97.327,
+  "replans": 1,
+  "statuses": {
+   "OK": 154,
+   "SLOWED": 178,
+   "AVOIDING": 219,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 323,
+   "climb": 172,
+   "duck": 57
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 220,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.7,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.732,
+  "compute_ms_p99": 47.196,
+  "replans": 0,
+  "statuses": {
+   "OK": 68,
+   "SLOWED": 94,
+   "AVOIDING": 152
+  },
+  "vertical": {
+   "cruise": 276,
+   "climb": 38
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 221,
+  "method": "stack",
+  "result": "success",
+  "time_s": 18.0,
+  "path_m": 10.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 18.066,
+  "compute_ms_p99": 75.995,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 180,
+   "SLOWED": 74,
+   "OK": 105
+  },
+  "vertical": {
+   "cruise": 359
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 222,
+  "method": "stack",
+  "result": "success",
+  "time_s": 13.2,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 24.247,
+  "compute_ms_p99": 102.092,
+  "replans": 0,
+  "statuses": {
+   "OK": 86,
+   "SLOWED": 144,
+   "AVOIDING": 34
+  },
+  "vertical": {
+   "climb": 99,
+   "cruise": 165
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 223,
+  "method": "stack",
+  "result": "success",
+  "time_s": 13.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 21.847,
+  "compute_ms_p99": 100.826,
+  "replans": 1,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 68,
+   "AVOIDING": 90,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 269
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 224,
+  "method": "stack",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.493,
+  "compute_ms_p99": 56.789,
+  "replans": 0,
+  "statuses": {
+   "OK": 125,
+   "SLOWED": 75,
+   "AVOIDING": 121
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 225,
+  "method": "stack",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 23.082,
+  "compute_ms_p99": 55.177,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "AVOIDING": 146,
+   "SLOWED": 116
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 226,
+  "method": "stack",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 7.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 23.094,
+  "compute_ms_p99": 62.857,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "SLOWED": 99,
+   "AVOIDING": 96
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 227,
+  "method": "stack",
+  "result": "success",
+  "time_s": 22.5,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.166,
+  "compute_ms_p99": 48.933,
+  "replans": 0,
+  "statuses": {
+   "OK": 156,
+   "SLOWED": 140,
+   "AVOIDING": 154
+  },
+  "vertical": {
+   "cruise": 379,
+   "climb": 71
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 228,
+  "method": "stack",
+  "result": "collision: person",
+  "time_s": 18.8,
+  "path_m": 9.8,
+  "min_clearance_m": 0.006,
+  "compute_ms_mean": 26.786,
+  "compute_ms_p99": 114.112,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 59,
+   "AVOIDING": 138,
+   "OK": 31,
+   "BLOCKED": 52,
+   "EMERGENCY": 95,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 278,
+   "duck": 98
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 229,
+  "method": "stack",
+  "result": "timeout",
+  "time_s": 55.9,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.966,
+  "compute_ms_p99": 58.823,
+  "replans": 4,
+  "statuses": {
+   "OK": 245,
+   "SLOWED": 384,
+   "AVOIDING": 475,
+   "BLOCKED": 5,
+   "EMERGENCY": 9
+  },
+  "vertical": {
+   "cruise": 720,
+   "duck": 314,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 200,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 11.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.845,
+  "compute_ms_p99": 46.422,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 30,
+   "AVOIDING": 86,
+   "OK": 104
+  },
+  "vertical": {
+   "cruise": 220
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 201,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.432,
+  "compute_ms_p99": 46.436,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 202,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.3,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.35,
+  "compute_ms_p99": 43.762,
+  "replans": 0,
+  "statuses": {
+   "OK": 217,
+   "SLOWED": 104,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 306,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 203,
+  "method": "stack_nomem",
+  "result": "timeout",
+  "time_s": 58.5,
+  "path_m": 10.7,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 20.742,
+  "compute_ms_p99": 67.201,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 596,
+   "SLOWED": 336,
+   "OK": 237,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 1164,
+   "climb": 6
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 204,
+  "method": "stack_nomem",
+  "result": "collision: person",
+  "time_s": 35.5,
+  "path_m": 8.9,
+  "min_clearance_m": -0.2,
+  "compute_ms_mean": 21.861,
+  "compute_ms_p99": 89.135,
+  "replans": 1,
+  "statuses": {
+   "OK": 218,
+   "SLOWED": 231,
+   "AVOIDING": 181,
+   "BLOCKED": 42,
+   "EMERGENCY": 37
+  },
+  "vertical": {
+   "cruise": 685,
+   "climb": 24
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 205,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 12.3,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.181,
+  "compute_ms_p99": 47.037,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 76,
+   "AVOIDING": 89
+  },
+  "vertical": {
+   "cruise": 245
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 206,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 9.8,
+  "path_m": 5.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.28,
+  "compute_ms_p99": 50.387,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 63,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "cruise": 143,
+   "climb": 52
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 207,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.299,
+  "compute_ms_p99": 54.755,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 180,
+   "SLOWED": 119,
+   "OK": 77
+  },
+  "vertical": {
+   "cruise": 316,
+   "climb": 60
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 208,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.873,
+  "compute_ms_p99": 62.436,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 209,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 16.5,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.926,
+  "compute_ms_p99": 48.481,
+  "replans": 0,
+  "statuses": {
+   "OK": 184,
+   "SLOWED": 90,
+   "AVOIDING": 56
+  },
+  "vertical": {
+   "cruise": 262,
+   "climb": 68
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 210,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 5.6,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.304,
+  "compute_ms_p99": 42.416,
+  "replans": 0,
+  "statuses": {
+   "OK": 27,
+   "AVOIDING": 61,
+   "SLOWED": 25
+  },
+  "vertical": {
+   "cruise": 48,
+   "climb": 65
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 211,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.7,
+  "path_m": 9.9,
+  "min_clearance_m": 0.0,
+  "compute_ms_mean": 28.055,
+  "compute_ms_p99": 185.691,
+  "replans": 0,
+  "statuses": {
+   "OK": 62,
+   "SLOWED": 113,
+   "AVOIDING": 144,
+   "EMERGENCY": 16,
+   "BLOCKED": 37,
+   "AVOIDING+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 338,
+   "duck": 35
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 212,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 12.7,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 17.624,
+  "compute_ms_p99": 57.41,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 107,
+   "OK": 68
+  },
+  "vertical": {
+   "cruise": 242,
+   "climb": 11
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 213,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 28.894,
+  "compute_ms_p99": 74.392,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 214,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 32.5,
+  "path_m": 9.3,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 21.606,
+  "compute_ms_p99": 71.215,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 245,
+   "AVOIDING": 219,
+   "OK": 185,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 558,
+   "duck": 76,
+   "climb": 16
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 215,
+  "method": "stack_nomem",
+  "result": "collision: low box",
+  "time_s": 5.2,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 9.203,
+  "compute_ms_p99": 35.438,
+  "replans": 0,
+  "statuses": {
+   "OK": 63,
+   "SLOWED": 1,
+   "AVOIDING": 40
+  },
+  "vertical": {
+   "cruise": 35,
+   "climb": 69
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 216,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 14.9,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 27.559,
+  "compute_ms_p99": 72.018,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 172,
+   "SLOWED": 87,
+   "OK": 38
+  },
+  "vertical": {
+   "cruise": 289,
+   "duck": 8
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 217,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 22.945,
+  "compute_ms_p99": 72.658,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 218,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 18.012,
+  "compute_ms_p99": 66.461,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 219,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.1,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 23.491,
+  "compute_ms_p99": 70.433,
+  "replans": 0,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 155,
+   "AVOIDING": 97
+  },
+  "vertical": {
+   "cruise": 301,
+   "climb": 61
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 220,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 16.2,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.53,
+  "compute_ms_p99": 53.206,
+  "replans": 0,
+  "statuses": {
+   "OK": 57,
+   "SLOWED": 92,
+   "AVOIDING": 174
+  },
+  "vertical": {
+   "cruise": 323
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 221,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 18.0,
+  "path_m": 10.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.857,
+  "compute_ms_p99": 62.924,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 180,
+   "SLOWED": 74,
+   "OK": 105
+  },
+  "vertical": {
+   "cruise": 359
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 222,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 4.6,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 17.702,
+  "compute_ms_p99": 43.997,
+  "replans": 0,
+  "statuses": {
+   "OK": 43,
+   "SLOWED": 50
+  },
+  "vertical": {
+   "climb": 69,
+   "cruise": 24
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 223,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 13.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 26.648,
+  "compute_ms_p99": 106.556,
+  "replans": 1,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 68,
+   "AVOIDING": 90,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 269
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 224,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.25,
+  "compute_ms_p99": 93.968,
+  "replans": 0,
+  "statuses": {
+   "OK": 125,
+   "SLOWED": 75,
+   "AVOIDING": 121
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 225,
+  "method": "stack_nomem",
+  "result": "collision: pillar",
+  "time_s": 16.0,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 26.28,
+  "compute_ms_p99": 94.525,
+  "replans": 0,
+  "statuses": {
+   "OK": 71,
+   "AVOIDING": 148,
+   "SLOWED": 101
+  },
+  "vertical": {
+   "cruise": 258,
+   "climb": 62
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 226,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 7.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 25.385,
+  "compute_ms_p99": 90.924,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "SLOWED": 99,
+   "AVOIDING": 96
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 227,
+  "method": "stack_nomem",
+  "result": "success",
+  "time_s": 22.4,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.513,
+  "compute_ms_p99": 72.181,
+  "replans": 0,
+  "statuses": {
+   "OK": 170,
+   "SLOWED": 135,
+   "AVOIDING": 143
+  },
+  "vertical": {
+   "cruise": 405,
+   "climb": 43
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 228,
+  "method": "stack_nomem",
+  "result": "collision: low box",
+  "time_s": 21.7,
+  "path_m": 9.8,
+  "min_clearance_m": 0.071,
+  "compute_ms_mean": 27.331,
+  "compute_ms_p99": 122.103,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 88,
+   "AVOIDING": 171,
+   "OK": 89,
+   "EMERGENCY": 31,
+   "BLOCKED": 53,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 364,
+   "duck": 27,
+   "climb": 42
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 229,
+  "method": "stack_nomem",
+  "result": "timeout",
+  "time_s": 55.9,
+  "path_m": 9.9,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 23.119,
+  "compute_ms_p99": 77.97,
+  "replans": 1,
+  "statuses": {
+   "OK": 270,
+   "SLOWED": 459,
+   "AVOIDING": 385,
+   "BLOCKED": 3,
+   "SLOWED+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 1014,
+   "duck": 45,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 200,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 13.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 12.584,
+  "compute_ms_p99": 46.006,
+  "replans": 0,
+  "statuses": {
+   "OK": 156,
+   "SLOWED": 26,
+   "AVOIDING": 77
+  },
+  "vertical": {
+   "climb": 160,
+   "cruise": 99
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 201,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 11.6,
+  "path_m": 7.1,
+  "min_clearance_m": 0.3,
+  "compute_ms_mean": 14.587,
+  "compute_ms_p99": 44.768,
+  "replans": 0,
+  "statuses": {
+   "OK": 126,
+   "AVOIDING": 32,
+   "SLOWED": 74
+  },
+  "vertical": {
+   "climb": 188,
+   "cruise": 44
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 202,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 22.7,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.7,
+  "compute_ms_p99": 47.728,
+  "replans": 0,
+  "statuses": {
+   "OK": 292,
+   "AVOIDING": 57,
+   "SLOWED": 104
+  },
+  "vertical": {
+   "climb": 364,
+   "cruise": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 203,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 27.8,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 21.802,
+  "compute_ms_p99": 70.17,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 287,
+   "SLOWED": 75,
+   "OK": 194
+  },
+  "vertical": {
+   "cruise": 138,
+   "climb": 161,
+   "conflict": 257
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 204,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 19.6,
+  "path_m": 8.9,
+  "min_clearance_m": 0.3,
+  "compute_ms_mean": 18.798,
+  "compute_ms_p99": 82.88,
+  "replans": 0,
+  "statuses": {
+   "OK": 115,
+   "SLOWED": 74,
+   "AVOIDING": 203
+  },
+  "vertical": {
+   "cruise": 65,
+   "climb": 169,
+   "conflict": 158
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 205,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.2,
+  "path_m": 8.1,
+  "min_clearance_m": 0.196,
+  "compute_ms_mean": 17.157,
+  "compute_ms_p99": 81.254,
+  "replans": 0,
+  "statuses": {
+   "OK": 105,
+   "SLOWED": 78,
+   "AVOIDING": 176,
+   "EMERGENCY": 4
+  },
+  "vertical": {
+   "cruise": 142,
+   "climb": 27,
+   "conflict": 194
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 206,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 10.1,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 25.669,
+  "compute_ms_p99": 89.119,
+  "replans": 0,
+  "statuses": {
+   "OK": 73,
+   "SLOWED": 58,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "conflict": 94,
+   "climb": 108
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 207,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 21.2,
+  "path_m": 11.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.949,
+  "compute_ms_p99": 54.351,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 183,
+   "SLOWED": 93,
+   "OK": 148
+  },
+  "vertical": {
+   "cruise": 90,
+   "climb": 204,
+   "conflict": 130
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 208,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.59,
+  "compute_ms_p99": 45.215,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 112,
+   "SLOWED": 86,
+   "OK": 102
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 132,
+   "conflict": 92
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 209,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.3,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.956,
+  "compute_ms_p99": 53.025,
+  "replans": 0,
+  "statuses": {
+   "OK": 229,
+   "SLOWED": 76,
+   "AVOIDING": 60
+  },
+  "vertical": {
+   "cruise": 63,
+   "climb": 245,
+   "conflict": 57
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 210,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.3,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.537,
+  "compute_ms_p99": 56.031,
+  "replans": 0,
+  "statuses": {
+   "OK": 138,
+   "SLOWED": 46,
+   "AVOIDING": 121
+  },
+  "vertical": {
+   "cruise": 20,
+   "climb": 176,
+   "conflict": 109
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 211,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.8,
+  "path_m": 9.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.119,
+  "compute_ms_p99": 56.357,
+  "replans": 0,
+  "statuses": {
+   "OK": 59,
+   "SLOWED": 109,
+   "AVOIDING": 147
+  },
+  "vertical": {
+   "climb": 15,
+   "conflict": 246,
+   "cruise": 54
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 212,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 14.1,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.381,
+  "compute_ms_p99": 69.836,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 82,
+   "AVOIDING": 92,
+   "OK": 108
+  },
+  "vertical": {
+   "cruise": 46,
+   "climb": 236
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 213,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 23.2,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 25.363,
+  "compute_ms_p99": 95.375,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 224,
+   "SLOWED": 169,
+   "OK": 71
+  },
+  "vertical": {
+   "cruise": 46,
+   "climb": 157,
+   "conflict": 261
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 214,
+  "method": "stack_nowall",
+  "result": "timeout",
+  "time_s": 54.1,
+  "path_m": 9.3,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 13.351,
+  "compute_ms_p99": 58.38,
+  "replans": 0,
+  "statuses": {
+   "OK": 45,
+   "SLOWED": 87,
+   "AVOIDING": 179,
+   "BLOCKED": 486,
+   "AVOIDING+SQUEEZE": 102,
+   "STUCK": 182,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "climb": 74,
+   "conflict": 1008
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 215,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 22.0,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 23.399,
+  "compute_ms_p99": 87.069,
+  "replans": 0,
+  "statuses": {
+   "OK": 150,
+   "SLOWED": 105,
+   "AVOIDING": 184
+  },
+  "vertical": {
+   "cruise": 9,
+   "climb": 357,
+   "conflict": 73
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 216,
+  "method": "stack_nowall",
+  "result": "timeout",
+  "time_s": 53.1,
+  "path_m": 9.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 21.366,
+  "compute_ms_p99": 89.836,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 356,
+   "SLOWED": 275,
+   "OK": 431,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 292,
+   "climb": 423,
+   "conflict": 289,
+   "duck": 59
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 217,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 18.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.399,
+  "compute_ms_p99": 92.434,
+  "replans": 0,
+  "statuses": {
+   "OK": 185,
+   "SLOWED": 98,
+   "AVOIDING": 86
+  },
+  "vertical": {
+   "cruise": 51,
+   "climb": 275,
+   "conflict": 43
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 218,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 11.3,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 17.533,
+  "compute_ms_p99": 76.222,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 46,
+   "SLOWED": 51,
+   "OK": 128
+  },
+  "vertical": {
+   "cruise": 127,
+   "climb": 98
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 219,
+  "method": "stack_nowall",
+  "result": "timeout",
+  "time_s": 59.5,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 22.447,
+  "compute_ms_p99": 69.847,
+  "replans": 3,
+  "statuses": {
+   "OK": 199,
+   "SLOWED": 338,
+   "AVOIDING": 644,
+   "BLOCKED": 1,
+   "EMERGENCY": 9
+  },
+  "vertical": {
+   "cruise": 22,
+   "climb": 343,
+   "conflict": 826
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 220,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 19.0,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.241,
+  "compute_ms_p99": 53.434,
+  "replans": 0,
+  "statuses": {
+   "OK": 72,
+   "SLOWED": 92,
+   "AVOIDING": 215
+  },
+  "vertical": {
+   "cruise": 25,
+   "conflict": 336,
+   "climb": 18
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 221,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 26.9,
+  "path_m": 10.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.968,
+  "compute_ms_p99": 64.892,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 262,
+   "SLOWED": 123,
+   "OK": 147,
+   "BLOCKED": 6
+  },
+  "vertical": {
+   "cruise": 74,
+   "climb": 218,
+   "conflict": 246
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 222,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 13.6,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 22.636,
+  "compute_ms_p99": 59.614,
+  "replans": 0,
+  "statuses": {
+   "OK": 93,
+   "SLOWED": 143,
+   "AVOIDING": 35
+  },
+  "vertical": {
+   "climb": 271
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 223,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 21.8,
+  "path_m": 7.1,
+  "min_clearance_m": 0.066,
+  "compute_ms_mean": 18.807,
+  "compute_ms_p99": 53.393,
+  "replans": 1,
+  "statuses": {
+   "OK": 94,
+   "SLOWED": 72,
+   "AVOIDING": 114,
+   "BLOCKED": 39,
+   "EMERGENCY": 21,
+   "AVOIDING+SQUEEZE": 96
+  },
+  "vertical": {
+   "climb": 6,
+   "conflict": 358,
+   "cruise": 72
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 224,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 19.6,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.621,
+  "compute_ms_p99": 42.285,
+  "replans": 0,
+  "statuses": {
+   "OK": 175,
+   "SLOWED": 87,
+   "AVOIDING": 129
+  },
+  "vertical": {
+   "cruise": 41,
+   "climb": 197,
+   "conflict": 153
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 225,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 17.0,
+  "path_m": 9.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.237,
+  "compute_ms_p99": 46.647,
+  "replans": 0,
+  "statuses": {
+   "OK": 107,
+   "SLOWED": 91,
+   "AVOIDING": 142
+  },
+  "vertical": {
+   "conflict": 155,
+   "climb": 185
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 226,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 7.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.952,
+  "compute_ms_p99": 51.494,
+  "replans": 1,
+  "statuses": {
+   "OK": 103,
+   "SLOWED": 108,
+   "AVOIDING": 106
+  },
+  "vertical": {
+   "cruise": 140,
+   "climb": 52,
+   "conflict": 125
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 227,
+  "method": "stack_nowall",
+  "result": "success",
+  "time_s": 24.6,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.889,
+  "compute_ms_p99": 52.748,
+  "replans": 0,
+  "statuses": {
+   "OK": 220,
+   "SLOWED": 141,
+   "AVOIDING": 130
+  },
+  "vertical": {
+   "cruise": 3,
+   "climb": 387,
+   "conflict": 101
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 228,
+  "method": "stack_nowall",
+  "result": "collision: person",
+  "time_s": 7.3,
+  "path_m": 9.8,
+  "min_clearance_m": 0.115,
+  "compute_ms_mean": 33.884,
+  "compute_ms_p99": 162.257,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 25,
+   "AVOIDING": 60,
+   "OK": 36,
+   "BLOCKED": 13,
+   "EMERGENCY": 12
+  },
+  "vertical": {
+   "cruise": 69,
+   "climb": 71,
+   "conflict": 6
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 229,
+  "method": "stack_nowall",
+  "result": "collision: person",
+  "time_s": 41.5,
+  "path_m": 9.9,
+  "min_clearance_m": 0.001,
+  "compute_ms_mean": 19.127,
+  "compute_ms_p99": 55.383,
+  "replans": 2,
+  "statuses": {
+   "OK": 195,
+   "SLOWED": 193,
+   "AVOIDING": 299,
+   "BLOCKED": 129,
+   "AVOIDING+SQUEEZE": 2,
+   "EMERGENCY": 13
+  },
+  "vertical": {
+   "climb": 504,
+   "conflict": 302,
+   "cruise": 25
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 200,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 11.0,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.443,
+  "compute_ms_p99": 47.333,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 30,
+   "AVOIDING": 86,
+   "OK": 104
+  },
+  "vertical": {
+   "cruise": 220
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 201,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.237,
+  "compute_ms_p99": 65.376,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 202,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 18.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.397,
+  "compute_ms_p99": 42.493,
+  "replans": 0,
+  "statuses": {
+   "OK": 210,
+   "SLOWED": 113,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 278,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 203,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 53.5,
+  "path_m": 10.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 18.517,
+  "compute_ms_p99": 57.768,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 447,
+   "SLOWED": 288,
+   "OK": 324,
+   "BLOCKED": 2,
+   "AVOIDING+SQUEEZE": 9,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 965,
+   "climb": 45,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 204,
+  "method": "stack_noinband",
+  "result": "collision: low box",
+  "time_s": 12.7,
+  "path_m": 8.9,
+  "min_clearance_m": 0.3,
+  "compute_ms_mean": 14.96,
+  "compute_ms_p99": 43.653,
+  "replans": 1,
+  "statuses": {
+   "OK": 64,
+   "SLOWED": 49,
+   "AVOIDING": 121,
+   "BLOCKED": 20
+  },
+  "vertical": {
+   "cruise": 155,
+   "climb": 99
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 205,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 12.3,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.547,
+  "compute_ms_p99": 48.981,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 76,
+   "AVOIDING": 89
+  },
+  "vertical": {
+   "cruise": 245
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 206,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 9.7,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.167,
+  "compute_ms_p99": 48.661,
+  "replans": 0,
+  "statuses": {
+   "OK": 74,
+   "SLOWED": 56,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 106,
+   "climb": 87
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 207,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.685,
+  "compute_ms_p99": 55.256,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 190,
+   "SLOWED": 107,
+   "OK": 78
+  },
+  "vertical": {
+   "cruise": 286,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 208,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.728,
+  "compute_ms_p99": 47.332,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 209,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 16.4,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.001,
+  "compute_ms_p99": 46.053,
+  "replans": 0,
+  "statuses": {
+   "OK": 183,
+   "SLOWED": 87,
+   "AVOIDING": 57
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 93
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 210,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 14.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.256,
+  "compute_ms_p99": 51.13,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 135,
+   "SLOWED": 46
+  },
+  "vertical": {
+   "cruise": 118,
+   "climb": 166
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 211,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 16.221,
+  "compute_ms_p99": 53.958,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 114,
+   "AVOIDING": 172
+  },
+  "vertical": {
+   "cruise": 280,
+   "duck": 61
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 212,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.344,
+  "compute_ms_p99": 41.127,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 108,
+   "OK": 82
+  },
+  "vertical": {
+   "cruise": 209,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 213,
+  "method": "stack_noinband",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 21.307,
+  "compute_ms_p99": 39.709,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 214,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 32.1,
+  "path_m": 9.3,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.42,
+  "compute_ms_p99": 52.371,
+  "replans": 1,
+  "statuses": {
+   "SLOWED": 242,
+   "AVOIDING": 212,
+   "OK": 187,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 419,
+   "duck": 165,
+   "climb": 58
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 215,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.835,
+  "compute_ms_p99": 48.735,
+  "replans": 0,
+  "statuses": {
+   "OK": 149,
+   "SLOWED": 112,
+   "AVOIDING": 170
+  },
+  "vertical": {
+   "cruise": 325,
+   "climb": 106
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 216,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.0,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 22.686,
+  "compute_ms_p99": 61.919,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 91,
+   "OK": 37
+  },
+  "vertical": {
+   "cruise": 262,
+   "duck": 37
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 217,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 18.395,
+  "compute_ms_p99": 49.974,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 218,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 15.262,
+  "compute_ms_p99": 55.971,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 219,
+  "method": "stack_noinband",
+  "result": "collision: low box",
+  "time_s": 27.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 17.958,
+  "compute_ms_p99": 56.173,
+  "replans": 1,
+  "statuses": {
+   "OK": 154,
+   "SLOWED": 178,
+   "AVOIDING": 219,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 323,
+   "climb": 172,
+   "duck": 57
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 220,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.7,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.701,
+  "compute_ms_p99": 47.723,
+  "replans": 0,
+  "statuses": {
+   "OK": 68,
+   "SLOWED": 94,
+   "AVOIDING": 152
+  },
+  "vertical": {
+   "cruise": 276,
+   "climb": 38
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 221,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 18.0,
+  "path_m": 10.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.786,
+  "compute_ms_p99": 47.68,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 180,
+   "SLOWED": 74,
+   "OK": 105
+  },
+  "vertical": {
+   "cruise": 359
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 222,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 13.2,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 21.801,
+  "compute_ms_p99": 51.055,
+  "replans": 0,
+  "statuses": {
+   "OK": 86,
+   "SLOWED": 144,
+   "AVOIDING": 34
+  },
+  "vertical": {
+   "climb": 99,
+   "cruise": 165
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 223,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 13.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.066,
+  "compute_ms_p99": 49.181,
+  "replans": 1,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 68,
+   "AVOIDING": 90,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 269
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 224,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.622,
+  "compute_ms_p99": 49.782,
+  "replans": 0,
+  "statuses": {
+   "OK": 125,
+   "SLOWED": 75,
+   "AVOIDING": 121
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 225,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 22.462,
+  "compute_ms_p99": 59.433,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "AVOIDING": 146,
+   "SLOWED": 116
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 226,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 7.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 20.788,
+  "compute_ms_p99": 59.569,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "SLOWED": 99,
+   "AVOIDING": 96
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 227,
+  "method": "stack_noinband",
+  "result": "success",
+  "time_s": 22.5,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 16.011,
+  "compute_ms_p99": 48.146,
+  "replans": 0,
+  "statuses": {
+   "OK": 156,
+   "SLOWED": 140,
+   "AVOIDING": 154
+  },
+  "vertical": {
+   "cruise": 379,
+   "climb": 71
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 228,
+  "method": "stack_noinband",
+  "result": "collision: person",
+  "time_s": 18.8,
+  "path_m": 9.8,
+  "min_clearance_m": 0.006,
+  "compute_ms_mean": 24.838,
+  "compute_ms_p99": 104.554,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 59,
+   "AVOIDING": 138,
+   "OK": 31,
+   "BLOCKED": 52,
+   "EMERGENCY": 95,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 278,
+   "duck": 98
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 229,
+  "method": "stack_noinband",
+  "result": "timeout",
+  "time_s": 55.9,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 19.001,
+  "compute_ms_p99": 51.894,
+  "replans": 4,
+  "statuses": {
+   "OK": 245,
+   "SLOWED": 384,
+   "AVOIDING": 475,
+   "BLOCKED": 5,
+   "EMERGENCY": 9
+  },
+  "vertical": {
+   "cruise": 720,
+   "duck": 314,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 200,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 12.1,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 11.784,
+  "compute_ms_p99": 37.253,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 26,
+   "AVOIDING": 100,
+   "OK": 115
+  },
+  "vertical": {
+   "cruise": 157,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 201,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 9.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.544,
+  "compute_ms_p99": 33.459,
+  "replans": 0,
+  "statuses": {
+   "OK": 79,
+   "SLOWED": 84,
+   "AVOIDING": 27
+  },
+  "vertical": {
+   "cruise": 190
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 202,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 18.4,
+  "path_m": 12.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 14.015,
+  "compute_ms_p99": 45.387,
+  "replans": 0,
+  "statuses": {
+   "OK": 210,
+   "SLOWED": 113,
+   "AVOIDING": 44
+  },
+  "vertical": {
+   "cruise": 278,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 203,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 54.0,
+  "path_m": 10.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 17.51,
+  "compute_ms_p99": 49.033,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 450,
+   "SLOWED": 285,
+   "OK": 333,
+   "BLOCKED": 2,
+   "AVOIDING+SQUEEZE": 9,
+   "OK+SQUEEZE": 1,
+   "EMERGENCY": 1
+  },
+  "vertical": {
+   "cruise": 889,
+   "climb": 92,
+   "duck": 100
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 204,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 20.9,
+  "path_m": 8.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.08,
+  "compute_ms_p99": 51.949,
+  "replans": 0,
+  "statuses": {
+   "OK": 132,
+   "SLOWED": 93,
+   "AVOIDING": 192
+  },
+  "vertical": {
+   "cruise": 200,
+   "climb": 217
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 205,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 12.3,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.629,
+  "compute_ms_p99": 45.398,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 76,
+   "AVOIDING": 89
+  },
+  "vertical": {
+   "cruise": 245
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 206,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 9.7,
+  "path_m": 5.6,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.112,
+  "compute_ms_p99": 52.657,
+  "replans": 0,
+  "statuses": {
+   "OK": 74,
+   "SLOWED": 56,
+   "AVOIDING": 63
+  },
+  "vertical": {
+   "cruise": 104,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 207,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 18.8,
+  "path_m": 11.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 18.338,
+  "compute_ms_p99": 49.102,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 190,
+   "SLOWED": 107,
+   "OK": 78
+  },
+  "vertical": {
+   "cruise": 286,
+   "climb": 89
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 208,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 12.6,
+  "path_m": 8.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.964,
+  "compute_ms_p99": 44.089,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 94,
+   "SLOWED": 92,
+   "OK": 65
+  },
+  "vertical": {
+   "cruise": 251
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 209,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 16.4,
+  "path_m": 10.7,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.819,
+  "compute_ms_p99": 37.895,
+  "replans": 0,
+  "statuses": {
+   "OK": 183,
+   "SLOWED": 87,
+   "AVOIDING": 57
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 93
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 210,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 14.2,
+  "path_m": 8.4,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.708,
+  "compute_ms_p99": 48.548,
+  "replans": 0,
+  "statuses": {
+   "OK": 103,
+   "AVOIDING": 135,
+   "SLOWED": 46
+  },
+  "vertical": {
+   "cruise": 118,
+   "climb": 166
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 211,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.149,
+  "compute_ms_p99": 48.709,
+  "replans": 0,
+  "statuses": {
+   "OK": 55,
+   "SLOWED": 114,
+   "AVOIDING": 172
+  },
+  "vertical": {
+   "cruise": 219,
+   "duck": 61,
+   "climb": 61
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 212,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.4,
+  "path_m": 7.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 15.482,
+  "compute_ms_p99": 47.446,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 78,
+   "AVOIDING": 108,
+   "OK": 82
+  },
+  "vertical": {
+   "cruise": 209,
+   "climb": 59
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 213,
+  "method": "stack_nomap",
+  "result": "collision: pillar",
+  "time_s": 4.4,
+  "path_m": 13.0,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 23.749,
+  "compute_ms_p99": 52.911,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 26
+  },
+  "vertical": {
+   "cruise": 76,
+   "climb": 12
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 214,
+  "method": "stack_nomap",
+  "result": "collision: person",
+  "time_s": 13.9,
+  "path_m": 9.3,
+  "min_clearance_m": 0.029,
+  "compute_ms_mean": 18.462,
+  "compute_ms_p99": 51.611,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 103,
+   "AVOIDING": 129,
+   "OK": 38,
+   "BLOCKED": 5,
+   "EMERGENCY": 3
+  },
+  "vertical": {
+   "cruise": 164,
+   "climb": 114
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 215,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 21.6,
+  "path_m": 12.8,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 19.037,
+  "compute_ms_p99": 53.037,
+  "replans": 0,
+  "statuses": {
+   "OK": 149,
+   "SLOWED": 112,
+   "AVOIDING": 170
+  },
+  "vertical": {
+   "cruise": 325,
+   "climb": 106
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 216,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 15.8,
+  "path_m": 9.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 23.804,
+  "compute_ms_p99": 59.763,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 82,
+   "OK": 62
+  },
+  "vertical": {
+   "cruise": 214,
+   "duck": 101
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 217,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 14.5,
+  "path_m": 10.0,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.083,
+  "compute_ms_p99": 63.461,
+  "replans": 0,
+  "statuses": {
+   "OK": 111,
+   "SLOWED": 108,
+   "AVOIDING": 71
+  },
+  "vertical": {
+   "cruise": 290
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 218,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 9.6,
+  "path_m": 6.7,
+  "min_clearance_m": 0.15,
+  "compute_ms_mean": 17.478,
+  "compute_ms_p99": 48.529,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 45,
+   "SLOWED": 50,
+   "OK": 96
+  },
+  "vertical": {
+   "cruise": 191
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 219,
+  "method": "stack_nomap",
+  "result": "collision: person",
+  "time_s": 42.6,
+  "path_m": 11.1,
+  "min_clearance_m": 0.026,
+  "compute_ms_mean": 18.668,
+  "compute_ms_p99": 55.199,
+  "replans": 1,
+  "statuses": {
+   "OK": 198,
+   "SLOWED": 278,
+   "AVOIDING": 344,
+   "BLOCKED": 28,
+   "EMERGENCY": 4
+  },
+  "vertical": {
+   "cruise": 451,
+   "climb": 346,
+   "duck": 55
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 220,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 15.7,
+  "path_m": 9.3,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 13.572,
+  "compute_ms_p99": 52.617,
+  "replans": 0,
+  "statuses": {
+   "OK": 68,
+   "SLOWED": 94,
+   "AVOIDING": 152
+  },
+  "vertical": {
+   "cruise": 276,
+   "climb": 38
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 221,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 26.8,
+  "path_m": 10.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 20.689,
+  "compute_ms_p99": 64.007,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 311,
+   "SLOWED": 132,
+   "OK": 92
+  },
+  "vertical": {
+   "cruise": 348,
+   "climb": 106,
+   "conflict": 81
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 222,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.3,
+  "path_m": 7.8,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 22.319,
+  "compute_ms_p99": 66.249,
+  "replans": 0,
+  "statuses": {
+   "OK": 80,
+   "SLOWED": 151,
+   "AVOIDING": 34
+  },
+  "vertical": {
+   "climb": 97,
+   "cruise": 168
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 223,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.5,
+  "path_m": 7.1,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 20.195,
+  "compute_ms_p99": 60.544,
+  "replans": 1,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 68,
+   "AVOIDING": 90,
+   "BLOCKED": 1
+  },
+  "vertical": {
+   "cruise": 269
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 224,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 16.1,
+  "path_m": 10.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 15.035,
+  "compute_ms_p99": 68.241,
+  "replans": 0,
+  "statuses": {
+   "OK": 125,
+   "SLOWED": 75,
+   "AVOIDING": 121
+  },
+  "vertical": {
+   "cruise": 321
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 225,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 15.9,
+  "path_m": 9.6,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 25.815,
+  "compute_ms_p99": 66.655,
+  "replans": 0,
+  "statuses": {
+   "OK": 56,
+   "AVOIDING": 146,
+   "SLOWED": 116
+  },
+  "vertical": {
+   "cruise": 234,
+   "climb": 84
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 226,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 13.3,
+  "path_m": 7.1,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 23.122,
+  "compute_ms_p99": 67.399,
+  "replans": 0,
+  "statuses": {
+   "OK": 66,
+   "SLOWED": 106,
+   "AVOIDING": 94
+  },
+  "vertical": {
+   "cruise": 172,
+   "climb": 94
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 227,
+  "method": "stack_nomap",
+  "result": "success",
+  "time_s": 22.4,
+  "path_m": 13.9,
+  "min_clearance_m": 0.25,
+  "compute_ms_mean": 12.628,
+  "compute_ms_p99": 48.571,
+  "replans": 0,
+  "statuses": {
+   "OK": 157,
+   "SLOWED": 145,
+   "AVOIDING": 146
+  },
+  "vertical": {
+   "cruise": 366,
+   "climb": 82
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 228,
+  "method": "stack_nomap",
+  "result": "collision: person",
+  "time_s": 18.8,
+  "path_m": 9.8,
+  "min_clearance_m": 0.006,
+  "compute_ms_mean": 14.852,
+  "compute_ms_p99": 48.451,
+  "replans": 0,
+  "statuses": {
+   "SLOWED": 59,
+   "AVOIDING": 138,
+   "OK": 31,
+   "BLOCKED": 52,
+   "EMERGENCY": 95,
+   "OK+SQUEEZE": 1
+  },
+  "vertical": {
+   "cruise": 278,
+   "duck": 98
+  }
+ },
+ {
+  "scenario": "guide_people",
+  "seed": 229,
+  "method": "stack_nomap",
+  "result": "timeout",
+  "time_s": 55.9,
+  "path_m": 9.9,
+  "min_clearance_m": 0.2,
+  "compute_ms_mean": 8.525,
+  "compute_ms_p99": 37.014,
+  "replans": 4,
+  "statuses": {
+   "OK": 198,
+   "SLOWED": 397,
+   "AVOIDING": 509,
+   "BLOCKED": 5,
+   "EMERGENCY": 9
+  },
+  "vertical": {
+   "cruise": 641,
+   "duck": 314,
+   "climb": 163
+  }
+ }
+]

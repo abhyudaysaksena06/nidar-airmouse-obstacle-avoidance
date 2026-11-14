@@ -1,0 +1,5 @@
+{
+  "_note": "Small battery + a fast-drain fault: tests return-to-launch budgeting.",
+  "battery": {"capacity_wh": 18.0},
+  "faults": {"battery_fast_drain": {"count": 1, "factor": 1.6}}
+}

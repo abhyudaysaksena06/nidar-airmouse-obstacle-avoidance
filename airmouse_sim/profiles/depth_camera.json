@@ -1,0 +1,4 @@
+{
+  "_note": "RGB-D camera: detections carry metric depth; drone light removes the dark-room penalty; 3-layer lidar sees low boxes / hanging beams near the scan plane.",
+  "sensors": {"camera_type": "depth", "drone_has_light": true, "lidar_layers_z_m": [-0.15, 0.0, 0.15]}
+}

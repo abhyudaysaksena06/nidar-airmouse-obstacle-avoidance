@@ -1,0 +1,5 @@
+{
+  "_note": "Strong gusts/draughts (open doors, HVAC) and sluggish control: tune vel_pid against this.",
+  "wind": {"gust_std_mps": 0.4, "gust_time_const_s": 1.5, "steady_mps": [0.15, -0.1]},
+  "drone": {"cmd_latency_s": 0.12, "motor_time_const_s": 0.12}
+}

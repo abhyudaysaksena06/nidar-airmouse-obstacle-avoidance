@@ -1,0 +1,485 @@
+[
+ {
+  "seed": 100,
+  "method": "full",
+  "result": "success",
+  "time_s": 13.3,
+  "path_m": 7.6,
+  "min_clearance_m": 0.25,
+  "compute_ms": 17.262,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 139,
+   "SLOWED": 46,
+   "OK": 81
+  }
+ },
+ {
+  "seed": 101,
+  "method": "full",
+  "result": "success",
+  "time_s": 16.0,
+  "path_m": 11.8,
+  "min_clearance_m": 0.3,
+  "compute_ms": 12.248,
+  "replans": 0,
+  "statuses": {
+   "OK": 162,
+   "SLOWED": 18,
+   "AVOIDING": 140
+  }
+ },
+ {
+  "seed": 102,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 45.6,
+  "path_m": 10.2,
+  "min_clearance_m": 0.25,
+  "compute_ms": 5.658,
+  "replans": 0,
+  "statuses": {
+   "OK": 2,
+   "AVOIDING": 26,
+   "BLOCKED": 61,
+   "STUCK": 824
+  }
+ },
+ {
+  "seed": 103,
+  "method": "full",
+  "result": "success",
+  "time_s": 14.0,
+  "path_m": 9.8,
+  "min_clearance_m": 0.15,
+  "compute_ms": 16.657,
+  "replans": 1,
+  "statuses": {
+   "OK": 174,
+   "AVOIDING": 45,
+   "SLOWED": 56,
+   "EMERGENCY": 4
+  }
+ },
+ {
+  "seed": 104,
+  "method": "full",
+  "result": "success",
+  "time_s": 38.3,
+  "path_m": 13.5,
+  "min_clearance_m": 0.2,
+  "compute_ms": 15.339,
+  "replans": 3,
+  "statuses": {
+   "AVOIDING": 335,
+   "SLOWED": 212,
+   "BLOCKED": 59,
+   "AVOIDING+SQUEEZE": 1,
+   "OK": 159
+  }
+ },
+ {
+  "seed": 105,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 39.2,
+  "path_m": 7.7,
+  "min_clearance_m": 0.25,
+  "compute_ms": 9.193,
+  "replans": 2,
+  "statuses": {
+   "OK": 282,
+   "AVOIDING": 479,
+   "SLOWED": 17,
+   "BLOCKED": 6
+  }
+ },
+ {
+  "seed": 106,
+  "method": "full",
+  "result": "success",
+  "time_s": 40.8,
+  "path_m": 13.1,
+  "min_clearance_m": 0.25,
+  "compute_ms": 18.544,
+  "replans": 3,
+  "statuses": {
+   "OK": 302,
+   "SLOWED": 189,
+   "AVOIDING": 311,
+   "BLOCKED": 15
+  }
+ },
+ {
+  "seed": 107,
+  "method": "full",
+  "result": "success",
+  "time_s": 19.1,
+  "path_m": 9.1,
+  "min_clearance_m": 0.3,
+  "compute_ms": 9.321,
+  "replans": 2,
+  "statuses": {
+   "OK": 146,
+   "AVOIDING": 166,
+   "BLOCKED": 53,
+   "SLOWED": 16,
+   "AVOIDING+SQUEEZE": 1
+  }
+ },
+ {
+  "seed": 108,
+  "method": "full",
+  "result": "success",
+  "time_s": 11.3,
+  "path_m": 6.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 33.796,
+  "replans": 1,
+  "statuses": {
+   "OK": 44,
+   "SLOWED": 77,
+   "AVOIDING": 99,
+   "BLOCKED": 2,
+   "EMERGENCY": 4
+  }
+ },
+ {
+  "seed": 109,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 45.4,
+  "path_m": 10.2,
+  "min_clearance_m": 0.2,
+  "compute_ms": 9.607,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 772,
+   "OK": 24,
+   "SLOWED": 113
+  }
+ },
+ {
+  "seed": 110,
+  "method": "full",
+  "result": "success",
+  "time_s": 8.8,
+  "path_m": 7.3,
+  "min_clearance_m": 0.3,
+  "compute_ms": 6.82,
+  "replans": 0,
+  "statuses": {
+   "OK": 152,
+   "AVOIDING": 16,
+   "SLOWED": 9
+  }
+ },
+ {
+  "seed": 111,
+  "method": "full",
+  "result": "success",
+  "time_s": 20.4,
+  "path_m": 12.6,
+  "min_clearance_m": 0.15,
+  "compute_ms": 19.244,
+  "replans": 3,
+  "statuses": {
+   "OK": 178,
+   "AVOIDING": 148,
+   "BLOCKED": 19,
+   "SLOWED": 61,
+   "EMERGENCY": 1
+  }
+ },
+ {
+  "seed": 112,
+  "method": "full",
+  "result": "success",
+  "time_s": 17.9,
+  "path_m": 14.0,
+  "min_clearance_m": 0.25,
+  "compute_ms": 7.538,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 52,
+   "OK": 269,
+   "SLOWED": 36
+  }
+ },
+ {
+  "seed": 113,
+  "method": "full",
+  "result": "success",
+  "time_s": 11.6,
+  "path_m": 8.3,
+  "min_clearance_m": 0.3,
+  "compute_ms": 12.184,
+  "replans": 1,
+  "statuses": {
+   "OK": 113,
+   "AVOIDING": 73,
+   "SLOWED": 35,
+   "BLOCKED": 10
+  }
+ },
+ {
+  "seed": 114,
+  "method": "full",
+  "result": "success",
+  "time_s": 15.4,
+  "path_m": 7.3,
+  "min_clearance_m": 0.1,
+  "compute_ms": 8.866,
+  "replans": 1,
+  "statuses": {
+   "OK": 110,
+   "AVOIDING": 162,
+   "SLOWED": 14,
+   "BLOCKED": 14,
+   "EMERGENCY": 8
+  }
+ },
+ {
+  "seed": 115,
+  "method": "full",
+  "result": "success",
+  "time_s": 17.1,
+  "path_m": 12.3,
+  "min_clearance_m": 0.2,
+  "compute_ms": 9.201,
+  "replans": 1,
+  "statuses": {
+   "OK": 216,
+   "SLOWED": 32,
+   "AVOIDING": 92,
+   "BLOCKED": 2
+  }
+ },
+ {
+  "seed": 116,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 51.1,
+  "path_m": 12.4,
+  "min_clearance_m": 0.3,
+  "compute_ms": 7.959,
+  "replans": 0,
+  "statuses": {
+   "OK": 131,
+   "SLOWED": 11,
+   "AVOIDING": 880
+  }
+ },
+ {
+  "seed": 117,
+  "method": "full",
+  "result": "success",
+  "time_s": 17.2,
+  "path_m": 9.4,
+  "min_clearance_m": 0.15,
+  "compute_ms": 8.344,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 62,
+   "SLOWED": 157,
+   "EMERGENCY": 6,
+   "BLOCKED": 6,
+   "OK": 112
+  }
+ },
+ {
+  "seed": 118,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 36.9,
+  "path_m": 6.7,
+  "min_clearance_m": 0.2,
+  "compute_ms": 9.619,
+  "replans": 0,
+  "statuses": {
+   "AVOIDING": 672,
+   "OK": 5,
+   "SLOWED": 52,
+   "BLOCKED": 6,
+   "EMERGENCY": 2
+  }
+ },
+ {
+  "seed": 119,
+  "method": "full",
+  "result": "collision: obstacle",
+  "time_s": 13.6,
+  "path_m": 9.9,
+  "min_clearance_m": 0.05,
+  "compute_ms": 19.917,
+  "replans": 0,
+  "statuses": {
+   "OK": 105,
+   "AVOIDING": 96,
+   "SLOWED": 3,
+   "BLOCKED": 65,
+   "EMERGENCY": 3
+  }
+ },
+ {
+  "seed": 120,
+  "method": "full",
+  "result": "success",
+  "time_s": 14.6,
+  "path_m": 11.5,
+  "min_clearance_m": 0.3,
+  "compute_ms": 7.516,
+  "replans": 0,
+  "statuses": {
+   "OK": 191,
+   "AVOIDING": 33,
+   "SLOWED": 67
+  }
+ },
+ {
+  "seed": 121,
+  "method": "full",
+  "result": "success",
+  "time_s": 23.3,
+  "path_m": 10.3,
+  "min_clearance_m": 0.05,
+  "compute_ms": 16.072,
+  "replans": 3,
+  "statuses": {
+   "AVOIDING": 143,
+   "OK": 140,
+   "SLOWED": 91,
+   "EMERGENCY": 41,
+   "BLOCKED": 50
+  }
+ },
+ {
+  "seed": 122,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 46.5,
+  "path_m": 10.6,
+  "min_clearance_m": 0.2,
+  "compute_ms": 8.912,
+  "replans": 0,
+  "statuses": {
+   "OK": 110,
+   "SLOWED": 33,
+   "AVOIDING": 749,
+   "EMERGENCY": 38
+  }
+ },
+ {
+  "seed": 123,
+  "method": "full",
+  "result": "success",
+  "time_s": 21.9,
+  "path_m": 9.2,
+  "min_clearance_m": 0.25,
+  "compute_ms": 14.634,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 171,
+   "SLOWED": 40,
+   "BLOCKED": 6,
+   "OK": 220
+  }
+ },
+ {
+  "seed": 124,
+  "method": "full",
+  "result": "success",
+  "time_s": 39.1,
+  "path_m": 8.1,
+  "min_clearance_m": 0.25,
+  "compute_ms": 10.942,
+  "replans": 1,
+  "statuses": {
+   "AVOIDING": 311,
+   "OK": 301,
+   "SLOWED": 163,
+   "BLOCKED": 8
+  }
+ },
+ {
+  "seed": 125,
+  "method": "full",
+  "result": "success",
+  "time_s": 14.7,
+  "path_m": 10.6,
+  "min_clearance_m": 0.3,
+  "compute_ms": 7.94,
+  "replans": 1,
+  "statuses": {
+   "OK": 144,
+   "AVOIDING": 71,
+   "SLOWED": 77,
+   "BLOCKED": 2
+  }
+ },
+ {
+  "seed": 126,
+  "method": "full",
+  "result": "success",
+  "time_s": 21.5,
+  "path_m": 12.4,
+  "min_clearance_m": 0.15,
+  "compute_ms": 9.457,
+  "replans": 0,
+  "statuses": {
+   "OK": 203,
+   "SLOWED": 41,
+   "AVOIDING": 185,
+   "BLOCKED": 1
+  }
+ },
+ {
+  "seed": 127,
+  "method": "full",
+  "result": "success",
+  "time_s": 12.7,
+  "path_m": 9.2,
+  "min_clearance_m": 0.25,
+  "compute_ms": 9.936,
+  "replans": 0,
+  "statuses": {
+   "OK": 118,
+   "SLOWED": 42,
+   "AVOIDING": 93
+  }
+ },
+ {
+  "seed": 128,
+  "method": "full",
+  "result": "success",
+  "time_s": 26.6,
+  "path_m": 10.8,
+  "min_clearance_m": 0.2,
+  "compute_ms": 7.048,
+  "replans": 2,
+  "statuses": {
+   "OK": 221,
+   "AVOIDING": 198,
+   "SLOWED": 108,
+   "BLOCKED": 5
+  }
+ },
+ {
+  "seed": 129,
+  "method": "full",
+  "result": "timeout",
+  "time_s": 49.1,
+  "path_m": 11.6,
+  "min_clearance_m": 0.25,
+  "compute_ms": 3.485,
+  "replans": 2,
+  "statuses": {
+   "AVOIDING": 354,
+   "OK": 221,
+   "SLOWED": 202,
+   "BLOCKED": 194,
+   "AVOIDING+SQUEEZE": 8,
+   "OK+SQUEEZE": 4
+  }
+ }
+]

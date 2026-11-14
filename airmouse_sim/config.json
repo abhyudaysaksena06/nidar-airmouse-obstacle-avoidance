@@ -1,0 +1,147 @@
+{
+  "_note": "Defaults. Profiles in profiles/*.json override these (python run.py --profile hard). Values marked ASSUMED in README must be replaced with rulebook / datasheet numbers.",
+
+  "arena": {
+    "width_m": 20.0,
+    "height_m": 15.0,
+    "cell_m": 2.5,
+    "wall_thickness_m": 0.1,
+    "wall_height_m": 2.5,
+    "outside_margin_m": 3.0,
+    "entry_side": "random",
+    "entry_width_m": 1.5,
+    "door_min_m": 1.0,
+    "door_max_m": 2.0,
+    "door_centered": false,
+    "door_uniform": false,
+    "rooms": 3,
+    "room_min_cells": 2,
+    "room_max_cells": 3,
+    "loop_prob": 0.15,
+    "dark_cell_frac": 0.2,
+    "textureless_zones": 2
+  },
+
+  "obstacles": {
+    "static_count": 8,
+    "box_size_m": [0.3, 0.8],
+    "box_height_m": [0.4, 1.6],
+    "cylinder_radius_m": [0.15, 0.35],
+    "hanging_count": 3,
+    "hanging_length_m": [1.0, 2.2],
+    "hanging_thickness_m": [0.15, 0.4],
+    "hanging_bottom_m": [0.7, 1.6],
+    "moving_count": 1,
+    "moving_radius_m": 0.25,
+    "moving_height_m": 1.8,
+    "moving_speed_mps": 0.3,
+    "keep_clear_of_entry_m": 2.0
+  },
+
+  "survivors": {
+    "min": 2,
+    "max": 6,
+    "min_separation_m": 1.5,
+    "min_dist_from_entry_m": 3.0,
+    "near_obstacle_prob": 0.3
+  },
+
+  "drone": {
+    "radius_m": 0.25,
+    "half_height_m": 0.1,
+    "cruise_alt_m": 1.0,
+    "max_speed_mps": 1.0,
+    "max_vz_mps": 0.6,
+    "max_tilt_deg": 20.0,
+    "max_vert_accel_mps2": 3.0,
+    "max_yaw_rate_rps": 1.5,
+    "vel_pid": {"kp": 3.0, "ki": 0.6, "kd": 0.05, "i_max": 1.0},
+    "vz_pid": {"kp": 4.0, "ki": 0.5, "kd": 0.0, "i_max": 1.0},
+    "motor_time_const_s": 0.08,
+    "yaw_time_const_s": 0.15,
+    "cmd_latency_s": 0.06,
+    "drag_coeff": 0.35,
+    "start_outside_m": 1.0
+  },
+
+  "wind": {
+    "gust_std_mps": 0.15,
+    "gust_time_const_s": 2.0,
+    "steady_mps": [0.0, 0.0]
+  },
+
+  "sensors": {
+    "lidar_beams": 360,
+    "lidar_rate_hz": 10.0,
+    "lidar_max_range_m": 8.0,
+    "lidar_min_range_m": 0.15,
+    "lidar_noise_m": 0.02,
+    "lidar_dropout_prob": 0.02,
+    "lidar_layers_z_m": [0.0],
+    "tof_max_range_m": 4.0,
+    "tof_noise_m": 0.01,
+    "tof_fwd_pitch_deg": 10.0,
+    "baro_noise_m": 0.08,
+    "baro_drift_mps": 0.002,
+    "flow_vel_noise_frac": 0.03,
+    "flow_vel_noise_abs": 0.01,
+    "flow_min_height_m": 0.3,
+    "gyro_bias_rps": 0.001,
+    "gyro_noise_rps": 0.01,
+    "camera_type": "mono",
+    "camera_rate_hz": 10.0,
+    "camera_resolution": [640, 480],
+    "camera_hfov_deg": 70.0,
+    "camera_vfov_deg": 55.0,
+    "camera_pitch_deg": 25.0,
+    "detector_recall_curve": [[0.5, 0.95], [2.0, 0.9], [4.0, 0.6], [6.0, 0.15]],
+    "detector_dark_factor": 0.35,
+    "drone_has_light": false,
+    "detector_bbox_noise_px": 6.0,
+    "detector_false_positives_per_frame": 0.02,
+    "depth_noise_frac": 0.05
+  },
+
+  "battery": {
+    "capacity_wh": 40.0,
+    "hover_power_w": 180.0,
+    "speed_power_w_per_mps2": 25.0,
+    "climb_power_w_per_mps": 60.0
+  },
+
+  "link": {
+    "range_m": 25.0,
+    "max_walls": 4,
+    "telemetry_rate_hz": 1.0
+  },
+
+  "faults": {
+    "lidar_blackout":   {"count": 0, "duration_s": [1.0, 4.0]},
+    "camera_blackout":  {"count": 0, "duration_s": [3.0, 10.0]},
+    "flow_loss":        {"count": 0, "duration_s": [2.0, 6.0]},
+    "link_outage":      {"count": 0, "duration_s": [5.0, 20.0]},
+    "gyro_bias_jump":   {"count": 0, "magnitude_rps": 0.01},
+    "battery_fast_drain": {"count": 0, "factor": 2.0}
+  },
+
+  "mission": {
+    "dt_s": 0.05,
+    "time_limit_s": 480.0,
+    "crash_ends_mission": true,
+    "exit_radius_m": 1.0,
+    "landed_alt_m": 0.15,
+    "survivor_match_tol_m": 1.0
+  },
+
+  "scoring": {
+    "per_survivor": 100,
+    "full_accuracy_m": 0.5,
+    "per_false_report": -30,
+    "per_collision": -50,
+    "crash": -200,
+    "exit_and_land_bonus": 150,
+    "time_bonus_per_s_left": 0.2,
+    "coverage_bonus_max": 100,
+    "battery_depleted": -300
+  }
+}

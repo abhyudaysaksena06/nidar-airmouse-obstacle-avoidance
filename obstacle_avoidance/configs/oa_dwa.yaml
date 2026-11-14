@@ -1,0 +1,55 @@
+# NIDAR AirMouse - Obstacle avoidance Algo 1 (layered costmap + DWA)
+# All units SI. Load with DWAConfig.from_yaml('configs/oa_dwa.yaml').
+interface:
+  body_frame: FLU
+vehicle:
+  drone_radius: 0.25
+  margin: 0.15
+  half_height: 0.1
+  v_max: 1.0
+  v_min: -0.15
+  w_max: 1.2
+  a_lin: 1.5
+  a_ang: 3.0
+layer1_measurement:
+  lidar_fov_deg: 180.0
+  lidar_min_range: 0.15
+  lidar_max_range: 8.0
+  spike_jump: 0.5
+  depth_min_range: 0.2
+  depth_max_range: 4.0
+  depth_band: 0.3
+  depth_ground_z: 0.1
+layer2_time_alignment:
+  pose_buffer_s: 2.0
+  scan_stale_s: 0.35
+layer3_costmap:
+  map_size: 8.0
+  map_res: 0.1
+  l_hit: 0.85
+  l_miss: -0.6
+  l_min: -2.0
+  l_max: 3.5
+  l_confirmed: 1.2
+  l_candidate: 0.4
+  candidate_radius: 1.0
+  decay_per_s: 0.5
+layer4_dwa:
+  window_dt: 0.3
+  sim_time: 3.0
+  sim_step: 0.15
+  n_v: 7
+  n_w: 11
+  goal_distance: 2.0
+  w_heading: 1.0
+  w_obstacle: 0.6
+  w_velocity: 0.3
+  w_smooth: 0.15
+  inflation_decay: 0.2
+  obstacle_range: 3.0
+  turn_time: 1.0
+layer5_fallbacks:
+  emergency_dist: 0.05
+  backoff_speed: 0.15
+  stuck_s: 3.0
+  rotate_search_w: 0.6

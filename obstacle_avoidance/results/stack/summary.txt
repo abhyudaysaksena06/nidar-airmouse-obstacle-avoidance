@@ -1,0 +1,36 @@
+scenario=guide_maze  trials/method=30  (243s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           50.0 |       (33, 67) |           50.0 |       (33, 67) |            0.0 |           0.48 |           0.05 |           0.86 |          14.89
+         stack |           90.0 |       (74, 97) |           10.0 |        (3, 26) |            0.0 |           0.63 |           0.25 |          13.84 |         130.17
+   stack_nomem |           76.7 |       (59, 88) |           23.3 |       (12, 41) |            0.0 |           0.63 |           0.25 |           14.7 |         190.06
+  stack_nowall |           93.3 |       (79, 98) |            0.0 |        (0, 11) |            6.7 |           0.55 |           0.25 |          17.68 |         128.24
+stack_noinband |           90.0 |       (74, 97) |           10.0 |        (3, 26) |            0.0 |           0.63 |           0.25 |           14.7 |          77.01
+   stack_nomap |           96.7 |       (83, 99) |            3.3 |        (1, 17) |            0.0 |           0.61 |           0.25 |          15.66 |         126.05
+failures: {"guide": {"collision: low box": 2, "collision: wall": 13}, "stack": {"collision: pillar": 1, "collision: low box": 2}, "stack_nomem": {"collision: pillar": 4, "collision: low box": 3}, "stack_nowall": {"timeout": 2}, "stack_noinband": {"collision: pillar": 1, "collision: low box": 2}, "stack_nomap": {"collision: pillar": 1}}
+scenario=guide_people  trials/method=30  (336s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           43.3 |       (27, 61) |           56.7 |       (39, 73) |            0.0 |           0.48 |           0.05 |           1.15 |           19.4
+         stack |           83.3 |       (66, 93) |           13.3 |        (5, 30) |            3.3 |           0.59 |           0.25 |          24.21 |          159.0
+   stack_nomem |           70.0 |       (52, 83) |           23.3 |       (12, 41) |            6.7 |           0.61 |          0.225 |          20.07 |         185.69
+  stack_nowall |           83.3 |       (66, 93) |            6.7 |        (2, 21) |           10.0 |           0.53 |           0.25 |           18.8 |         162.26
+stack_noinband |           83.3 |       (66, 93) |           13.3 |        (5, 30) |            3.3 |           0.59 |           0.25 |          17.68 |         104.55
+   stack_nomap |           83.3 |       (66, 93) |           13.3 |        (5, 30) |            3.3 |           0.59 |          0.225 |          17.31 |          68.24
+failures: {"guide": {"collision: low box": 2, "collision: wall": 11, "collision: person": 3, "collision: duct": 1}, "stack": {"collision: low box": 2, "collision: pillar": 1, "collision: person": 1, "timeout": 1}, "stack_nomem": {"timeout": 2, "collision: person": 1, "collision: pillar": 4, "collision: low box": 2}, "stack_nowall": {"timeout": 3, "collision: person": 2}, "stack_noinband": {"collision: low box": 2, "collision: pillar": 1, "collision: person": 1, "timeout": 1}, "stack_nomap": {"collision: pillar": 1, "collision: person": 3, "timeout": 1}}
+scenario=bright_hall  trials/method=30  (262s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           50.0 |       (33, 67) |           50.0 |       (33, 67) |            0.0 |           0.48 |           0.05 |           0.82 |           6.07
+         stack |           90.0 |       (74, 97) |           10.0 |        (3, 26) |            0.0 |           0.63 |           0.25 |          18.08 |          68.67
+   stack_nomem |           76.7 |       (59, 88) |           23.3 |       (12, 41) |            0.0 |           0.63 |           0.25 |          19.17 |          183.5
+  stack_nowall |           93.3 |       (79, 98) |            0.0 |        (0, 11) |            6.7 |           0.55 |           0.25 |          17.51 |           69.4
+stack_noinband |           90.0 |       (74, 97) |           10.0 |        (3, 26) |            0.0 |           0.63 |           0.25 |          18.96 |          74.03
+   stack_nomap |           96.7 |       (83, 99) |            3.3 |        (1, 17) |            0.0 |           0.61 |           0.25 |          17.17 |          61.25
+failures: {"guide": {"collision: low box": 2, "collision: wall": 13}, "stack": {"collision: pillar": 1, "collision: low box": 2}, "stack_nomem": {"collision: pillar": 4, "collision: low box": 3}, "stack_nowall": {"timeout": 2}, "stack_noinband": {"collision: pillar": 1, "collision: low box": 2}, "stack_nomap": {"collision: pillar": 1}}
+scenario=mixed_clutter  trials/method=30  (425s)
+        method |    success_pct |     success_ci |  collision_pct |   collision_ci |    timeout_pct | mean_speed_mps | median_min_clearance_m | compute_ms_mean | compute_ms_p99
+         guide |           20.0 |       (10, 37) |           80.0 |       (63, 90) |            0.0 |           0.47 |           0.05 |           1.08 |          22.03
+         stack |           73.3 |       (56, 86) |           10.0 |        (3, 26) |           16.7 |           0.55 |            0.2 |          20.19 |          136.0
+   stack_nomem |           73.3 |       (56, 86) |           10.0 |        (3, 26) |           16.7 |           0.55 |            0.2 |          21.35 |         121.31
+  stack_nowall |           60.0 |       (42, 75) |            3.3 |        (1, 17) |           36.7 |           0.46 |            0.2 |          18.62 |          99.88
+stack_noinband |           73.3 |       (56, 86) |           10.0 |        (3, 26) |           16.7 |           0.55 |            0.2 |          17.53 |         117.19
+   stack_nomap |           73.3 |       (56, 86) |           10.0 |        (3, 26) |           16.7 |           0.54 |          0.225 |          13.54 |         134.47
+failures: {"guide": {"collision: duct": 1, "collision: wall": 15, "collision: low box": 5, "collision: pillar": 2, "collision: person": 1}, "stack": {"timeout": 5, "collision: pillar": 2, "collision: person": 1}, "stack_nomem": {"timeout": 5, "collision: pillar": 2, "collision: person": 1}, "stack_nowall": {"timeout": 11, "collision: person": 1}, "stack_noinband": {"timeout": 5, "collision: pillar": 2, "collision: person": 1}, "stack_nomap": {"timeout": 5, "collision: low box": 1, "collision: person": 1, "collision: pillar": 1}}
