@@ -206,7 +206,7 @@ Open a **new terminal**.
 ```bash
 bash ~/nidar/setup/check_setup.sh
 ```
-> ✅ **You should see:** every line `[OK]` and `10 OK, 0 missing`.
+> ✅ **You should see:** every line `[OK]` and `11 OK, 0 missing`.
 
 ---
 
@@ -433,21 +433,45 @@ It turns its nose along the direction of travel, so the forward ToF looks where 
 its state, and `pid_logger` prints command vs actual. (`arena_demo` follows a fixed route through the
 *example* arena; in competition, the exploration/OA team's planner supplies the waypoints.)
 
-**Output from the test run (PX4 v1.16 + this model):**
+**Output from the test run (PX4 v1.16, GPS off, practice arena):**
 ```
-[nidar_offboard]: mission=square altitude=2.0 m speed=1.0 m/s (5 waypoints). Waiting for PX4 ...
-[nidar_offboard]: [STREAM] PX4 ready. Streaming setpoints before switching to Offboard.
-[nidar_offboard]: [ARMING] switching to Offboard and arming
-[nidar_offboard]: [MISSION] armed in Offboard. Flying 'square'.
-[nidar_offboard]: [MISSION] -> waypoint 1/5 'climb' N -0.0 E 0.0 alt 2.0 m
-[nidar_offboard]: [MISSION] -> waypoint 2/5 'corner 1 (north)' N 3.0 E 0.0 alt 2.0 m
-[nidar_offboard]: [MISSION] pos N   1.15 E  -0.02 alt  1.97 m | speed 1.31 m/s
-[nidar_offboard]: [MISSION] at 'corner 1 (north)' (error 0.10 m), holding 1 s
-...
-[nidar_offboard]: [LANDING] mission complete, landing
-[nidar_offboard]: [DONE] landed and disarmed. Press Ctrl+C to exit.
+[MISSION] armed in Offboard. Flying 'arena_demo'.
+[MISSION] -> waypoint 1/7 'climb on launch area' N 0.0 E 0.0 alt 1.2 m
+[MISSION] at 'climb on launch area' (error 0.15 m), holding 2 s
+[MISSION] at 'through the entry' (error 0.10 m), holding 0 s
+[MISSION] at 'first junction' (error 0.10 m), holding 0 s
+[MISSION] at 'into the central corridor' (error 0.07 m), holding 0 s
+[MISSION] at 'north end of central corridor' (error 0.05 m), holding 0 s
+[MISSION] at 'room S2 doorway' (error 0.08 m), holding 0 s
+[MISSION] at 'inside room S2 (survivor)' (error 0.09 m), holding 3 s
+[RECALL] EXIT (mission complete - exiting the arena): retracing 7 corners of the flown route out of the entry/exit, then landing on the launch area
+[RECALL] at 'above launch area' (error 0.08 m), holding 1 s
+[LANDING] recall complete: over the launch area, landing
+[DONE] landed and disarmed. Press Ctrl+C to exit.
 ```
+`tools/arena_check.py` on that flight:
+```
+[PASS] closest guard edge to a wall: +0.087 m at arena (9.68, 13.11), alt 1.18 m   (need > +0.05 m)
+[PASS] highest altitude 1.34 m   (roof net at 2.44 m)
+[PASS] landed +0.02 m east, -0.02 m north of the launch-area centre   (centre must be within +-0.305 m)
+```
+![Flown track of arena_demo (PX4, no GPS), from tools/arena_check.py --plot](images/arena_track.png)
+
 and in the PX4 terminal: `Landing detected` → `Disarmed by landing`.
+
+**How it flies 1 m corridors without touching walls.** Each rule below came from a near-miss in testing,
+measured with `tools/arena_check.py`:
+
+1. **Recall retraces the *commanded* route** (corridor centre-lines), not the drone's actual track, which
+   contains its tracking error.
+2. **A corner counts as reached only when the drone is ≤ 0.15 m from it *and* nearly stopped
+   (< 0.1 m/s).** Turning while still moving carried the drone 0.34 m into the next corridor's wall.
+3. **The setpoint accelerates and brakes gently (0.5 m/s²).** An instant start left the drone behind,
+   and PX4 then sped up to catch up (1.1 m/s on a 0.8 m/s leg).
+4. **Inside the arena the node sends position-only setpoints** (no velocity feed-forward). With
+   feed-forward, PX4's lagging velocity loop overshot a junction by 0.39 m.
+
+**Any exploration planner that sends waypoints to this node gets these four behaviours for free.**
 
 **Mission options** (any combination):
 

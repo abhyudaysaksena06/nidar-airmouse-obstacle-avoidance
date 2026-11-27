@@ -136,11 +136,22 @@ class OffboardControl(Node):
         self.pub_mode.publish(m)
         sp = TrajectorySetpoint()
         sp.position = [float(v) for v in self.carrot.p]
-        sp.velocity = [float(v) for v in self.carrot.v]   # feed-forward
+        if self._corridor():
+            # Corridors: POSITION-ONLY setpoints. With velocity feed-forward PX4's lagging
+            # velocity loop carried 0.95 m/s into a corner whose setpoint had already
+            # stopped (0.39 m overshoot toward a wall, measured). Position-only = PX4
+            # approaches every point without overshoot.
+            sp.velocity = [math.nan] * 3
+        else:
+            sp.velocity = [float(v) for v in self.carrot.v]   # feed-forward (open area, PID tests)
         sp.acceleration = [math.nan] * 3
         sp.yaw = float(self.carrot.yaw)
         sp.timestamp = now_us(self)
         self.pub_sp.publish(sp)
+
+    def _corridor(self):
+        """True inside the arena (arena_demo) and when recalling: careful corridor flying."""
+        return self.kind == "arena_demo" or self.state == "RECALL"
 
     def _armed(self):
         return self.status is not None and self.status.arming_state == VehicleStatus.ARMING_STATE_ARMED
@@ -311,7 +322,7 @@ class OffboardControl(Node):
 
     def _fly_route(self, dt, speed):
         wp = self.route[self.wp_i]
-        corridor = self.kind == "arena_demo" or self.state == "RECALL"
+        corridor = self._corridor()
         # In corridors: nose along the path (forward ToF looks ahead), brake smoothly into
         # every corner, and only turn once the drone is ON the corner and nearly STOPPED -
         # otherwise momentum carries it into the wall after the turn (seen in testing).

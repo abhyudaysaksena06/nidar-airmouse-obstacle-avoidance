@@ -24,7 +24,7 @@ and the ROS 2 nodes.
 
 | Rule | Requirement | Status | How / where |
 |---|---|---|---|
-| 8.20 / §1 | Autonomous drone in a GPS-denied indoor environment | ✅ | `arena_demo` mission flies with no operator input after start |
+| 8.20 / §1 | Autonomous drone in a GPS-denied indoor environment | ✅ | `arena_demo` mission flies with no operator input after start (tested end-to-end in PX4 SITL with GPS off) |
 | **8.24 / §4** | **No GPS/GNSS-based navigation** | ✅ | PX4 airframe: `SENS_EN_GPSSIM 0`, `SYS_HAS_GPS 0`, `EKF2_GPS_CTRL 0`, magnetometer off (`SYS_HAS_MAG 0`, `EKF2_MAG_TYPE 5`, unreliable indoors). Position, height and heading come **only** from vision odometry (`EKF2_EV_CTRL 15`, `EKF2_HGT_REF 3`). The Gazebo model has **no GNSS sensor** |
 | 8.24 | (how PX4 gets position) | ✅ / 🔧 | `nidar_control/ev_bridge` publishes `/fmu/in/vehicle_visual_odometry`. Sim: Gazebo pose stands in for SLAM. **Real drone: feed the SLAM pose (e.g. RPLIDAR SLAM) into the same node with `-p odom_topic:=<slam odometry>`** |
 | 8.21 / §1 | Enter and exit through the **same** designated point | ✅ | Recall retraces the breadcrumbs of the flown path and leaves through the entry; `arena_demo` always ends this way |
@@ -45,7 +45,8 @@ and the ROS 2 nodes.
 | §4 | No FPV goggles or extra viewing devices; supervise only through the GCS | ➡️ | Procedure: all viewing on the one GCS screen |
 | 8.25–8.27, §5, §6 | 2D map, survivor detection, grid tagging, live camera on the GCS | ➡️ | Not controls work. Hooks provided: camera `/camera/image_raw`, lidar `/scan`, ToF and ultrasonic topics in simulation; `/nidar/mission_status` (JSON: state, progress, position from launch, battery, fail-safe reason, inside-fence) for the GCS display |
 | §8 | Max 2 people for setup, 1 operator | ➡️ | Procedure. The 4-terminal start can be scripted for the 5-minute setup |
-| Penalty: landing outside the launch zone | Land in the designated zone | ✅ | Recall ends over the launch area (vision position) and lands there; test result is in the guide |
+| Penalty: landing outside the launch zone | Land in the designated zone | ✅ | Recall ends over the launch area (vision position) and lands there. **Tested: landed 0.02 m from the centre** of the 0.61 m area |
+| §9 / Penalty: obstacle contact | No contact | ✅ | `tools/arena_check.py` on the `arena_demo` flight: **closest guard edge to a wall +0.087 m**, highest point 1.34 m (net 2.44 m). Corridor flying rules are in the guide, section 7.4 |
 
 ## What the other teams must provide for full compliance
 

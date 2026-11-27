@@ -13,6 +13,7 @@ setup(
         ("share/" + package_name + "/config", glob("config/*.yaml")),
     ],
     install_requires=["setuptools"],
+    tests_require=["pytest"],
     zip_safe=True,
     maintainer="NIDAR Controls",
     description="PX4 offboard mission and PID logger for the NIDAR drone",
