@@ -1,0 +1,1132 @@
+<sdf version='1.11'>
+  <model name='nidar_drone'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.010490347244502211 4.8514855999413018e-06 0.025309773228258739 0 0 0</pose>
+        <mass>1.4742926000000001</mass>
+        <inertia>
+          <ixx>0.0066546162437694364</ixx>
+          <ixy>-4.8233253837198913e-07</ixy>
+          <ixz>-8.1787257073036464e-05</ixz>
+          <iyy>0.02320480098781956</iyy>
+          <iyz>-9.5202922524838244e-07</iyz>
+          <izz>0.024784592282793418</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_fixed_joint_lump__dronebase_link_collision'>
+        <pose>0 0 0.041000000000000002 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.48399999999999999 0.096000000000000002 0.082000000000000003</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__landgear_1_link_collision_1'>
+        <pose>0.20097999999999999 -0.066181000000000004 -0.12981300000000001 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.013599999999999999</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__landgear_2_Link_collision_2'>
+        <pose>0.20093 0.066147999999999998 -0.12981300000000001 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.013599999999999999</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__landgear_3_Link_collision_3'>
+        <pose>-0.20097999999999999 0.066181000000000004 -0.12981300000000001 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.013599999999999999</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__landgear_4_Link_collision_4'>
+        <pose>-0.200934 -0.066148100000000001 -0.12981309999999999 0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.013599999999999999</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__motor_1_Link_guard_collision_5'>
+        <pose>0.12189 -0.13980000000000001 0.02383 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__motor_2_Link_guard_collision_6'>
+        <pose>0.12189 0.13980000000000001 0.024 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__motor_3_link_guard_collision_7'>
+        <pose>-0.12189 0.13980000000000001 0.024 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__motor_4_link_guard_collision_8'>
+        <pose>-0.12189 -0.13980000000000001 0.024 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='base_link_fixed_joint_lump__dronebase_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/dronebase_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9375 0.9375 0.974999964 1</diffuse>
+          <ambient>0.9375 0.9375 0.974999964 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ESC_Link_1_visual_1'>
+        <pose>0.17707999999999999 -0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ESC_Link_1.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9375 0.125 0.125 1</diffuse>
+          <ambient>0.9375 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ESC_Link_3_visual_2'>
+        <pose>-0.17707999999999999 0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ESC_Link_3.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9375 0.125 0.125 1</diffuse>
+          <ambient>0.9375 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ESC_Link_4_visual_3'>
+        <pose>-0.17643 -0.046247999999999997 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ESC_Link_4.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9375 0.125 0.125 1</diffuse>
+          <ambient>0.9375 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ESC_Link_2_visual_4'>
+        <pose>0.17643 0.046247999999999997 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ESC_Link_2.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.9375 0.125 0.125 1</diffuse>
+          <ambient>0.9375 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__FC_link_visual_5'>
+        <pose>-0.0075113999999999997 -0.0014005999999999999 0.10199999999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/FC_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.0625 0.5625 0.187500015 1</diffuse>
+          <ambient>0.0625 0.5625 0.187500015 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__IMU_Link_visual_6'>
+        <pose>0.033999599999999998 0.0220004 0.10199999999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/IMU_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.125 0.3125 1 1</diffuse>
+          <ambient>0.125 0.3125 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__MPCamera_Link_visual_7'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/MPCamera_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__RPI_Link_visual_8'>
+        <pose>-0.13367999999999999 0 0.023 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/RPI_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.0625 0.5625 0.187500015 1</diffuse>
+          <ambient>0.0625 0.5625 0.187500015 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__TOF_Link_visual_9'>
+        <pose>0.24049999999999999 0 -0.002 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/TOF_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__landgear_1_link_visual_10'>
+        <pose>0.17707999999999999 -0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/landgear_1_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.187500015 0.187500015 0.187500015 1</diffuse>
+          <ambient>0.187500015 0.187500015 0.187500015 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__landgear_2_Link_visual_11'>
+        <pose>0.17643 0.046247999999999997 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/landgear_2_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.187500015 0.187500015 0.187500015 1</diffuse>
+          <ambient>0.187500015 0.187500015 0.187500015 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__landgear_3_Link_visual_12'>
+        <pose>-0.17707999999999999 0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/landgear_3_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.187500015 0.187500015 0.187500015 1</diffuse>
+          <ambient>0.187500015 0.187500015 0.187500015 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__landgear_4_Link_visual_13'>
+        <pose>-0.17643400000000001 -0.0462481 -0.073413099999999995 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/landgear_4_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.187500015 0.187500015 0.187500015 1</diffuse>
+          <ambient>0.187500015 0.187500015 0.187500015 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar_link_visual_14'>
+        <pose>0.19603000000000001 0.00012120000000000001 0.112 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/lidar_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_1_Link_visual_15'>
+        <pose>0.12189 -0.13980000000000001 0.027830000000000001 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/motor_1_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.125 0.125 0.125 1</diffuse>
+          <ambient>0.125 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_1_Link_guard_visual_16'>
+        <pose>0.12189 -0.13980000000000001 0.02383 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0.75000006 1 1 0.25</diffuse>
+          <ambient>0.75000006 1 1 0.25</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_2_Link_visual_17'>
+        <pose>0.12189 0.13980000000000001 0.028000000000000001 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/motor_2_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.125 0.125 0.125 1</diffuse>
+          <ambient>0.125 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_2_Link_guard_visual_18'>
+        <pose>0.12189 0.13980000000000001 0.024 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0.75000006 1 1 0.25</diffuse>
+          <ambient>0.75000006 1 1 0.25</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_3_link_visual_19'>
+        <pose>-0.12189 0.13980000000000001 0.028000000000000001 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/motor_3_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.125 0.125 0.125 1</diffuse>
+          <ambient>0.125 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_3_link_guard_visual_20'>
+        <pose>-0.12189 0.13980000000000001 0.024 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0.75000006 1 1 0.25</diffuse>
+          <ambient>0.75000006 1 1 0.25</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_4_link_visual_21'>
+        <pose>-0.12189 -0.13980000000000001 0.028000000000000001 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/motor_4_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.125 0.125 0.125 1</diffuse>
+          <ambient>0.125 0.125 0.125 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__motor_4_link_guard_visual_22'>
+        <pose>-0.12189 -0.13980000000000001 0.024 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.085000000000000006</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0.75000006 1 1 0.25</diffuse>
+          <ambient>0.75000006 1 1 0.25</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ultra_1_Link_visual_23'>
+        <pose>0.12189 -0.1323 -0.027 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ultra_1_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ultra_2_Link_visual_24'>
+        <pose>0.121887 0.1323 -0.027 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ultra_2_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ultra_3_Link_visual_25'>
+        <pose>-0.12189 0.1323 -0.027 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ultra_3_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__ultra_4_Link_visual_26'>
+        <pose>-0.12189 -0.1323 -0.027 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/ultra_4_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0 0.9375 1 1</diffuse>
+          <ambient>0 0.9375 1 1</ambient>
+        </material>
+      </visual>
+      <sensor name='air_pressure_sensor' type='air_pressure'>
+        <always_on>true</always_on>
+        <update_rate>50</update_rate>
+        <air_pressure>
+          <pressure>
+            <noise type='gaussian'>
+              <mean>0</mean>
+              <stddev>0.01</stddev>
+            </noise>
+          </pressure>
+        </air_pressure>
+      </sensor>
+      <sensor name='magnetometer_sensor' type='magnetometer'>
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <magnetometer>
+          <x>
+            <noise type='gaussian'>
+              <stddev>0.0001</stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type='gaussian'>
+              <stddev>0.0001</stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type='gaussian'>
+              <stddev>0.0001</stddev>
+            </noise>
+          </z>
+        </magnetometer>
+      </sensor>
+      <sensor name='imu_sensor' type='imu'>
+        <always_on>true</always_on>
+        <update_rate>250</update_rate>
+        <imu>
+          <angular_velocity>
+            <x>
+              <noise type='gaussian'>
+                <mean>0</mean>
+                <stddev>0.00033940000000000001</stddev>
+                <dynamic_bias_stddev>3.8785000000000002e-05</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+              </noise>
+            </x>
+            <y>
+              <noise type='gaussian'>
+                <mean>0</mean>
+                <stddev>0.00033940000000000001</stddev>
+                <dynamic_bias_stddev>3.8785000000000002e-05</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+              </noise>
+            </y>
+            <z>
+              <noise type='gaussian'>
+                <mean>0</mean>
+                <stddev>0.00033940000000000001</stddev>
+                <dynamic_bias_stddev>3.8785000000000002e-05</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+              </noise>
+            </z>
+          </angular_velocity>
+          <linear_acceleration>
+            <x>
+              <noise type='gaussian'>
+                <mean>0</mean>
+                <stddev>0.0040000000000000001</stddev>
+                <dynamic_bias_stddev>0.0060000000000000001</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+              </noise>
+            </x>
+            <y>
+              <noise type='gaussian'>
+                <mean>0</mean>
+                <stddev>0.0040000000000000001</stddev>
+                <dynamic_bias_stddev>0.0060000000000000001</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+              </noise>
+            </y>
+            <z>
+              <noise type='gaussian'>
+                <mean>0</mean>
+                <stddev>0.0040000000000000001</stddev>
+                <dynamic_bias_stddev>0.0060000000000000001</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+              </noise>
+            </z>
+          </linear_acceleration>
+        </imu>
+        <pose>0.033999599999999998 0.0220004 0.10199999999999999 0 0 0</pose>
+        <gz_frame_id>IMU_Link</gz_frame_id>
+      </sensor>
+      <sensor name='down_camera' type='camera'>
+        <topic>nidar/camera/image_raw</topic>
+        <update_rate>15</update_rate>
+        <always_on>true</always_on>
+        <camera>
+          <horizontal_fov>1.085</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.029999999999999999</near>
+            <far>50</far>
+          </clip>
+        </camera>
+        <pose>0.0050000000000000001 0 -0.01 3.1415926535897931 1.5707926536359933 3.1415926535897931</pose>
+        <gz_frame_id>MPCamera_Link</gz_frame_id>
+      </sensor>
+      <sensor name='tof_front' type='gpu_lidar'>
+        <topic>nidar/tof_front</topic>
+        <update_rate>15</update_rate>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>8</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.39269999999999999</min_angle>
+              <max_angle>0.39269999999999999</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>8</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.39269999999999999</min_angle>
+              <max_angle>0.39269999999999999</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.02</min>
+            <max>4</max>
+            <resolution>0.001</resolution>
+          </range>
+        </lidar>
+        <pose>0.24249999999999999 0 -0.001 0 0 0</pose>
+        <gz_frame_id>TOF_Link</gz_frame_id>
+      </sensor>
+      <sensor name='lidar' type='gpu_lidar'>
+        <topic>nidar/scan</topic>
+        <update_rate>10</update_rate>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>500</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.1415899999999999</min_angle>
+              <max_angle>3.1415899999999999</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>1</samples>
+              <resolution>1</resolution>
+              <min_angle>0</min_angle>
+              <max_angle>0</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.050000000000000003</min>
+            <max>12</max>
+            <resolution>0.01</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0</mean>
+            <stddev>0.014999999999999999</stddev>
+          </noise>
+        </lidar>
+        <pose>0.19603000000000001 0.00012120000000000001 0.104 0 0 0</pose>
+        <gz_frame_id>lidar_link</gz_frame_id>
+      </sensor>
+      <sensor name='ultrasonic_1' type='gpu_lidar'>
+        <topic>nidar/ultrasonic_1</topic>
+        <update_rate>10</update_rate>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>5</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.13089999999999999</min_angle>
+              <max_angle>0.13089999999999999</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.02</min>
+            <max>4</max>
+            <resolution>0.0030000000000000001</resolution>
+          </range>
+        </lidar>
+        <pose>0.12189 -0.1323 -0.027 3.1415926535897931 1.5707926536359933 3.1415926535897931</pose>
+        <gz_frame_id>ultra_1_Link</gz_frame_id>
+      </sensor>
+      <sensor name='ultrasonic_2' type='gpu_lidar'>
+        <topic>nidar/ultrasonic_2</topic>
+        <update_rate>10</update_rate>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>5</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.13089999999999999</min_angle>
+              <max_angle>0.13089999999999999</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.02</min>
+            <max>4</max>
+            <resolution>0.0030000000000000001</resolution>
+          </range>
+        </lidar>
+        <pose>0.121887 0.1323 -0.027 3.1415926535897931 1.5707926536359933 3.1415926535897931</pose>
+        <gz_frame_id>ultra_2_Link</gz_frame_id>
+      </sensor>
+      <sensor name='ultrasonic_3' type='gpu_lidar'>
+        <topic>nidar/ultrasonic_3</topic>
+        <update_rate>10</update_rate>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>5</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.13089999999999999</min_angle>
+              <max_angle>0.13089999999999999</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.02</min>
+            <max>4</max>
+            <resolution>0.0030000000000000001</resolution>
+          </range>
+        </lidar>
+        <pose>-0.12189 0.1323 -0.027 3.1415926535897931 1.5707926536359933 3.1415926535897931</pose>
+        <gz_frame_id>ultra_3_Link</gz_frame_id>
+      </sensor>
+      <sensor name='ultrasonic_4' type='gpu_lidar'>
+        <topic>nidar/ultrasonic_4</topic>
+        <update_rate>10</update_rate>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>5</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.13089999999999999</min_angle>
+              <max_angle>0.13089999999999999</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.02</min>
+            <max>4</max>
+            <resolution>0.0030000000000000001</resolution>
+          </range>
+        </lidar>
+        <pose>-0.12189 -0.1323 -0.027 3.1415926535897931 1.5707926536359933 3.1415926535897931</pose>
+        <gz_frame_id>ultra_4_Link</gz_frame_id>
+      </sensor>
+    </link>
+    <joint name='prop_1_joint' type='revolute'>
+      <pose relative_to='base_link'>0.12189 -0.13980000000000001 0.027830000000000001 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_1_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0.0001</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='prop_1_Link'>
+      <pose relative_to='prop_1_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>1.7072999999999999e-07 -2.3689e-07 -0.0040388999999999998 0 0 0</pose>
+        <mass>0.0060841000000000003</mass>
+        <inertia>
+          <ixx>4.0574000000000003e-06</ixx>
+          <ixy>3.4429999999999999e-06</ixy>
+          <ixz>0</ixz>
+          <iyy>3.1402999999999998e-06</iyy>
+          <iyz>0</iyz>
+          <izz>7.0940000000000002e-06</izz>
+        </inertia>
+      </inertial>
+      <visual name='prop_1_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/prop_1_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.5625 0.0625 0.899999976</diffuse>
+          <ambient>1 0.5625 0.0625 0.899999976</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='prop_2_joint' type='revolute'>
+      <pose relative_to='base_link'>0.12189 0.13980000000000001 0.028000000000000001 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_2_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0.0001</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='prop_2_Link'>
+      <pose relative_to='prop_2_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>2.1149e-07 2.2994999999999999e-07 -0.0042088999999999998 0 0 0</pose>
+        <mass>0.0060841999999999997</mass>
+        <inertia>
+          <ixx>4.7937000000000004e-06</ixx>
+          <ixy>-3.2613999999999998e-06</ixy>
+          <ixz>0</ixz>
+          <iyy>2.4040000000000002e-06</iyy>
+          <iyz>0</iyz>
+          <izz>7.0940000000000002e-06</izz>
+        </inertia>
+      </inertial>
+      <visual name='prop_2_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/prop_2_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.5625 0.0625 0.899999976</diffuse>
+          <ambient>1 0.5625 0.0625 0.899999976</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='prop_3_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.12189 0.13980000000000001 0.028000000000000001 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_3_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0.0001</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='prop_3_link'>
+      <pose relative_to='prop_3_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-1.6971e-07 2.3615999999999999e-07 -0.0042088999999999998 0 0 0</pose>
+        <mass>0.0060841000000000003</mass>
+        <inertia>
+          <ixx>4.0574000000000003e-06</ixx>
+          <ixy>3.4429999999999999e-06</ixy>
+          <ixz>0</ixz>
+          <iyy>3.1402999999999998e-06</iyy>
+          <iyz>0</iyz>
+          <izz>7.0940000000000002e-06</izz>
+        </inertia>
+      </inertial>
+      <visual name='prop_3_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/prop_3_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.5625 0.0625 0.899999976</diffuse>
+          <ambient>1 0.5625 0.0625 0.899999976</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='prop_4_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.12189 -0.13980000000000001 0.028000000000000001 0 0 0</pose>
+      <parent>base_link</parent>
+      <child>prop_4_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0.0001</damping>
+          <friction>0</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='prop_4_Link'>
+      <pose relative_to='prop_4_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-1.8909999999999999e-07 -2.2088e-07 -0.0042088000000000004 0 0 0</pose>
+        <mass>0.0060841000000000003</mass>
+        <inertia>
+          <ixx>4.7937000000000004e-06</ixx>
+          <ixy>-3.2613999999999998e-06</ixy>
+          <ixz>0</ixz>
+          <iyy>2.4040000000000002e-06</iyy>
+          <iyz>0</iyz>
+          <izz>7.0940000000000002e-06</izz>
+        </inertia>
+      </inertial>
+      <visual name='prop_4_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://nidar_drone/meshes/prop_4_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 0.5625 0.0625 0.899999976</diffuse>
+          <ambient>1 0.5625 0.0625 0.899999976</ambient>
+        </material>
+      </visual>
+    </link>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      <jointName>prop_1_joint</jointName>
+      <linkName>prop_1_Link</linkName>
+      <turningDirection>ccw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000.0</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>0</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      <jointName>prop_2_joint</jointName>
+      <linkName>prop_2_Link</linkName>
+      <turningDirection>cw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000.0</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>2</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      <jointName>prop_4_joint</jointName>
+      <linkName>prop_4_Link</linkName>
+      <turningDirection>cw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000.0</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>3</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+    <plugin name='gz::sim::systems::MulticopterMotorModel' filename='gz-sim-multicopter-motor-model-system'>
+      <jointName>prop_3_joint</jointName>
+      <linkName>prop_3_link</linkName>
+      <turningDirection>ccw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000.0</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>1</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+    <plugin name='gz::sim::systems::JointStatePublisher' filename='gz-sim-joint-state-publisher-system'/>
+    <plugin name='gz::sim::systems::OdometryPublisher' filename='gz-sim-odometry-publisher-system'>
+      <dimensions>3</dimensions>
+      <odom_frame>odom</odom_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <odom_topic>nidar/odom</odom_topic>
+      <tf_topic>nidar/tf</tf_topic>
+      <odom_publish_frequency>50</odom_publish_frequency>
+      <odom_covariance_topic>nidar/odom_with_covariance</odom_covariance_topic>
+    </plugin>
+    <frame name='ESC_Joint_1' attached_to='dronebase_link'>
+      <pose>0.17707999999999999 -0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Link_1' attached_to='ESC_Joint_1'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Joint_3' attached_to='dronebase_link'>
+      <pose>-0.17707999999999999 0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Link_3' attached_to='ESC_Joint_3'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Joint_4' attached_to='dronebase_link'>
+      <pose>-0.17643 -0.046247999999999997 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Link_4' attached_to='ESC_Joint_4'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Joint__2' attached_to='dronebase_link'>
+      <pose>0.17643 0.046247999999999997 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='ESC_Link_2' attached_to='ESC_Joint__2'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='IMU_joint' attached_to='FC_link'>
+      <pose>0.041510999999999999 0.023401000000000002 0 0 0 0</pose>
+    </frame>
+    <frame name='IMU_Link' attached_to='IMU_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='FC_joint' attached_to='dronebase_link'>
+      <pose>-0.0075113999999999997 -0.0014005999999999999 0.10199999999999999 0 0 0</pose>
+    </frame>
+    <frame name='FC_link' attached_to='FC_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='MPCamera_joint' attached_to='dronebase_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='MPCamera_Link' attached_to='MPCamera_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='RPI_joint' attached_to='dronebase_link'>
+      <pose>-0.13367999999999999 0 0.023 0 0 0</pose>
+    </frame>
+    <frame name='RPI_Link' attached_to='RPI_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='TOF_joint' attached_to='dronebase_link'>
+      <pose>0.24049999999999999 0 -0.002 0 0 0</pose>
+    </frame>
+    <frame name='TOF_Link' attached_to='TOF_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='landgear_1_joint' attached_to='dronebase_link'>
+      <pose>0.17707999999999999 -0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='landgear_1_link' attached_to='landgear_1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='landgear_2_joint' attached_to='dronebase_link'>
+      <pose>0.17643 0.046247999999999997 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='landgear_2_Link' attached_to='landgear_2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='landgear_3_joint' attached_to='dronebase_link'>
+      <pose>-0.17707999999999999 0.045481000000000001 -0.073413000000000006 0 0 0</pose>
+    </frame>
+    <frame name='landgear_3_Link' attached_to='landgear_3_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='landgear_4_joint' attached_to='dronebase_link'>
+      <pose>-0.17643400000000001 -0.0462481 -0.073413099999999995 0 0 0</pose>
+    </frame>
+    <frame name='landgear_4_Link' attached_to='landgear_4_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar_joint' attached_to='dronebase_link'>
+      <pose>0.19603000000000001 0.00012120000000000001 0.112 0 0 0</pose>
+    </frame>
+    <frame name='lidar_link' attached_to='lidar_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_1_Link_guard_joint' attached_to='motor_1_Link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_1_Link_guard' attached_to='motor_1_Link_guard_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_1_joint' attached_to='dronebase_link'>
+      <pose>0.12189 -0.13980000000000001 0.027830000000000001 0 0 0</pose>
+    </frame>
+    <frame name='motor_1_Link' attached_to='motor_1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_2_Link_guard_joint' attached_to='motor_2_Link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_2_Link_guard' attached_to='motor_2_Link_guard_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_2_joint' attached_to='dronebase_link'>
+      <pose>0.12189 0.13980000000000001 0.028000000000000001 0 0 0</pose>
+    </frame>
+    <frame name='motor_2_Link' attached_to='motor_2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_3_link_guard_joint' attached_to='motor_3_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_3_link_guard' attached_to='motor_3_link_guard_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_3_joint' attached_to='dronebase_link'>
+      <pose>-0.12189 0.13980000000000001 0.028000000000000001 0 0 0</pose>
+    </frame>
+    <frame name='motor_3_link' attached_to='motor_3_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_4_link_guard_joint' attached_to='motor_4_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_4_link_guard' attached_to='motor_4_link_guard_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='motor_4_joint' attached_to='dronebase_link'>
+      <pose>-0.12189 -0.13980000000000001 0.028000000000000001 0 0 0</pose>
+    </frame>
+    <frame name='motor_4_link' attached_to='motor_4_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ultra_1_joint' attached_to='dronebase_link'>
+      <pose>0.12189 -0.1323 -0.027 0 0 0</pose>
+    </frame>
+    <frame name='ultra_1_Link' attached_to='ultra_1_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ultra_2_joint' attached_to='dronebase_link'>
+      <pose>0.121887 0.1323 -0.027 0 0 0</pose>
+    </frame>
+    <frame name='ultra_2_Link' attached_to='ultra_2_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ultra_3_joint' attached_to='dronebase_link'>
+      <pose>-0.12189 0.1323 -0.027 0 0 0</pose>
+    </frame>
+    <frame name='ultra_3_Link' attached_to='ultra_3_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='ultra_4_joint' attached_to='dronebase_link'>
+      <pose>-0.12189 -0.1323 -0.027 0 0 0</pose>
+    </frame>
+    <frame name='ultra_4_Link' attached_to='ultra_4_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_to_frame' attached_to='base_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='dronebase_link' attached_to='base_to_frame'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>

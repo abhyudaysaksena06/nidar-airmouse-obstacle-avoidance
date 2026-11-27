@@ -1,0 +1,16 @@
+# Default settings for the offboard mission (command-line arguments override these).
+# NIDAR Rulebook v2.2, PS2: no GPS, 1 m corridors, 2.44 m (8 ft) ceiling, 30 min max flight.
+nidar_offboard:
+  ros__parameters:
+    mission: arena_demo  # hover | square | step  (open floor south of the launch area)
+                         # arena_demo            (into the practice arena and back out)
+    altitude: 1.2        # m above the launch area (ceiling 2.44 m)
+    speed: 0.8           # m/s mission speed (PX4 MPC_XY_VEL_MAX, set in QGC, still caps it)
+    side: 2.0            # m, square mission
+    step_size: 1.0       # m, step mission (PID testing; z steps are half of this)
+    hover_time: 10.0     # s, hover mission
+    land: true
+    # ---- fail-safes ----
+    recall_speed: 0.6         # m/s when retracing the path out of the arena
+    low_battery: 0.30         # recall when battery <= 30 %
+    mission_time_limit_s: 1500.0  # recall at 25 min (rulebook maximum flight time: 30 min)

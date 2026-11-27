@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!--
+  NIDAR drone: full robot description.
+
+  Arguments
+    mesh_uri : where the STL files are. Launch files fill this in automatically.
+               RViz / ROS Gazebo : file:///.../share/nidar_drone_description/meshes
+               PX4 model         : model://nidar_drone/meshes
+    px4      : false = standalone Gazebo (ROS velocity controller, ROS topic names)
+               true  = model for PX4 SITL (PX4 flies it; adds baro, mag and GPS)
+
+  Frame convention (ROS REP-103): x forward, y left, z up.
+  From the CAD: front = +x (lidar and ToF are at +x).
+
+  Motor layout seen from above (PX4 "Quadrotor X" numbering in brackets):
+
+            front (+x)
+     motor_2 (PX4 3)   motor_1 (PX4 1)
+       FL, CW            FR, CCW
+     motor_3 (PX4 2)   motor_4 (PX4 4)
+       RL, CCW           RR, CW
+-->
+<robot name="nidar_drone" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:arg name="mesh_uri" default="package://nidar_drone_description/meshes"/>
+  <xacro:arg name="px4" default="false"/>
+  <xacro:property name="px4" value="$(arg px4)"/>
+
+  <xacro:include filename="nidar_drone_body.xacro"/>
+  <xacro:nidar_drone_body mesh_uri="$(arg mesh_uri)"/>
+
+  <!-- ===================== Propeller guards (Rulebook v2.2, PS2 rule 8.30) =====================
+       "The drone shall be equipped with propeller covers or guards that fully protect
+       the propeller operating area." The CAD has NO guards yet: these are placeholders
+       (ring of radius 85 mm around each 70 mm prop, 20 g each) so the simulated drone has
+       the right size and weight. REPLACE with the real guard from CAD when it exists.
+       Footprint with guards: 0.48 m x 0.45 m -> fits the 2 ft (0.61 m) launch area
+       and leaves 0.27 m each side in a 1 m corridor. -->
+  <xacro:property name="guard_r" value="0.085"/>
+  <xacro:macro name="prop_guard" params="motor">
+    <link name="${motor}_guard">
+      <inertial><origin xyz="0 0 -0.004"/><mass value="0.02"/>
+        <inertia ixx="7.4e-05" ixy="0" ixz="0" iyy="7.4e-05" iyz="0" izz="1.45e-04"/></inertial>
+      <visual><origin xyz="0 0 -0.004"/>
+        <geometry><cylinder radius="${guard_r}" length="0.03"/></geometry>
+        <material name="guard_clear"><color rgba="0.6 0.8 1.0 0.25"/></material></visual>
+      <collision><origin xyz="0 0 -0.004"/>
+        <geometry><cylinder radius="${guard_r}" length="0.03"/></geometry></collision>
+    </link>
+    <joint name="${motor}_guard_joint" type="fixed">
+      <parent link="${motor}"/><child link="${motor}_guard"/>
+    </joint>
+  </xacro:macro>
+  <xacro:prop_guard motor="motor_1_Link"/>
+  <xacro:prop_guard motor="motor_2_Link"/>
+  <xacro:prop_guard motor="motor_3_link"/>
+  <xacro:prop_guard motor="motor_4_link"/>
+
+  <!-- ===================== Motor / propeller model =====================
+       Same numbers as the PX4 x500 reference model. Max thrust per motor =
+       motorConstant * maxRotVelocity^2 = 8.55 N, i.e. 34 N total for a 1.42 kg
+       drone (thrust-to-weight 2.45). Change these when you have thrust-stand data:
+         motorConstant  [N/(rad/s)^2] = thrust / omega^2
+         momentConstant [m]            = yaw torque / thrust                     -->
+  <xacro:property name="motor_constant" value="8.54858e-06"/>
+  <xacro:property name="moment_constant" value="0.016"/>
+  <xacro:property name="max_rot_velocity" value="1000.0"/>
+
+  <xacro:macro name="rotor" params="n px4_index dir">
+    <gazebo>
+      <plugin filename="gz-sim-multicopter-motor-model-system"
+              name="gz::sim::systems::MulticopterMotorModel">
+        <jointName>prop_${n}_joint</jointName>
+        <linkName>prop_${n}_Link</linkName>
+        <turningDirection>${dir}</turningDirection>
+        <timeConstantUp>0.0125</timeConstantUp>
+        <timeConstantDown>0.025</timeConstantDown>
+        <maxRotVelocity>${max_rot_velocity}</maxRotVelocity>
+        <motorConstant>${motor_constant}</motorConstant>
+        <momentConstant>${moment_constant}</momentConstant>
+        <commandSubTopic>command/motor_speed</commandSubTopic>
+        <motorNumber>${px4_index}</motorNumber>
+        <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+        <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+        <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+        <motorType>velocity</motorType>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+  <!-- the CAD exports prop links as prop_N_Link except prop_3_link: handled below -->
+  <xacro:rotor n="1" px4_index="0" dir="ccw"/>
+  <xacro:rotor n="2" px4_index="2" dir="cw"/>
+  <xacro:rotor n="4" px4_index="3" dir="cw"/>
+  <gazebo>
+    <plugin filename="gz-sim-multicopter-motor-model-system"
+            name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop_3_joint</jointName>
+      <linkName>prop_3_link</linkName>
+      <turningDirection>ccw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>${max_rot_velocity}</maxRotVelocity>
+      <motorConstant>${motor_constant}</motorConstant>
+      <momentConstant>${moment_constant}</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>1</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+  </gazebo>
+
+  <!-- ===================== Sensors =====================
+       Placement comes from the CAD. Pointing directions are ASSUMPTIONS
+       (the CAD does not say which way a sensor looks); change the rpy if wrong. -->
+
+  <!-- IMU (on the flight controller). The name imu_sensor is what PX4 expects. -->
+  <gazebo reference="IMU_Link">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>1</always_on>
+      <update_rate>250</update_rate>
+      <xacro:unless value="${px4}"><topic>nidar/imu</topic></xacro:unless>
+      <gz_frame_id>IMU_Link</gz_frame_id>
+      <!-- Noise is REQUIRED: PX4 marks a perfectly constant IMU as "stale" and
+           refuses to fly. Values are the PX4 x500 reference values. -->
+      <imu>
+        <angular_velocity>
+          <x><noise type="gaussian"><mean>0</mean><stddev>0.0003394</stddev><dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev><dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time></noise></x>
+          <y><noise type="gaussian"><mean>0</mean><stddev>0.0003394</stddev><dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev><dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time></noise></y>
+          <z><noise type="gaussian"><mean>0</mean><stddev>0.0003394</stddev><dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev><dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time></noise></z>
+        </angular_velocity>
+        <linear_acceleration>
+          <x><noise type="gaussian"><mean>0</mean><stddev>0.004</stddev><dynamic_bias_stddev>0.006</dynamic_bias_stddev><dynamic_bias_correlation_time>300</dynamic_bias_correlation_time></noise></x>
+          <y><noise type="gaussian"><mean>0</mean><stddev>0.004</stddev><dynamic_bias_stddev>0.006</dynamic_bias_stddev><dynamic_bias_correlation_time>300</dynamic_bias_correlation_time></noise></y>
+          <z><noise type="gaussian"><mean>0</mean><stddev>0.004</stddev><dynamic_bias_stddev>0.006</dynamic_bias_stddev><dynamic_bias_correlation_time>300</dynamic_bias_correlation_time></noise></z>
+        </linear_acceleration>
+      </imu>
+    </sensor>
+  </gazebo>
+
+  <!-- 2D lidar (RPLIDAR C1): 360 deg, 0.05-12 m, 10 Hz, on top at the front -->
+  <gazebo reference="lidar_link">
+    <sensor name="lidar" type="gpu_lidar">
+      <pose>0 0 -0.008 0 0 0</pose>
+      <topic>nidar/scan</topic>
+      <gz_frame_id>lidar_link</gz_frame_id>
+      <update_rate>10</update_rate>
+      <always_on>1</always_on>
+      <visualize>true</visualize>
+      <lidar>
+        <scan>
+          <horizontal><samples>500</samples><resolution>1</resolution>
+            <min_angle>-3.14159</min_angle><max_angle>3.14159</max_angle></horizontal>
+          <vertical><samples>1</samples><resolution>1</resolution>
+            <min_angle>0</min_angle><max_angle>0</max_angle></vertical>
+        </scan>
+        <range><min>0.05</min><max>12.0</max><resolution>0.01</resolution></range>
+        <noise><type>gaussian</type><mean>0</mean><stddev>0.015</stddev></noise>
+      </lidar>
+    </sensor>
+  </gazebo>
+
+  <!-- ToF 8x8 (VL53L5CX): 45 x 45 deg, 4 m, 15 Hz, looking forward -->
+  <gazebo reference="TOF_Link">
+    <sensor name="tof_front" type="gpu_lidar">
+      <pose>0.002 0 0.001 0 0 0</pose>
+      <topic>nidar/tof_front</topic>
+      <gz_frame_id>TOF_Link</gz_frame_id>
+      <update_rate>15</update_rate>
+      <always_on>1</always_on>
+      <visualize>true</visualize>
+      <lidar>
+        <scan>
+          <horizontal><samples>8</samples><resolution>1</resolution>
+            <min_angle>-0.3927</min_angle><max_angle>0.3927</max_angle></horizontal>
+          <vertical><samples>8</samples><resolution>1</resolution>
+            <min_angle>-0.3927</min_angle><max_angle>0.3927</max_angle></vertical>
+        </scan>
+        <range><min>0.02</min><max>4.0</max><resolution>0.001</resolution></range>
+      </lidar>
+    </sensor>
+  </gazebo>
+
+  <!-- 4 ultrasonic sensors (HC-SR04 size), assumed to look DOWN (board is flat
+       under the arms). 15 deg cone, 0.02-4 m, 10 Hz. -->
+  <xacro:macro name="ultrasonic" params="n">
+    <gazebo reference="ultra_${n}_Link">
+      <sensor name="ultrasonic_${n}" type="gpu_lidar">
+        <pose>0 0 0 0 1.5708 0</pose>
+        <topic>nidar/ultrasonic_${n}</topic>
+        <gz_frame_id>ultra_${n}_Link</gz_frame_id>
+        <update_rate>10</update_rate>
+        <always_on>1</always_on>
+        <visualize>true</visualize>
+        <lidar>
+          <scan>
+            <horizontal><samples>5</samples><resolution>1</resolution>
+              <min_angle>-0.1309</min_angle><max_angle>0.1309</max_angle></horizontal>
+          </scan>
+          <range><min>0.02</min><max>4.0</max><resolution>0.003</resolution></range>
+        </lidar>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+  <xacro:ultrasonic n="1"/>
+  <xacro:ultrasonic n="2"/>
+  <xacro:ultrasonic n="3"/>
+  <xacro:ultrasonic n="4"/>
+
+  <!-- Camera (Pi-camera size board under the frame), assumed to look DOWN -->
+  <gazebo reference="MPCamera_Link">
+    <sensor name="down_camera" type="camera">
+      <pose>0.005 0 -0.01 0 1.5708 0</pose>
+      <topic>nidar/camera/image_raw</topic>
+      <gz_frame_id>MPCamera_Link</gz_frame_id>
+      <update_rate>15</update_rate>
+      <always_on>1</always_on>
+      <camera>
+        <horizontal_fov>1.085</horizontal_fov>
+        <image><width>640</width><height>480</height><format>R8G8B8</format></image>
+        <clip><near>0.03</near><far>50</far></clip>
+      </camera>
+    </sensor>
+  </gazebo>
+
+  <!-- Prop joint angles -> /joint_states (so RViz shows spinning props) -->
+  <gazebo>
+    <plugin filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher"/>
+  </gazebo>
+
+  <xacro:if value="${px4}">
+    <!-- Extra sensors PX4 needs in simulation (names are fixed by PX4) -->
+    <gazebo reference="base_link">
+      <sensor name="air_pressure_sensor" type="air_pressure">
+        <always_on>1</always_on><update_rate>50</update_rate>
+        <air_pressure><pressure><noise type="gaussian"><mean>0</mean><stddev>0.01</stddev></noise></pressure></air_pressure>
+      </sensor>
+      <sensor name="magnetometer_sensor" type="magnetometer">
+        <always_on>1</always_on><update_rate>100</update_rate>
+        <magnetometer>
+          <x><noise type="gaussian"><stddev>0.0001</stddev></noise></x>
+          <y><noise type="gaussian"><stddev>0.0001</stddev></noise></y>
+          <z><noise type="gaussian"><stddev>0.0001</stddev></noise></z>
+        </magnetometer>
+      </sensor>
+      <!-- NO GNSS receiver: Rulebook v2.2 rule 8.24 forbids GPS/GNSS navigation. -->
+    </gazebo>
+  </xacro:if>
+
+  <xacro:unless value="${px4}">
+    <!-- Standalone flight without PX4: Gazebo's own velocity controller.
+         ROS: publish geometry_msgs/Twist on /cmd_vel after `/enable` = true. -->
+    <gazebo>
+      <plugin filename="gz-sim-multicopter-control-system"
+              name="gz::sim::systems::MulticopterVelocityControl">
+        <robotNamespace>nidar_drone</robotNamespace>
+        <commandSubTopic>cmd_vel</commandSubTopic>
+        <enableSubTopic>enable</enableSubTopic>
+        <comLinkName>base_link</comLinkName>
+        <velocityGain>6 6 4</velocityGain>
+        <attitudeGain>2 3 0.15</attitudeGain>
+        <angularRateGain>0.4 0.52 0.18</angularRateGain>
+        <maximumLinearAcceleration>2 2 2</maximumLinearAcceleration>
+        <maximumLinearVelocity>3 3 2</maximumLinearVelocity>
+        <maximumAngularVelocity>2 2 2</maximumAngularVelocity>
+        <rotorConfiguration>
+          <rotor><jointName>prop_1_joint</jointName><forceConstant>${motor_constant}</forceConstant><momentConstant>${moment_constant}</momentConstant><direction>1</direction></rotor>
+          <rotor><jointName>prop_3_joint</jointName><forceConstant>${motor_constant}</forceConstant><momentConstant>${moment_constant}</momentConstant><direction>1</direction></rotor>
+          <rotor><jointName>prop_2_joint</jointName><forceConstant>${motor_constant}</forceConstant><momentConstant>${moment_constant}</momentConstant><direction>-1</direction></rotor>
+          <rotor><jointName>prop_4_joint</jointName><forceConstant>${motor_constant}</forceConstant><momentConstant>${moment_constant}</momentConstant><direction>-1</direction></rotor>
+        </rotorConfiguration>
+      </plugin>
+    </gazebo>
+  </xacro:unless>
+
+  <!-- Ground-truth odometry -> /odom (+ TF odom->base_link). With PX4 it is the
+       SIMULATION STAND-IN for the SLAM pose: nidar_control/ev_bridge sends it to PX4 as
+       vision odometry, exactly the interface the real SLAM output will use. -->
+  <gazebo>
+    <plugin filename="gz-sim-odometry-publisher-system"
+            name="gz::sim::systems::OdometryPublisher">
+      <dimensions>3</dimensions>
+      <odom_frame>odom</odom_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <odom_topic>nidar/odom</odom_topic>
+      <tf_topic>nidar/tf</tf_topic>
+      <odom_publish_frequency>50</odom_publish_frequency>
+      <!-- renamed so PX4's gz_bridge does NOT also feed it to PX4 (it listens on the
+           default /model/NAME/odometry_with_covariance): ev_bridge is the only source -->
+      <odom_covariance_topic>nidar/odom_with_covariance</odom_covariance_topic>
+    </plugin>
+  </gazebo>
+</robot>
