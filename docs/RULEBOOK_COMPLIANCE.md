@@ -57,3 +57,7 @@ and the ROS 2 nodes.
 4. **Exploration**: `arena_demo` follows a known example route. In competition the layout is secret, so the
    OA-Stack / exploration planner must produce the waypoints. It can send them through the same offboard
    interface, and the fail-safes in this node still apply.
+
+## Test evidence
+
+`tools/test_failsafes.py` in PX4 v1.16 SITL with GPS off: emergency recall, mission abort, low battery, geofence breach, mission time limit, ground-station link loss and emergency stop all **PASS** (7/7). Companion-node crash: PX4 landed and disarmed by itself. `arena_demo`: entered, visited room S2, exited through the entry, landed 0.02 m from the launch-area centre, with the guard edge never closer than +0.087 m to a wall.
